@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AutoResponseRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <autoResponseRule>
+        <fullName>Accusé de réception automatique</fullName>
+        <active>true</active>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Web</value>
+            </criteriaItems>
+            <notifyCcRecipients>false</notifyCcRecipients>
+            <senderEmail>contact.relationclients@systeme-u.fr</senderEmail>
+            <senderName>Accusé de réception automatique</senderName>
+            <template>Service_Client_Centrale/Accus_de_reception_automatique</template>
+        </ruleEntry>
+    </autoResponseRule>
+</AutoResponseRules>

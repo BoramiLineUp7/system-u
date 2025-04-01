@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Réponse type 2 pour clôturer des demandes en groupé</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Systeme_U</letterhead>
+    <name>SU - Modèle 2 de clôture groupée</name>
+    <style>freeForm</style>
+    <subject>Les Magasins U vous répondent</subject>
+    <textOnly>Bonjour {!Contact.Salutation} {!Contact.Name},
+
+Nous vous remercions pour votre message.
+
+Vous avez la possibilité d&apos;annuler ou de modifier votre commande en suivant la procédure suivante : 
+1. Cliquez sur &quot;Mes commandes&quot; dans votre espace &quot;Mon compte&quot;
+2. Cliquez sur &quot;Annuler ma commande&quot; ou &quot;Modifier ma commande&quot;
+3. S&apos;il y a modification de commande, vous allez être redirigé vers votre panier pour modifier votre liste de produit. Attention, un message apparaît pour vous informer de la perte du créneau horaire en cas de modification de commande. 
+
+Nous vous prions de nous excuser pour la gêne occasionnée.
+
+Bien cordialement,
+Votre service clients U.
+
+
+Date/heure du message : {!Case.CreatedDate + 0}
+Message d&apos;origine :
+{!Case.Description}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

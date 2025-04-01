@@ -1,0 +1,63 @@
+<template>
+    <template if:true={open}>
+        <section role="dialog" tabindex="-1" class="slds-modal slds-fade-in-open slds-modal_small" aria-labelledby="modal-heading-01" aria-modal="true" aria-describedby="modal-content-id-1">
+            <div class="slds-modal__container">
+                <header class="slds-modal__header">
+                    <button class="slds-button slds-button_icon slds-modal__close slds-button_icon-inverse" title="Fermer">
+                        <span class="slds-assistive-text">Fermer</span>
+                    </button>
+                    <h2 id="modal-heading-01" class="slds-modal__title slds-hyphenate">Confirmer la création du créneau</h2>
+                    <div if:true={selectedSlotStartdatetime} class="slds-m-top_small">
+                        <lightning-formatted-date-time value={selectedSlotStartdatetime} weekday="long" month="short" day="2-digit" hour="2-digit" minute="2-digit"></lightning-formatted-date-time>
+                    </div>
+                    <!--div if:true={expectedStartdatetime} class="slds-m-top_small expected-datetime">
+                        <span class="slds-m-right_x-small">Heure d'arrivée souhaitée au contrôle:</span>
+                        <lightning-formatted-date-time value={expectedStartdatetime} weekday="long" month="short" day="2-digit" hour="2-digit" minute="2-digit" class="expected-datetime"></lightning-formatted-date-time>
+                    </div-->
+                </header>
+                <div class="slds-modal__content slds-p-around_medium" id="modal-content-id-1">
+                    <!--c-custom-slot-submit-form slot-id={slotid} token={token} captcha-required={captchaRequired} onsuccess={stopLoading} onerror={stopLoading} onsurfaceerror={stopLoading}></c-custom-slot-submit-form-->
+                    <div class="slds-m-left_medium slds-m-right_medium">
+                        <div>
+                            <lightning-input type="text" label="Prénom" data-field="firstName" onchange={updateField}></lightning-input>                                
+                        </div>
+                        <div class="slds-m-top_small">
+                            <lightning-input type="text" label="Nom" data-field="lastName" onchange={updateField}></lightning-input>                                
+                        </div>
+                        <div class="slds-m-top_small">
+                            <lightning-input type="text" label="Email" data-field="email" required onchange={updateField} message-when-bad-input="Format de l'adresse email non valide" max-length="80" message-when-too-long="L'adresse email est trop longue"></lightning-input>
+                        </div>
+                        <div class="slds-m-top_small">
+                            <lightning-input type="text" label="Confirmer votre email" data-field="confirmEmail" required onchange={updateField} max-length="80" message-when-too-long="L'adresse email est trop longue" autocomplete="none"></lightning-input>
+                            <div if:true={sameEmailInput} class="validity-icon">
+                                <lightning-icon icon-name="utility:check" alternative-text="Success!" variant="success" size="x-small"></lightning-icon>
+                            </div>
+                            <div if:false={sameEmailInput} class="validity-icon">
+                                <lightning-icon icon-name="utility:close" alternative-text="Error!" variant="error" size="x-small"></lightning-icon>
+                            </div>
+                        </div>
+                        <div class="slds-m-top_small">
+                            <lightning-input type="number" label="Nombre de places souhaitée(s)" value="1" data-field="numPlaces" onchange={updateField}></lightning-input>                                
+                        </div>
+                    </div>
+                </div>
+                <footer class="slds-modal__footer">
+                    <template if:true={isLoading}>
+                        <div class="loading-spinner slds-m-right_large">
+                            <lightning-spinner alternative-text="Sauvegarde" size="small"></lightning-spinner>
+                        </div>
+                    </template>
+                    <lightning-button class="slds-m-top_small slds-m-right_medium"
+                        variant="brand"
+                        type="button"
+                        name="save"
+                        label="Valider"
+                        onclick={handleSubmit}
+                        disabled={isLoading}></lightning-button>
+                    <button class="slds-button slds-button_neutral" onclick={handleClose}>Annuler</button>
+                </footer>
+            </div>
+        </section>
+        <div class="slds-backdrop slds-backdrop_open"></div>
+    </template>
+</template>

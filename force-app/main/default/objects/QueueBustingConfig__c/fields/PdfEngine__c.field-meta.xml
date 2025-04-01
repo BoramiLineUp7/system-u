@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PdfEngine__c</fullName>
+    <description>engine used to render pdf (default VF, accepted value VF/Heroku)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>engine used to render pdf (default VF, accepted value VF/Heroku)</inlineHelpText>
+    <label>Pdf Engine</label>
+    <length>30</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

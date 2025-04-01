@@ -1,0 +1,35 @@
+<template>
+    <div class="slds-p-around_small global-header" style={globalStyle}>
+        <div class="logo" style={brandingLogo}></div>
+        <h1 class="heading-title slds-text-align_center">
+            Bienvenue !
+        </h1>
+        <div class="heading-medium slds-text-align_center">
+            Vous trouverez ci-dessous les créneaux disponibles pour votre magasin.
+        </div>
+        <template if:true={account}>
+            <div class="slds-m-top_large">
+                <div class="slds-media">
+                    <div class="slds-media__figure">
+                        <span class="slds-icon_container">
+                            <!--lightning-icon icon-name="standard:store" alternative-text="Approved" title="Approved"></lightning-icon-->
+                            <img class="basket-icon" src={basketIcon}></img>
+                        </span>
+                    </div>
+                    <div class="slds-media__body">
+                        <h1>
+                            <!--span>Magasin</span-->
+                            <span class="storename" title={account.Name}>{account.CommercialSignLabel__c} {account.Name}</span>
+                            <span class="slds-p-top_small address">{account.BillingStreet} {account.BillingPostalCode} {account.BillingCity}</span>
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </template>
+    </div>
+    <!--template if:true={noaccount}>
+        <div class="slds-p-around_small">
+            <c-storelocator></c-storelocator>
+        </div>
+    </template-->
+</template>

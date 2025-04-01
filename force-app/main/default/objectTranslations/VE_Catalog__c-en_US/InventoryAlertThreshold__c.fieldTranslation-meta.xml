@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Il s&apos;agit du seuil minimum de quantité d&apos;un produit atteint pour déclencher l&apos;affichage &apos;X produit restant&apos;. Si le champs n&apos;est pas renseigné, alors la valeur par défaut sera de 10 --></help>
+    <label><!-- Inventory Alert Threshold --></label>
+    <name>InventoryAlertThreshold__c</name>
+</CustomFieldTranslation>

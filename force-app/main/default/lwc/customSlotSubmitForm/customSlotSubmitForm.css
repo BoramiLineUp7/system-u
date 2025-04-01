@@ -1,0 +1,19 @@
+.validity-icon{
+    position: absolute;
+    z-index: 1;
+    margin-top:0.7rem;
+    margin-left:95%;
+}
+
+@media (max-width: 1199px){
+    .validity-icon {
+        margin-left: 94%;
+    }
+}
+
+@media (max-width: 767px){
+    .validity-icon {
+        margin-left: 90%;
+        margin-top: 2.1rem;
+    }
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IsToday__c</fullName>
+    <formula>DAY(TODAY()) = DAY(DATEVALUE(StartDatetime__c )) &amp;&amp;
+MONTH(TODAY()) = MONTH(DATEVALUE(StartDatetime__c )) &amp;&amp;
+YEAR(TODAY()) = YEAR(DATEVALUE(StartDatetime__c))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Is Today</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

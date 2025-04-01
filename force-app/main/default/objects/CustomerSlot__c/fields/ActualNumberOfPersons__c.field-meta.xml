@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ActualNumberOfPersons__c</fullName>
+    <description>Real number of total physical persons entering to the store (set by the store security)</description>
+    <externalId>false</externalId>
+    <label>Actual number of persons</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>COURSESU_SUPPORT@systeme-u.fr</contactEmail>
+    <label>Salesforce Commerce Cloud</label>
+    <oauthConfig>
+        <callbackUrl>http://localhost:1717/OauthRedirect</callbackUrl>
+        <certificate>MIIEvTCCAqWgAwIBAgIEfUyK7TANBgkqhkiG9w0BAQwFADAPMQ0wCwYDVQQDEwRTVVZFMB4XDTIwMTIwNzEzNDUwOFoXDTIyMTIyNzEzNDUwOFowDzENMAsGA1UEAxMEU1VWRTCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBAIS3vSg+yktZfAlS0eCJBby+TlvUpjx1XSIDeIpUHTrws4eWyE+98mBp2SriAIzv7xKON+ZBkdTjNRucLA2tcCr7nZUZ1szDZgzgfKkDobp9v42eowokpq/ZQGJ++aiv0F/eKC+mNtSM7gadp4Eg5u/VlqrYP+s+Ju+zDnSxGrQ7Xr+cWSa1wu3w9x3VW3ibKg6+/vTb1lT21Z6PEDMlx2oxw4SEZRDEeKNlOipS1xJydA/MacrppHfwg1RVhmi+J7ptD3RGeNw/oj8rKyX1QWJwv+xEmHQ1gTZnuXVNFDrana5DRRrY64M7WVrNfPzaPSQxu8JCn0SbXD/1IsKvB9hFmyo0QK4MRidMteUfJZVFCtIwTRPJ7G257wkmiFL5otbNMbE8ycXQqhKfN0TrXV+2aLaGHnm34C4fnkHk/hkwDSv6VuA24cZcKRnIOd96YVk9cAsM3H5qDR6Lc4QCQkto0T7S40Uj4TgZHvbYswTzy+Ns10lb9/fpyWb3fikXkqaJUZ2mwbtGc0M+a+vmwjjX9aDlpy3zlaAsZQ0mr2fCxtdUqwDpVoKTqjUIRWZD+FD49sHz2fCOWO0rQ9oFWfK3djdOKwXr6qj1v22WWuoaFqZdbxQkb7ZMKHvy07jwFjCxBlVmRGBPfGti9bwsDFpoMspVx003FjmCCsbLP6mjAgMBAAGjITAfMB0GA1UdDgQWBBQm5QCXbpgSqAPorVBEjqK3my5hYTANBgkqhkiG9w0BAQwFAAOCAgEAWv9/+vCbE8Oc6B3LTASdff1/6h3f6XpFYYLKF8SNtnHqFlJQFbBtMbM6UjBDtUx7ZxnFO4sK8EOZ2WVWmzkwmGu65ZJgbroBDuID3Lhz3fPocsso4GcjF6KHh2Q56wFncnljenMeRp7/32JFXnxIE/40Qb/zpAlTz28wclwJVl8Nov1/8QQXJt5T+O0pm0dPfdCRpNfxWi7/A0sROrXIdwQirMK4tD7VW+3MS0PWIJhscocQDsFT+GHrtZeMrtVS3xjPcHUVqE+3QGHTN5KFmMI627bd06jxQVmSiAbNUcAKwxY0ve61r99wD1xLzFzcEbVOAt9t8fxvE4D9sZ8XcaqM4bP3LAk4LzPJNo9OFqBDQc7RWy2wL7WBRhLZR4sguHnLwnHbMFqlDcQ1ddhLHW6BcQRadkUapEEjttam2AGBAzakeRvsAUe5JYT0H9YDBaQFC8BboE+D/iqcX8mshO1GaR+Mg/e2kisfukWXiRHax6+2rOF8+pzv7zfOwqnxGL48K1clFUJh5rUnDia/mR/5ODTnJ7DZ5qEv7COHmLYnazUeA8ZKJTttQJ0vbj5kFx/HVGKZHetU+TDMxoTfXH/ZVzTKWxv79x4Wp1XwAh2tKq60r3WTvJ6joOIwQk5oJs30e5pakC8Lwql6U/wSzTzp/WmZ/AzKWarKRQC0OXs=</certificate>
+        <consumerKey>3MVG9qQmcgrJZQ84uhZu35DIb3Xyzc914stxi76aHgTpbk85a1SB3n3aF8oFaK96GpyS113m0VJroFNOtSMqn</consumerKey>
+        <isAdminApproved>true</isAdminApproved>
+        <isClientCredentialEnabled>false</isClientCredentialEnabled>
+        <isCodeCredentialEnabled>false</isCodeCredentialEnabled>
+        <isCodeCredentialPostOnly>false</isCodeCredentialPostOnly>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <isNamedUserJwtEnabled>false</isNamedUserJwtEnabled>
+        <isPkceRequired>false</isPkceRequired>
+        <isRefreshTokenRotationEnabled>false</isRefreshTokenRotationEnabled>
+        <isSecretRequiredForRefreshToken>false</isSecretRequiredForRefreshToken>
+        <isSecretRequiredForTokenExchange>false</isSecretRequiredForTokenExchange>
+        <isTokenExchangeEnabled>false</isTokenExchangeEnabled>
+        <scopes>Api</scopes>
+        <scopes>Web</scopes>
+        <scopes>Full</scopes>
+        <scopes>RefreshToken</scopes>
+        <scopes>OpenID</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>ENFORCE</ipRelaxation>
+        <isTokenExchangeFlowEnabled>false</isTokenExchangeFlowEnabled>
+        <refreshTokenPolicy>zero</refreshTokenPolicy>
+    </oauthPolicy>
+    <profileName>System Administrator</profileName>
+</ConnectedApp>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Fin SLA interne --></label>
+    <name>Fin_SLA_interne__c</name>
+    <picklistValues>
+        <masterLabel>24 H</masterLabel>
+        <translation><!-- 24 H --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>4 H</masterLabel>
+        <translation><!-- 4 H --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>48 H</masterLabel>
+        <translation><!-- 48 H --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>72 H</masterLabel>
+        <translation><!-- 72 H --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hors SLA</masterLabel>
+        <translation><!-- Hors SLA --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

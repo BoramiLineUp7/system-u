@@ -1,0 +1,42 @@
+<template>
+  <lightning-card title="Grocery Time Slots" icon-name="custom:custom93">
+	<div class="app slds-p-around_medium">
+		<table style="width:100%">
+      <!-- ROWS -->
+ <!-- DAY ROW HEADINGS -->
+	  <tr>
+		  <th></th>
+		  <th> 
+			  <div class="slds-m-horizontal_xx-small slds-m-bottom_x-small slds-align_absolute-center">Tuesday
+				  <!-- <lightning-formatted-date-time value={today} weekday="long" month="short" day="2-digit"></lightning-formatted-date-time> -->
+				  </div>
+		  </th>
+		  <th>
+			  <div class="slds-m-horizontal_xx-small slds-m-bottom_x-small slds-align_absolute-center">Wednesday</div>
+		  </th>
+		  <th>
+			  <div class="slds-m-horizontal_xx-small slds-m-bottom_x-small slds-align_absolute-center">Thursday</div>
+		  </th>
+
+	  </tr>
+			<template for:each={hours} for:item="time">
+        <!-- TIME COLUMN -->
+				<tr key={time.hour}>
+					<td>
+						<div class="slds-m-horizontal_xx-small slds-m-bottom_x-small hourCol">
+							{time.hour}
+						</div>
+					</td>
+          <!-- SLOT COLUMNS -->
+					<template for:each={time.slots} for:item="slot" >
+						<td key={slot.avaliableSlots}>
+							<c-childtimeslots key={s} item={slot}></c-childtimeslots>
+						</td>
+					</template>
+				</tr>
+			</template>
+		</table>
+    
+  </div>
+  </lightning-card>
+</template>

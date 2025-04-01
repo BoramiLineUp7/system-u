@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Slot__c$Account__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Slot__c$BookedPositions__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Slot__c$AvailablePositions__c</field>
+    </columns>
+    <columns>
+        <field>Slot__c$Name</field>
+    </columns>
+    <description>Report for the next 7 days number of slots booked vs capacity</description>
+    <format>Summary</format>
+    <groupingsDown>
+        <field>Slot__c$StartDatetime__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>ReportSlotsBookedVsCapacityNext7Days</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>SlotReportType__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Slot__c$StartDatetime__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+        <startDate>2020-05-01</startDate>
+    </timeFrameFilter>
+</Report>

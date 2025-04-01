@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Transfert pb e-ticket BO Uep</name>
+    <style>none</style>
+    <subject>Problème de réception e-ticket</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

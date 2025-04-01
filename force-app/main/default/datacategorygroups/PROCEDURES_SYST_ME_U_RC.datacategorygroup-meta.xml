@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCategoryGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <dataCategory>
+        <dataCategory>
+            <label>Information générales (jeux, magasin &amp; p</label>
+            <name>Information_g_n_rales_jeux_magasin_p</name>
+        </dataCategory>
+        <dataCategory>
+            <label>RGPD</label>
+            <name>RGPD</name>
+        </dataCategory>
+        <dataCategory>
+            <label>E-ticket</label>
+            <name>E_ticket</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Compte Courses U</label>
+            <name>Compte_Courses_U</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Compte Magasin U</label>
+            <name>Compte_Magasin_U</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Carte U</label>
+            <name>Carte_U</name>
+        </dataCategory>
+        <label>All</label>
+        <name>All</name>
+    </dataCategory>
+    <label>PROCEDURES SYSTÈME U RC</label>
+    <objectUsage>
+        <object>KnowledgeArticleVersion</object>
+    </objectUsage>
+</DataCategoryGroup>

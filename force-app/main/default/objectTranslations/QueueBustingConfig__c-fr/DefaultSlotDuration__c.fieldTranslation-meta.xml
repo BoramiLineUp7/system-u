@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Contains the default duration (in minutes) for slots --></help>
+    <label><!-- Default slot duration (in minutes) --></label>
+    <name>DefaultSlotDuration__c</name>
+</CustomFieldTranslation>

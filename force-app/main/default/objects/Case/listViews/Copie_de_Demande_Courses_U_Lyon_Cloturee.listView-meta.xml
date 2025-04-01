@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Copie_de_Demande_Courses_U_Lyon_Cloturee</fullName>
+    <booleanFilter>(1 OR 2 OR 3 OR 4 OR 5 OR 6) AND 7</booleanFilter>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>CASES.CREATED_DATE</columns>
+    <columns>CASES.RECORDTYPE</columns>
+    <columns>CASES.TYPE</columns>
+    <columns>Cause__c</columns>
+    <columns>Sous_cause__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Ticket_Type__c</field>
+        <operation>equals</operation>
+        <value>Lyon</value>
+    </filters>
+    <filters>
+        <field>OWNER_NAME</field>
+        <operation>equals</operation>
+        <value>Service Client Lyon</value>
+    </filters>
+    <filters>
+        <field>OWNER_NAME</field>
+        <operation>equals</operation>
+        <value>Gaël Gérard</value>
+    </filters>
+    <filters>
+        <field>OWNER_NAME</field>
+        <operation>equals</operation>
+        <value>Hugo Levron</value>
+    </filters>
+    <filters>
+        <field>OWNER_NAME</field>
+        <operation>equals</operation>
+        <value>Rachèle Ramradj</value>
+    </filters>
+    <filters>
+        <field>OWNER_NAME</field>
+        <operation>equals</operation>
+        <value>Laurine Misier</value>
+    </filters>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>equals</operation>
+        <value>Closed</value>
+    </filters>
+    <label>Demande Courses U Lyon Clôturée</label>
+    <sharedTo>
+        <group>Centrale_Service_Client_Team_Member_Pl</group>
+        <group>Service_Client_Lyon</group>
+    </sharedTo>
+</ListView>

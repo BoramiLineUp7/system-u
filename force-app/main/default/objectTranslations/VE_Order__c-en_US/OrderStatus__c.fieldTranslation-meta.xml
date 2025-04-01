@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Attention au statut &quot;Commande partiellement remise&quot;, veillez à mettre à jour le statut des lignes produit de cette commande manuellement --></help>
+    <label><!-- Order Status --></label>
+    <name>OrderStatus__c</name>
+</CustomFieldTranslation>

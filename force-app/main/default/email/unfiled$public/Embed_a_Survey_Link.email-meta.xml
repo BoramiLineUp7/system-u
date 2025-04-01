@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Contenu standard lors de l&apos;incorporation d&apos;un lien vers une enquête dans un e-mail. Si vous modifiez les champs de fusion ou supprimez ce modèle, vous ne pouvez pas incorporer un lien d&apos;enquête.</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Embed_a_Survey_Link</name>
+    <relatedEntityType>SurveyQuestion</relatedEntityType>
+    <style>none</style>
+    <subject>Chez U, votre avis compte</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

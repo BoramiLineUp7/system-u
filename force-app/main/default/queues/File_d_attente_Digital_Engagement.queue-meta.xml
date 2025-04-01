@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>File d&apos;attente - Digital Engagement</name>
+    <queueMembers>
+        <users>
+            <user>jeanbaptiste.beck.salesforce@system-u.fr.dev3</user>
+            <user>sjamon.salesforce@system-u.fr</user>
+        </users>
+    </queueMembers>
+    <queueRoutingConfig>Digital_Engagement_Routing</queueRoutingConfig>
+    <queueSobject>
+        <sobjectType>MessagingSession</sobjectType>
+    </queueSobject>
+</Queue>

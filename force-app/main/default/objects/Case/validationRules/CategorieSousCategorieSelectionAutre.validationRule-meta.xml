@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CategorieSousCategorieSelectionAutre</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( $User.ByPass_ValidationRule__c = false, ISPICKVAL(Type, &apos;Others&apos;), NOT(ISPICKVAL( Email_Category__c , &apos;Autre&apos;)), AND ( $User.Profile_Name__c != &apos;Système U Lyon : Service Client Team Member&apos;, $User.Profile_Name__c != &apos;Système U Lyon : Service Client Team Member&apos;, $User.Profile_Name__c !=  &apos;Système U Lyon : Service Client Responsable&apos; ))</errorConditionFormula>
+    <errorMessage>Quand la Catégorie de la demande est &apos;Autres&apos; le champs Sous-Catégorie ne peut avoir que la valeur &apos;Autre&apos;</errorMessage>
+</ValidationRule>

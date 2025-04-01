@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BusinessHoursSettings xmlns="http://soap.sforce.com/2006/04/metadata">
+    <businessHours>
+        <active>true</active>
+        <default>true</default>
+        <fridayEndTime>18:30:00.000Z</fridayEndTime>
+        <fridayStartTime>08:30:00.000Z</fridayStartTime>
+        <mondayEndTime>18:30:00.000Z</mondayEndTime>
+        <mondayStartTime>08:30:00.000Z</mondayStartTime>
+        <name>Default</name>
+        <thursdayEndTime>18:30:00.000Z</thursdayEndTime>
+        <thursdayStartTime>08:30:00.000Z</thursdayStartTime>
+        <timeZoneId>Europe/Paris</timeZoneId>
+        <tuesdayEndTime>18:30:00.000Z</tuesdayEndTime>
+        <tuesdayStartTime>08:30:00.000Z</tuesdayStartTime>
+        <wednesdayEndTime>18:30:00.000Z</wednesdayEndTime>
+        <wednesdayStartTime>08:30:00.000Z</wednesdayStartTime>
+    </businessHours>
+    <holidays>
+        <activityDate>2023-07-14</activityDate>
+        <businessHours>Default</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>14 juillet</name>
+    </holidays>
+    <holidays>
+        <activityDate>2023-01-01</activityDate>
+        <isRecurring>false</isRecurring>
+        <name>1er de l&apos;An</name>
+    </holidays>
+    <holidays>
+        <activityDate>2023-05-08</activityDate>
+        <businessHours>Default</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>8 mai</name>
+    </holidays>
+    <holidays>
+        <activityDate>2022-08-15</activityDate>
+        <isRecurring>false</isRecurring>
+        <name>Assomption</name>
+    </holidays>
+    <holidays>
+        <activityDate>2022-07-15</activityDate>
+        <isRecurring>false</isRecurring>
+        <name>Fête Nationale</name>
+    </holidays>
+    <holidays>
+        <activityDate>2022-07-14</activityDate>
+        <isRecurring>false</isRecurring>
+        <name>Fête Nationale</name>
+    </holidays>
+    <holidays>
+        <activityDate>2023-05-01</activityDate>
+        <businessHours>Default</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Fête du travail</name>
+    </holidays>
+    <holidays>
+        <activityDate>2022-05-26</activityDate>
+        <isRecurring>false</isRecurring>
+        <name>Jour de l&apos;Ascension</name>
+    </holidays>
+    <holidays>
+        <activityDate>2022-05-27</activityDate>
+        <isRecurring>false</isRecurring>
+        <name>Jour de l&apos;Ascension</name>
+    </holidays>
+    <holidays>
+        <activityDate>2022-11-11</activityDate>
+        <isRecurring>false</isRecurring>
+        <name>Jour de l&apos;armistice</name>
+    </holidays>
+    <holidays>
+        <activityDate>2023-05-18</activityDate>
+        <businessHours>Default</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>L&apos;Ascension</name>
+    </holidays>
+    <holidays>
+        <activityDate>2023-08-15</activityDate>
+        <businessHours>Default</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>L&apos;Assomption</name>
+    </holidays>
+    <holidays>
+        <activityDate>2023-11-01</activityDate>
+        <businessHours>Default</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>La Toussaint</name>
+    </holidays>
+    <holidays>
+        <activityDate>2023-05-29</activityDate>
+        <businessHours>Default</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Lundi de Pentecôte</name>
+    </holidays>
+    <holidays>
+        <activityDate>2022-06-06</activityDate>
+        <isRecurring>false</isRecurring>
+        <name>Lundi de Pentecôte</name>
+    </holidays>
+    <holidays>
+        <activityDate>2023-04-10</activityDate>
+        <businessHours>Default</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Lundi de Pâques</name>
+    </holidays>
+    <holidays>
+        <activityDate>2023-12-25</activityDate>
+        <businessHours>Default</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Noël</name>
+    </holidays>
+    <holidays>
+        <activityDate>2022-10-31</activityDate>
+        <isRecurring>false</isRecurring>
+        <name>Toussaint</name>
+    </holidays>
+</BusinessHoursSettings>

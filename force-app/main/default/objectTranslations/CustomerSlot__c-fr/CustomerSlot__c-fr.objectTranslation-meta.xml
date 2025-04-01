@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Réservation client</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Réservations client</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Customer slot Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Vous ne pouvez pas réserver plus de places, qu&apos;il ne reste de places --></errorMessage>
+        <name>CantBookMoreThanAvailable</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Vous pouvez réserver  de 1 à 5 places maximum par créneau --></errorMessage>
+        <name>NumberOfPersonValues</name>
+    </validationRules>
+</CustomObjectTranslation>

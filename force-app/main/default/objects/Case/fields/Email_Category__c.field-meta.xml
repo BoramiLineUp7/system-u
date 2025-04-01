@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Email_Category__c</fullName>
+    <deprecated>false</deprecated>
+    <label>Sous-catégorie</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Type</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>Classification</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>Informations générales</controllingFieldValue>
+            <valueName>Réclamation / incident client en magasin</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Informations générales</controllingFieldValue>
+            <valueName>Demandes hors périmètre</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Informations générales</controllingFieldValue>
+            <valueName>Suggestions / remarques client</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Informations générales</controllingFieldValue>
+            <valueName>Animation jeux</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Informations générales</controllingFieldValue>
+            <valueName>Défis &amp; offres</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Informations générales</controllingFieldValue>
+            <controllingFieldValue>Carte U</controllingFieldValue>
+            <controllingFieldValue>Compte Magasin U</controllingFieldValue>
+            <controllingFieldValue>Compte Courses U</controllingFieldValue>
+            <controllingFieldValue>E-ticket</controllingFieldValue>
+            <valueName>Autre</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Carte U</controllingFieldValue>
+            <valueName>Informations générales Carte U / carte virtuelle</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Carte U</controllingFieldValue>
+            <valueName>Création Carte U</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Carte U</controllingFieldValue>
+            <valueName>Enregistrement / changement carte U</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Carte U</controllingFieldValue>
+            <valueName>Informations programme fidélité</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Carte U</controllingFieldValue>
+            <valueName>Code PIN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Carte U</controllingFieldValue>
+            <valueName>Réclamation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Carte U</controllingFieldValue>
+            <valueName>Fraude</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Carte U</controllingFieldValue>
+            <valueName>Perte</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RGPD</controllingFieldValue>
+            <valueName>Droit de rectification / modification données clients</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RGPD</controllingFieldValue>
+            <valueName>Droit d&apos;opposition</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RGPD</controllingFieldValue>
+            <valueName>Droit de suppression</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RGPD</controllingFieldValue>
+            <valueName>Droit de portabilité</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RGPD</controllingFieldValue>
+            <valueName>Droit d&apos;accès</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RGPD</controllingFieldValue>
+            <valueName>Autre (RGPD)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Compte Magasin U</controllingFieldValue>
+            <valueName>Création compte &amp; informations</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Compte Magasin U</controllingFieldValue>
+            <valueName>Besoin assistance pour connexion</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Compte Magasin U</controllingFieldValue>
+            <valueName>Regroupement des comptes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Compte Courses U</controllingFieldValue>
+            <valueName>Modification / annulation d&apos;une commande</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Compte Courses U</controllingFieldValue>
+            <valueName>Modalités paiement commande</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Compte Courses U</controllingFieldValue>
+            <valueName>Livraison</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Compte Courses U</controllingFieldValue>
+            <valueName>Réclamation client sur commande</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Compte Courses U</controllingFieldValue>
+            <valueName>Code Promo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>E-ticket</controllingFieldValue>
+            <valueName>Information générales</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>E-ticket</controllingFieldValue>
+            <valueName>Erreur de configuration / réception ticket</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

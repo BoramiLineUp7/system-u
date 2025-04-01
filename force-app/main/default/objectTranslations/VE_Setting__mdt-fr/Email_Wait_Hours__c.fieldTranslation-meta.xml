@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Email Wait Hours --></label>
+    <name>Email_Wait_Hours__c</name>
+    <picklistValues>
+        <masterLabel>12h</masterLabel>
+        <translation><!-- 12h --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>1h</masterLabel>
+        <translation><!-- 1h --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>24h</masterLabel>
+        <translation><!-- 24h --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>2h</masterLabel>
+        <translation><!-- 2h --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>30m</masterLabel>
+        <translation><!-- 30m --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>6h</masterLabel>
+        <translation><!-- 6h --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

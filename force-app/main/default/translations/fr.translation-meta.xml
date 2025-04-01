@@ -1,0 +1,1886 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Translations xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customApplications>
+        <label><!-- Console Système U --></label>
+        <name>Console_Systme_U</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- Créneaux Magasins --></label>
+        <name>Queue_Management</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- Sales --></label>
+        <name>Sales</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- Sample App (Unified Logging) --></label>
+        <name>SampleAppUnifiedLogging</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- Ventes Ephémères --></label>
+        <name>Vente_Ephemere</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- Pardot --></label>
+        <name>pi__ProspectInsight</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- Salesforce Engage --></label>
+        <name>pi__Sales_Reach</name>
+    </customApplications>
+    <customLabels>
+        <label><!-- CSCheckEmailsError --></label>
+        <name>CSCheckEmailsError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CSCheckInEnterNumber --></label>
+        <name>CSCheckInEnterNumber</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CSCheckInErrorPerson --></label>
+        <name>CSCheckInErrorPerson</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CS CheckIn Status --></label>
+        <name>CSCheckInStatus</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CS CheckIn Title --></label>
+        <name>CSCheckInTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CSCheckInUpdateSuccess --></label>
+        <name>CSCheckInUpdateSuccess</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CSCheckQuotaError --></label>
+        <name>CSCheckQuotaError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CSCheckRequiredFieldsError --></label>
+        <name>CSCheckRequiredFieldsError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CSCreateUnknownSlotError --></label>
+        <name>CSCreateUnknownSlotError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CSInsertSuccessMsg --></label>
+        <name>CSInsertSuccessMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Email Addresses to enable Case Description parser --></label>
+        <name>EMAIL_TO_CASE_EMAIL_ADDRESSES</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FORWARDING_SENDER_EMAIL --></label>
+        <name>FORWARDING_SENDER_EMAIL</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Inventory Alert ToolTip --></label>
+        <name>Inventory_Alert_ToolTip</name>
+    </customLabels>
+    <customLabels>
+        <label>Attribution des prix et stocks</label>
+        <name>LWC_LBL_ProdAssignment</name>
+    </customLabels>
+    <customLabels>
+        <label>Prix de référence</label>
+        <name>LWC_LBL_RefPrice</name>
+    </customLabels>
+    <customLabels>
+        <label>Prix remisé</label>
+        <name>LWC_LBL_SalePrice</name>
+    </customLabels>
+    <customLabels>
+        <label>Le champ magasin est requis pour un produit local</label>
+        <name>MSG_Store_Product_Store_Missing</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- QRCode Browser Compatibility --></label>
+        <name>QRCodeBrowserCompatibility</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- QRCode No Code Detected --></label>
+        <name>QRCodeNoCodeDetected</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- QRCode Webcam Loading --></label>
+        <name>QRCodeWebcamLoading</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- QRCode iOS Warning --></label>
+        <name>QRCodeiOSWarning</name>
+    </customLabels>
+    <customLabels>
+        <label>Nom</label>
+        <name>SC_Account_Name</name>
+    </customLabels>
+    <customLabels>
+        <label>Informations supplémentaires</label>
+        <name>SC_Additional_Information</name>
+    </customLabels>
+    <customLabels>
+        <label>Données de Navigation</label>
+        <name>SC_Browser_Information</name>
+    </customLabels>
+    <customLabels>
+        <label>Annuler</label>
+        <name>SC_Cancel</name>
+    </customLabels>
+    <customLabels>
+        <label>Informations sur la demande</label>
+        <name>SC_Case_Information</name>
+    </customLabels>
+    <customLabels>
+        <label>Information Client</label>
+        <name>SC_Client_Information</name>
+    </customLabels>
+    <customLabels>
+        <label>Nom du contact</label>
+        <name>SC_Contact_Name</name>
+    </customLabels>
+    <customLabels>
+        <label>Description</label>
+        <name>SC_Description_Information</name>
+    </customLabels>
+    <customLabels>
+        <label>Modifier</label>
+        <name>SC_Edit</name>
+    </customLabels>
+    <customLabels>
+        <label>Lier un enregistrement associé.</label>
+        <name>SC_LinkARelatedRecord</name>
+    </customLabels>
+    <customLabels>
+        <label>Nouveau Account</label>
+        <name>SC_New_Account</name>
+    </customLabels>
+    <customLabels>
+        <label>Enregistrer</label>
+        <name>SC_Save</name>
+    </customLabels>
+    <customLabels>
+        <label>Enregistrer et Nouveau</label>
+        <name>SC_Save_n_New</name>
+    </customLabels>
+    <customLabels>
+        <label>Recherchez dans les Magasins...</label>
+        <name>SC_Search_Account</name>
+    </customLabels>
+    <customLabels>
+        <label>Recherchez dans les Contacts...</label>
+        <name>SC_Search_Contact</name>
+    </customLabels>
+    <customLabels>
+        <label>OASIS Statut</label>
+        <name>SC_ServiceNow_Status</name>
+    </customLabels>
+    <customLabels>
+        <label>Une erreur s&apos;est produite lors de la tentative de synchronisation de la demande avec Oasis. Veuillez contacter l&apos;administrateur système.</label>
+        <name>SC_ServiceNow_Sync_Error_Message</name>
+    </customLabels>
+    <customLabels>
+        <label>OASIS</label>
+        <name>ServiceNow_Name</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Today Customer Slot Search --></label>
+        <name>TodayCustomerSlotSearch</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- VE_Actual_Stock --></label>
+        <name>VE_Actual_Stock</name>
+    </customLabels>
+    <customLabels>
+        <label>Ajouter du stock</label>
+        <name>VE_AddStock</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- VE_Add_Remove_Stock --></label>
+        <name>VE_Add_Remove_Stock</name>
+    </customLabels>
+    <customLabels>
+        <label>Les attributions de prix ne sont pas correctes pour ce produit</label>
+        <name>VE_AssignmentsNotFound</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- VE_AvailableStores --></label>
+        <name>VE_AvailableStores</name>
+    </customLabels>
+    <customLabels>
+        <label>Annuler</label>
+        <name>VE_CancelButton</name>
+    </customLabels>
+    <customLabels>
+        <label>Catégories à mettre à jour :</label>
+        <name>VE_CategoriesToPublish</name>
+    </customLabels>
+    <customLabels>
+        <label>Stock actuel (hors commande)</label>
+        <name>VE_CommerceStockValue</name>
+    </customLabels>
+    <customLabels>
+        <label>Créer</label>
+        <name>VE_CreateButton</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- VE_Customer --></label>
+        <name>VE_Customer</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- VE_Decrement_Counter --></label>
+        <name>VE_Decrement_Counter</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Empty Parameters --></label>
+        <name>VE_EmptyParameters</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- VE_End_Stock_Alert --></label>
+        <name>VE_End_Stock_Alert</name>
+    </customLabels>
+    <customLabels>
+        <label>Ce produit n&apos;est pas encore publié. Il doit être d&apos;abord publier avant d&apos;ajouter des prix.</label>
+        <name>VE_ErrProductNotPublished</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- VE Error - Error during file upload to SFCC --></label>
+        <name>VE_ErrPublishFileUpload</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- VE Error - Error starting publish job on SFCC --></label>
+        <name>VE_ErrPublishJob</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- VE_Increment_Counter --></label>
+        <name>VE_Increment_Counter</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- VE_Initial_Stock --></label>
+        <name>VE_Initial_Stock</name>
+    </customLabels>
+    <customLabels>
+        <label>Nous avons rencontré une erreur avec le média externe</label>
+        <name>VE_IssueExternalMedia</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Job Started --></label>
+        <name>VE_JobStarted</name>
+    </customLabels>
+    <customLabels>
+        <label>Chargement</label>
+        <name>VE_Loading</name>
+    </customLabels>
+    <customLabels>
+        <label>Les erreurs suivantes sont survenues : LineNumber: {0} - Message: {1} - Stacktrace: {2}</label>
+        <name>VE_LoggingTemplate</name>
+    </customLabels>
+    <customLabels>
+        <label>Le statut de la commande est mis à jour. Si des lignes de commandes ne sont pas disponibles, assurez-vous de les mettre à jour individuellement.</label>
+        <name>VE_MSG_Body_OrderStatusReady</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- VE_MSG_InvalidFileExtension --></label>
+        <name>VE_MSG_InvalidFileExtension</name>
+    </customLabels>
+    <customLabels>
+        <label>La publication des images de la vente est terminée.</label>
+        <name>VE_MSG_MediaPublishingDone</name>
+    </customLabels>
+    <customLabels>
+        <label>Le statut de la commande est prêt.</label>
+        <name>VE_MSG_Title_OrderStatusReady</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- VE_MSG_XMLUploadDone --></label>
+        <name>VE_MSG_XMLUploadDone</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Master Catalog --></label>
+        <name>VE_MasterCatalog</name>
+    </customLabels>
+    <customLabels>
+        <label>Images produit</label>
+        <name>VE_MediaComponentTitle</name>
+    </customLabels>
+    <customLabels>
+        <label>Télécharger une image (.png, .jpg, .jpeg)</label>
+        <name>VE_MediaImageUploader</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- VE_Minimum_Amount_Alert --></label>
+        <name>VE_Minimum_Amount_Alert</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- VE_MissingContentType --></label>
+        <name>VE_MissingContentType</name>
+    </customLabels>
+    <customLabels>
+        <label>Créer l&apos;image</label>
+        <name>VE_ModalMediaTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- VE New Customer --></label>
+        <name>VE_NewCustomer</name>
+    </customLabels>
+    <customLabels>
+        <label>Pas données à afficher</label>
+        <name>VE_NoDataToDisplay</name>
+    </customLabels>
+    <customLabels>
+        <label>Commande #{0}</label>
+        <name>VE_PDF_OrderHeader</name>
+    </customLabels>
+    <customLabels>
+        <label>Les attributions des prix et stocks ont été publiées avec succès.</label>
+        <name>VE_PricePublishSuccess</name>
+    </customLabels>
+    <customLabels>
+        <label>Vue imprimable</label>
+        <name>VE_PrintableView</name>
+    </customLabels>
+    <customLabels>
+        <label>Ce produit a déjà été publié. Pour le republier, utiliser l&apos;option &apos;forcer&apos;.</label>
+        <name>VE_ProductAlreadyPublished</name>
+    </customLabels>
+    <customLabels>
+        <label>Produits</label>
+        <name>VE_ProductsSection</name>
+    </customLabels>
+    <customLabels>
+        <label>Produits à mettre à jour :</label>
+        <name>VE_ProductsToPublish</name>
+    </customLabels>
+    <customLabels>
+        <label>Publier</label>
+        <name>VE_PublishButton</name>
+    </customLabels>
+    <customLabels>
+        <label>Publier la vente nationale</label>
+        <name>VE_PublishNationalCatalog</name>
+    </customLabels>
+    <customLabels>
+        <label>Publier les prix</label>
+        <name>VE_PublishPriceButton</name>
+    </customLabels>
+    <customLabels>
+        <label>Publier produit</label>
+        <name>VE_PublishProduct</name>
+    </customLabels>
+    <customLabels>
+        <label>Publier les produits</label>
+        <name>VE_PublishProducts</name>
+    </customLabels>
+    <customLabels>
+        <label>La publication du job pour &quot;{0}&quot; est terminée. {1} objet(s) a été envoyé(s) vers SFCC.</label>
+        <name>VE_Publish_Notification_Body</name>
+    </customLabels>
+    <customLabels>
+        <label>La publication de la vente est terminée.</label>
+        <name>VE_Publish_Notification_Title</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- VE_Remaining_Stock_Alert --></label>
+        <name>VE_Remaining_Stock_Alert</name>
+    </customLabels>
+    <customLabels>
+        <label>Demande envoyée!</label>
+        <name>VE_RequestSuccessful</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- La vente est terminée --></label>
+        <name>VE_Sale_Is_Finished</name>
+    </customLabels>
+    <customLabels>
+        <label>Sauvegarder</label>
+        <name>VE_SaveButton</name>
+    </customLabels>
+    <customLabels>
+        <label>Rechercher</label>
+        <name>VE_SearchButton</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- VE_SelectStores --></label>
+        <name>VE_SelectStores</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- VE_SelectedStores --></label>
+        <name>VE_SelectedStores</name>
+    </customLabels>
+    <customLabels>
+        <label>Les stocks ont bien été synchronisés</label>
+        <name>VE_StockPublishSuccess</name>
+    </customLabels>
+    <customLabels>
+        <label>Information stocks</label>
+        <name>VE_StockSection</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- VE_Stock_Alert_Management --></label>
+        <name>VE_Stock_Alert_Management</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- VE_Stock_Minimum_Alert --></label>
+        <name>VE_Stock_Minimum_Alert</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- VE_Stock_Sold --></label>
+        <name>VE_Stock_Sold</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- VE_Store_Publish_Error --></label>
+        <name>VE_Store_Publish_Error</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- VE_SyncButton --></label>
+        <name>VE_SyncButton</name>
+    </customLabels>
+    <customLabels>
+        <label>L&apos;image est publiée</label>
+        <name>VE_TITLE_MediaPublishingDone</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- VE_TITLE_XMLUploadDone --></label>
+        <name>VE_TITLE_XMLUploadDone</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Text EcoPart --></label>
+        <name>VE_TextEcoPart</name>
+    </customLabels>
+    <customLabels>
+        <label>La demande a échouée.</label>
+        <name>VE_UnknownError</name>
+    </customLabels>
+    <customLabels>
+        <label>Sélectionner un type valide</label>
+        <name>VE_ValidFileFormat</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- VE_Validate_Stock --></label>
+        <name>VE_Validate_Stock</name>
+    </customLabels>
+    <customLabels>
+        <label>Publier les prix et les stocks</label>
+        <name>Ve_AddAssignements</name>
+    </customLabels>
+    <customLabels>
+        <label>La taille du media doit être inférieure à 2MB</label>
+        <name>Ve_FileSizeError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- File uploaded --></label>
+        <name>Ve_FileUploaded</name>
+    </customLabels>
+    <customLabels>
+        <label>Suivant</label>
+        <name>Ve_NextButton</name>
+    </customLabels>
+    <customLabels>
+        <label>Affichage</label>
+        <name>Ve_PageSize</name>
+    </customLabels>
+    <customLabels>
+        <label>Précédent</label>
+        <name>Ve_PreviousButton</name>
+    </customLabels>
+    <customLabels>
+        <label>Forcer la publication de la vente au complet (utiliser cette option pour publier tous les produits, même ceux qui n&apos;ont pas été modifiés)</label>
+        <name>Ve_PublishFullCatalog</name>
+    </customLabels>
+    <customLabels>
+        <label>Publier la vente Magasin</label>
+        <name>Ve_PublishLocalCatalog</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Pardot Production Api Base Url --></label>
+        <name>pi__Pardot_Production_Api_Base_Url</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Pardot Production Api Base Url --></label>
+        <name>pi__Pardot_Production_Base_Url</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- reCaptchaGenericError --></label>
+        <name>reCaptchaGenericError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- reCaptchaVerifFailed --></label>
+        <name>reCaptchaVerifFailed</name>
+    </customLabels>
+    <customTabs>
+        <label><!-- Envoi d&apos;emails en masse --></label>
+        <name>Envoi_d_emails_en_masse</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- VE Logging --></label>
+        <name>VE_Logging</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Mobile Landing --></label>
+        <name>mobileLanding__Mobile_Landing_vf</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Non_Mobile Landing --></label>
+        <name>mobileLanding__Non_Mobile_Landing</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Engage Sales Tools --></label>
+        <name>pi__EngageSalesTools</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Engage Alerts --></label>
+        <name>pi__Lead_Deck</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Pardot LeadDeck --></label>
+        <name>pi__Pardot_LeadDeck</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Pardot --></label>
+        <name>pi__ProspectInsight</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Salesforce Engage License Assignment --></label>
+        <name>pi__Sales_Cloud_Engage_License_Assignment</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Engage --></label>
+        <name>pi__Sales_Edge</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Engage Reports --></label>
+        <name>pi__Sales_Edge_Reports</name>
+    </customTabs>
+    <flowDefinitions>
+        <flows/>
+        <fullName>CaseAssignment</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>CaseLocation</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>CaseLocation_PB</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>CaseSLANotifications</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Case_Assignment</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Case_Assignment_Web</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Case_High_Priority_Marker</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Case_Original_SLA_Assignment</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <choices>
+                <name>Crer_un_nouveau_client</name>
+            </choices>
+            <choices>
+                <name>S_lectionner_un_client_existant</name>
+            </choices>
+            <screens>
+                <fields>
+                    <inputParameters>
+                        <name>fieldApiName</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>label</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>maxValues</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>objectApiName</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>required</name>
+                        <value/>
+                    </inputParameters>
+                    <name>PersonAccountLookup</name>
+                </fields>
+                <name>Account_Lookup</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>Header</name>
+                </fields>
+                <fields>
+                    <name>Selectionner</name>
+                </fields>
+                <name>Courier_Papier</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>Errormsg</name>
+                </fields>
+                <name>ErrorChoosePersonAccount</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>ErrorMessage</name>
+                </fields>
+                <name>Existing_Email_Error</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>LyonErrorText</name>
+                </fields>
+                <name>Lyon_error_screen</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>AdresseDisplay</name>
+                </fields>
+                <fields>
+                    <name>Code_postal</name>
+                </fields>
+                <fields>
+                    <name>Emailaddress</name>
+                </fields>
+                <fields>
+                    <name>New_Account_Screen_Section1</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>width</name>
+                        <value/>
+                    </inputParameters>
+                    <name>New_Account_Screen_Section1_Column1</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>width</name>
+                        <value/>
+                    </inputParameters>
+                    <name>New_Account_Screen_Section1_Column2</name>
+                </fields>
+                <fields>
+                    <name>New_Account_Screen_Section2</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>width</name>
+                        <value/>
+                    </inputParameters>
+                    <name>New_Account_Screen_Section2_Column1</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>width</name>
+                        <value/>
+                    </inputParameters>
+                    <name>New_Account_Screen_Section2_Column2</name>
+                </fields>
+                <fields>
+                    <name>NomDisplay</name>
+                </fields>
+                <fields>
+                    <name>Nomtext</name>
+                </fields>
+                <fields>
+                    <name>Pays</name>
+                </fields>
+                <fields>
+                    <name>Pr_nom</name>
+                </fields>
+                <fields>
+                    <name>R_gion_Province</name>
+                </fields>
+                <fields>
+                    <name>Rue</name>
+                </fields>
+                <fields>
+                    <name>Ville</name>
+                </fields>
+                <fields>
+                    <name>Warning</name>
+                </fields>
+                <name>New_Account_Screen</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>Success</name>
+                </fields>
+                <name>Success_screen</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>Success_0</name>
+                </fields>
+                <name>Success_screen_0</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>Case_origin</name>
+                </fields>
+                <fields>
+                    <name>Description</name>
+                </fields>
+                <fields>
+                    <name>Objet</name>
+                </fields>
+                <fields>
+                    <name>el_0</name>
+                </fields>
+                <fields>
+                    <name>el_1</name>
+                </fields>
+                <name>nouvelle_demande_screen</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>Case_origin_0</name>
+                </fields>
+                <fields>
+                    <name>Description_0</name>
+                </fields>
+                <fields>
+                    <name>Objet_0</name>
+                </fields>
+                <fields>
+                    <name>el_2</name>
+                </fields>
+                <fields>
+                    <name>el_3</name>
+                </fields>
+                <name>nouvelle_demande_screen_0_0</name>
+            </screens>
+            <textTemplates>
+                <name>ClientURL</name>
+            </textTemplates>
+            <textTemplates>
+                <name>accountUrlTextTemp</name>
+            </textTemplates>
+            <textTemplates>
+                <name>caseURL</name>
+            </textTemplates>
+            <textTemplates>
+                <name>caseUrlTextTemp</name>
+            </textTemplates>
+            <textTemplates>
+                <name>email</name>
+            </textTemplates>
+            <textTemplates>
+                <name>emailSelectedAccount</name>
+            </textTemplates>
+        </flows>
+        <fullName>Case_Paper_Mail_Flow</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <textTemplates>
+                <name>notifBody</name>
+            </textTemplates>
+            <textTemplates>
+                <name>notifTitle</name>
+            </textTemplates>
+        </flows>
+        <fullName>Case_SLA_Scheduled_Actions</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Case_ServiceNow_Case_Resolved_Notification</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Case_ServiceNow_Comment_Notification</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <textTemplates>
+                <name>centralIdPlusComma</name>
+            </textTemplates>
+            <textTemplates>
+                <name>lyonGroupMemberIdsPlusComma</name>
+            </textTemplates>
+            <textTemplates>
+                <name>lyonIDplusComma</name>
+            </textTemplates>
+        </flows>
+        <fullName>Case_Team_Assignment</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <textTemplates>
+                <name>centralIdPlusComma</name>
+            </textTemplates>
+            <textTemplates>
+                <name>lyonGroupMemberIdsPlusComma</name>
+            </textTemplates>
+            <textTemplates>
+                <name>lyonIDplusComma</name>
+            </textTemplates>
+        </flows>
+        <fullName>Case_Team_Assignment_Old_Cases</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Default_entitlement_on_case</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Email_alert_send_survey</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <screens>
+                <fields>
+                    <name>NoEmailToGenerate</name>
+                </fields>
+                <name>G_n_rateur_de_r_ponses_automatique_par_Gemini</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>TXT01_Gemini_Hint</name>
+                </fields>
+                <name>SCR01_Generate_Gemini_Email</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>errorMessage</name>
+                </fields>
+                <name>varErrorMessage</name>
+            </screens>
+            <textTemplates>
+                <name>succesEmailGenerated</name>
+            </textTemplates>
+        </flows>
+        <fullName>FL001_Gemini_UserInterface</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>FL002_Gemini_Scoring</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Fill_Magasin_on_W2C</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Fill_Magasin_on_case_with_Store_Id</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Fill_Magasin_on_case_with_Store_Id_PB</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <screens>
+                <fields>
+                    <name>CurrentRecordInfos</name>
+                </fields>
+                <fields>
+                    <name>Help</name>
+                </fields>
+                <name>Confirm</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>EndSummary</name>
+                </fields>
+                <name>End</name>
+            </screens>
+        </flows>
+        <fullName>GenerateSlots</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Lyon_Record_Type_Assignment</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>New_W2C_assign_or_create_client</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <choices>
+                <name>CaseDescription</name>
+            </choices>
+            <choices>
+                <name>LatestInboundEmail</name>
+            </choices>
+            <choices>
+                <name>Text</name>
+            </choices>
+            <screens>
+                <fields>
+                    <name>Gemini_Response</name>
+                </fields>
+                <fields>
+                    <name>Score</name>
+                </fields>
+                <name>Result</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>Update_Prompt</name>
+                </fields>
+                <fields>
+                    <name>User_Hint</name>
+                </fields>
+                <name>Select_Prompt</name>
+            </screens>
+        </flows>
+        <fullName>SC_Case_Gemini_Prompt</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>SC_Gemini_Case_Closed</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>SC_Gemini_Email_Message_Deletion</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>SC_Gemini_Email_Message_Update</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>SendEmailForSlotNotification</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Send_Notification_to_customer_via_Pardot</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Send_Notification_to_customer_via_Pardot_PB</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <screens>
+                <fields>
+                    <name>ConfirmText</name>
+                </fields>
+                <name>Confirmation_Beginning</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>Success</name>
+                </fields>
+                <name>envoy_avec_succ_s</name>
+            </screens>
+        </flows>
+        <fullName>Send_Survey_Manual</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Service_Clients_Case_Assignment</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Service_Clients_Case_Assignment_Email</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Service_Clients_Case_Notification_WEB</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Service_Clients_Update_Manual_Cases</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <choices>
+                <name>Courses_U</name>
+            </choices>
+            <choices>
+                <name>Magasin_U</name>
+            </choices>
+            <screens>
+                <fields>
+                    <name>Case_Category</name>
+                </fields>
+                <fields>
+                    <name>Commentaire</name>
+                </fields>
+                <fields>
+                    <name>Label</name>
+                </fields>
+                <name>Create_Service_Now_Incident</name>
+                <nextOrFinishButtonLabel>Envoyer à OASIS</nextOrFinishButtonLabel>
+            </screens>
+            <screens>
+                <fields>
+                    <name>Copy_1_of_Error_Message_Output</name>
+                </fields>
+                <name>Error_Admin</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>Copy_2_of_Error_Message_Output</name>
+                </fields>
+                <name>Error_Users</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>Copy_1_of_Label</name>
+                </fields>
+                <fields>
+                    <name>DateSync</name>
+                </fields>
+                <fields>
+                    <name>ServiceNowStatusDisplay</name>
+                </fields>
+                <fields>
+                    <name>Success_ServiceNow_Section1</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>width</name>
+                        <value/>
+                    </inputParameters>
+                    <name>Success_ServiceNow_Section1_Column1</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>width</name>
+                        <value/>
+                    </inputParameters>
+                    <name>Success_ServiceNow_Section1_Column2</name>
+                </fields>
+                <name>Success_ServiceNow</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>Copy_1_of_Label_0</name>
+                </fields>
+                <fields>
+                    <name>DateSync_AlreadyClosed</name>
+                </fields>
+                <fields>
+                    <name>ServiceNowStatusDisplay_AlreadyClosed</name>
+                </fields>
+                <fields>
+                    <name>Success_ServiceNow_AlreadyClosed_Section1</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>width</name>
+                        <value/>
+                    </inputParameters>
+                    <name>Success_ServiceNow_AlreadyClosed_Section1_Column1</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>width</name>
+                        <value/>
+                    </inputParameters>
+                    <name>Success_ServiceNow_AlreadyClosed_Section1_Column2</name>
+                </fields>
+                <name>Success_ServiceNow_AlreadyClosed</name>
+            </screens>
+        </flows>
+        <fullName>Service_Clients_sync_Case_to_ServiceNow</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Service_Clients_sync_Comment_to_ServiceNow</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <choices>
+                <name>Courses_U</name>
+            </choices>
+            <choices>
+                <name>Magasin_U</name>
+            </choices>
+            <screens>
+                <fields>
+                    <name>Commentaire</name>
+                </fields>
+                <fields>
+                    <name>Label</name>
+                </fields>
+                <fields>
+                    <name>Note_Type</name>
+                </fields>
+                <name>Create_Service_Now_Incident</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>Copy_1_of_Error_Message_Output</name>
+                </fields>
+                <name>Error_Admin</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>Copy_2_of_Error_Message_Output</name>
+                </fields>
+                <name>Error_Users</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>SuccessMessage</name>
+                </fields>
+                <name>SuccessfullyCreated</name>
+            </screens>
+        </flows>
+        <fullName>Service_Clients_sync_Note_to_ServiceNow</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Survey_Invitation_on_Case_Closure</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>UpdateEmailCategory</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>W2C_assign_or_create_client</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <choices>
+                <name>c_153aa14c_9af9_40ee_9108_b042e8ae5f31</name>
+            </choices>
+            <choices>
+                <name>c_429c8ab7_2a9d_4a7a_b252_1591b41c2d63</name>
+            </choices>
+            <screens>
+                <fields>
+                    <name>q_13009168_7176_48f2_b286_7b4d079554c6</name>
+                </fields>
+                <name>p_0007c7da_8b5f_42be_b9f0_7d8c83b3671d</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>q_afe0d6da_b001_45cb_a41d_66febc9cad4d</name>
+                </fields>
+                <name>p_26e37643_c4dc_491a_8909_e717db1f6987</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>q_514f2e6f_624c_4022_bc1c_d337f5ca3790</name>
+                </fields>
+                <name>p_e97ca7a2_577e_49f3_9136_7d058f09c230</name>
+            </screens>
+            <screens>
+                <fields>
+                    <inputParameters>
+                        <name>label</name>
+                        <value/>
+                    </inputParameters>
+                    <name>welcome_question</name>
+                </fields>
+                <name>welcome_page</name>
+            </screens>
+            <textTemplates>
+                <name>thankYouDescriptionTextTemplate</name>
+            </textTemplates>
+            <textTemplates>
+                <name>thankYouLabelTextTemplate</name>
+            </textTemplates>
+            <textTemplates>
+                <name>welcome_question_lref_tt</name>
+            </textTemplates>
+        </flows>
+        <fullName>customer_satisfaction</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <screens>
+                <fields>
+                    <name>S_3b9680e2_42d9_4f3a_8237_66a377c6d11d</name>
+                </fields>
+                <fields>
+                    <name>S_8733a9c4_e049_44e7_a463_f1f016179e8d</name>
+                </fields>
+                <name>surveyQuestionPage</name>
+            </screens>
+            <textTemplates>
+                <name>thankYouDescriptionTextTemplate</name>
+            </textTemplates>
+            <textTemplates>
+                <name>thankYouLabelTextTemplate</name>
+            </textTemplates>
+        </flows>
+        <fullName>net_promoter_score</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <screens>
+                <fields>
+                    <name>q_39432f30_e5c7_4f2c_8cf3_51317f7fe91a</name>
+                </fields>
+                <name>p_57ac416b_76e2_4c3c_a207_c063f21f82d3</name>
+            </screens>
+            <textTemplates>
+                <name>q_39432f30_e5c7_4f2c_8cf3_51317f7fe91a_bnlref_tt</name>
+            </textTemplates>
+            <textTemplates>
+                <name>q_39432f30_e5c7_4f2c_8cf3_51317f7fe91a_bplref_tt</name>
+            </textTemplates>
+            <textTemplates>
+                <name>thankYouDescriptionTextTemplate</name>
+            </textTemplates>
+            <textTemplates>
+                <name>thankYouLabelTextTemplate</name>
+            </textTemplates>
+        </flows>
+        <fullName>service_client_centrale_nps</fullName>
+    </flowDefinitions>
+    <identityVerificationCustomFieldLabels>
+        <name>SampleAccountName</name>
+    </identityVerificationCustomFieldLabels>
+    <identityVerificationCustomFieldLabels>
+        <name>SamplePhone</name>
+    </identityVerificationCustomFieldLabels>
+    <identityVerificationCustomFieldLabels>
+        <name>SamplePostalCode</name>
+    </identityVerificationCustomFieldLabels>
+    <identityVerificationCustomFieldLabels>
+        <name>SampleAccount</name>
+    </identityVerificationCustomFieldLabels>
+    <identityVerificationCustomFieldLabels>
+        <name>SamplePhoneNumber</name>
+    </identityVerificationCustomFieldLabels>
+    <identityVerificationCustomFieldLabels>
+        <name>SampleBirthdate</name>
+    </identityVerificationCustomFieldLabels>
+    <identityVerificationCustomFieldLabels>
+        <name>SampleDOB</name>
+    </identityVerificationCustomFieldLabels>
+    <quickActions>
+        <label><!-- Create Person Account --></label>
+        <name>CreatePersonAccount</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Follow Up --></label>
+        <name>Follow_Up</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Guest Community Case --></label>
+        <name>GuestCommunityCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- LogACall --></label>
+        <name>LogACall</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewAccount --></label>
+        <name>NewAccount</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewCase --></label>
+        <name>NewCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Community Case --></label>
+        <name>NewCommunityCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewContact --></label>
+        <name>NewContact</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewEvent --></label>
+        <name>NewEvent</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewGroup --></label>
+        <name>NewGroup</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewLead --></label>
+        <name>NewLead</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewOpportunity --></label>
+        <name>NewOpportunity</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewTask --></label>
+        <name>NewTask</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- SendEmail --></label>
+        <name>SendEmail</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Snapins_Case_PrechatQuickAction_08h2p000000bm9k_1588603912697 --></label>
+        <name>Snapins_Case_PrechatQuickAction_08h2p000000bm9k_1588603912697</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Snapins_Contact_PrechatQuickAction_08h2p000000bm9k_1588603912611 --></label>
+        <name>Snapins_Contact_PrechatQuickAction_08h2p000000bm9k_1588603912611</name>
+    </quickActions>
+    <reportTypes>
+        <description><!-- AI project --></description>
+        <label><!-- AI project --></label>
+        <name>AI_project</name>
+        <sections>
+            <label><!-- Cases --></label>
+            <name>Cases</name>
+        </sections>
+        <sections>
+            <label><!-- Emails --></label>
+            <name>Emails</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Accounts with Entitlements with Contacts --></description>
+        <label><!-- Accounts with Entitlements with Contacts --></label>
+        <name>Accounts_with_Entitlements_with_Contacts</name>
+        <sections>
+            <label><!-- Accounts --></label>
+            <name>Accounts</name>
+        </sections>
+        <sections>
+            <label><!-- Contacts --></label>
+            <name>Contacts</name>
+        </sections>
+        <sections>
+            <label><!-- Entitlements --></label>
+            <name>Entitlements</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Métriques quotidiennes du robot --></description>
+        <label><!-- Métriques quotidiennes du robot --></label>
+        <name>Bot_Metrics_Daily</name>
+        <sections>
+            <label><!-- Métriques quotidiennes de dialogue de définition de conversation --></label>
+            <name>Métriques quotidiennes de dialogue de définition de conversation</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Métriques quotidiennes de robot Summer ’22 --></description>
+        <label><!-- Métriques quotidiennes de robot Summer ’22 --></label>
+        <name>Bot_Metrics_Daily_v2</name>
+        <sections>
+            <label><!-- Métriques quotidiennes de dialogue de définition de conversation --></label>
+            <name>Métriques quotidiennes de dialogue de définition de conversation</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Métriques quotidiennes de robot Winter &apos;23 --></description>
+        <label><!-- Métriques quotidiennes de robot Winter &apos;23 --></label>
+        <name>Bot_Metrics_Daily_v3</name>
+        <sections>
+            <label><!-- Métriques quotidiennes de dialogue de définition de conversation --></label>
+            <name>Métriques quotidiennes de dialogue de définition de conversation</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Métriques quotidiennes de robot Spring &apos;23 --></description>
+        <label><!-- Métriques quotidiennes de robot Spring &apos;23 --></label>
+        <name>Bot_Metrics_Daily_v4</name>
+        <sections>
+            <label><!-- Métriques quotidiennes de dialogue de définition de conversation --></label>
+            <name>Métriques quotidiennes de dialogue de définition de conversation</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Métriques quotidiennes de robot Summer &apos;23 --></description>
+        <label><!-- Métriques quotidiennes de robot Summer &apos;23 --></label>
+        <name>Bot_Metrics_Daily_v5</name>
+        <sections>
+            <label><!-- Métriques quotidiennes de dialogue de définition de conversation --></label>
+            <name>Métriques quotidiennes de dialogue de définition de conversation</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Métriques du robot par heure --></description>
+        <label><!-- Métriques du robot par heure --></label>
+        <name>Bot_Metrics_Hourly</name>
+        <sections>
+            <label><!-- Métriques horaires de dialogue de définition de conversation --></label>
+            <name>Métriques horaires de dialogue de définition de conversation</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Métriques horaires de robot Summer ’22 --></description>
+        <label><!-- Métriques horaires de robot Summer ’22 --></label>
+        <name>Bot_Metrics_Hourly_v2</name>
+        <sections>
+            <label><!-- Métriques horaires de dialogue de définition de conversation --></label>
+            <name>Métriques horaires de dialogue de définition de conversation</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Métriques horaires de robot Winter &apos;23 --></description>
+        <label><!-- Métriques horaires de robot Winter &apos;23 --></label>
+        <name>Bot_Metrics_Hourly_v3</name>
+        <sections>
+            <label><!-- Métriques horaires de dialogue de définition de conversation --></label>
+            <name>Métriques horaires de dialogue de définition de conversation</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Métriques horaires de robot Spring &apos;23 --></description>
+        <label><!-- Métriques horaires de robot Spring &apos;23 --></label>
+        <name>Bot_Metrics_Hourly_v4</name>
+        <sections>
+            <label><!-- Métriques horaires de dialogue de définition de conversation --></label>
+            <name>Métriques horaires de dialogue de définition de conversation</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Métriques horaires de robot Summer &apos;23 --></description>
+        <label><!-- Métriques horaires de robot Summer &apos;23 --></label>
+        <name>Bot_Metrics_Hourly_v5</name>
+        <sections>
+            <label><!-- Métriques horaires de dialogue de définition de conversation --></label>
+            <name>Métriques horaires de dialogue de définition de conversation</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Métriques de session Summer ’22 --></description>
+        <label><!-- Métriques de session Summer ’22 --></label>
+        <name>Bot_Sessions_v2</name>
+        <sections>
+            <label><!-- Métriques de session de définition de conversation --></label>
+            <name>Métriques de session de définition de conversation</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Métriques de session Winter &apos;23 --></description>
+        <label><!-- Métriques de session Winter &apos;23 --></label>
+        <name>Bot_Sessions_v3</name>
+        <sections>
+            <label><!-- Métriques de session de définition de conversation --></label>
+            <name>Métriques de session de définition de conversation</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Métriques de session Spring &apos;23 --></description>
+        <label><!-- Métriques de session Spring &apos;23 --></label>
+        <name>Bot_Sessions_v4</name>
+        <sections>
+            <label><!-- Métriques de session de définition de conversation --></label>
+            <name>Métriques de session de définition de conversation</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Métriques de session Summer &apos;23 --></description>
+        <label><!-- Métriques de session Summer &apos;23 --></label>
+        <name>Bot_Sessions_v5</name>
+        <sections>
+            <label><!-- Métriques de session de définition de conversation --></label>
+            <name>Métriques de session de définition de conversation</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- CRTanpaz --></description>
+        <label><!-- CRTanpaz --></label>
+        <name>CRTanpaz</name>
+        <sections>
+            <label><!-- Case TAGs --></label>
+            <name>Case TAGs</name>
+        </sections>
+        <sections>
+            <label><!-- Cases --></label>
+            <name>Cases</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Cases w/ Activities --></description>
+        <label><!-- Cases w/ Activities --></label>
+        <name>Cases_with_Activities</name>
+        <sections>
+            <label><!-- Cases --></label>
+            <name>Cases</name>
+        </sections>
+        <sections>
+            <label><!-- Email --></label>
+            <name>Email</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Cases with Email Messages --></description>
+        <label><!-- Cases with Email Messages --></label>
+        <name>Cases_with_Email_Messages</name>
+        <sections>
+            <label><!-- Cases --></label>
+            <name>Cases</name>
+        </sections>
+        <sections>
+            <label><!-- Emails --></label>
+            <name>Emails</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Contacts avec des demandes ouvertes --></description>
+        <label><!-- Contacts avec des demandes ouvertes --></label>
+        <name>Contacts_avec_des_demandes_ouvertes</name>
+        <sections>
+            <label><!-- Accounts --></label>
+            <name>Accounts</name>
+        </sections>
+        <sections>
+            <label><!-- Cases --></label>
+            <name>Cases</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Creneaux Clients --></description>
+        <label><!-- Creneaux Clients --></label>
+        <name>CustomerSlotReportType</name>
+        <sections>
+            <label><!-- Customer slots --></label>
+            <name>Customer slots</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Enquêtes de satisfaction invitation --></description>
+        <label><!-- Enquêtes de satisfaction invitation --></label>
+        <name>Enqu_tes_de_satisfaction_invitation</name>
+        <sections>
+            <label><!-- Survey Invitations --></label>
+            <name>Survey Invitations</name>
+        </sections>
+        <sections>
+            <label><!-- Survey Question Responses --></label>
+            <name>Survey Question Responses</name>
+        </sections>
+        <sections>
+            <label><!-- Survey Responses --></label>
+            <name>Survey Responses</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Enquêtes de satisfaction invitation with responses --></description>
+        <label><!-- Enquêtes de satisfaction invitation with responses --></label>
+        <name>Enqu_tes_de_satisfaction_invitation_with_responses</name>
+        <sections>
+            <label><!-- Survey Invitations --></label>
+            <name>Survey Invitations</name>
+        </sections>
+        <sections>
+            <label><!-- Survey Question Responses --></label>
+            <name>Survey Question Responses</name>
+        </sections>
+        <sections>
+            <label><!-- Survey Responses --></label>
+            <name>Survey Responses</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Enquêtes de satisfaction scores --></description>
+        <label><!-- Enquêtes de satisfaction scores --></label>
+        <name>Enqu_tes_de_satisfaction_scores</name>
+        <sections>
+            <label><!-- Survey Question Scores --></label>
+            <name>Survey Question Scores</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Magasin avec tickets --></description>
+        <label><!-- Magasin avec tickets --></label>
+        <name>Magasin_avec_tickets</name>
+        <sections>
+            <label><!-- Accounts --></label>
+            <name>Accounts</name>
+        </sections>
+        <sections>
+            <label><!-- Cases --></label>
+            <name>Cases</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Magasin et client avec tickets --></description>
+        <label><!-- Magasin et client avec tickets --></label>
+        <name>Magasin_et_client_avec_tickets</name>
+        <sections>
+            <label><!-- Accounts --></label>
+            <name>Accounts</name>
+        </sections>
+        <sections>
+            <label><!-- Cases --></label>
+            <name>Cases</name>
+        </sections>
+        <sections>
+            <label><!-- Contacts --></label>
+            <name>Contacts</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Orders --></description>
+        <label><!-- Orders --></label>
+        <name>Orders</name>
+        <sections>
+            <label><!-- VE Order Lines --></label>
+            <name>VE Order Lines</name>
+        </sections>
+        <sections>
+            <label><!-- VE Orders --></label>
+            <name>VE Orders</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Product Store Assignments --></description>
+        <label><!-- Product Store Assignments --></label>
+        <name>Product_Store_Assignments</name>
+        <sections>
+            <label><!-- Product Store Assignments --></label>
+            <name>Product Store Assignments</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Productivity and Efficiency --></description>
+        <label><!-- Productivity and Efficiency --></label>
+        <name>Productivity_and_Efficiency</name>
+        <sections>
+            <label><!-- Activities --></label>
+            <name>Activities</name>
+        </sections>
+        <sections>
+            <label><!-- Cases --></label>
+            <name>Cases</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Créneaux Recurrents --></description>
+        <label><!-- Créneaux Recurrents --></label>
+        <name>RecurringSlotReportType</name>
+        <sections>
+            <label><!-- Recurring slots --></label>
+            <name>Recurring slots</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Service Contracts with Contract Line Items --></description>
+        <label><!-- Service Contracts with Contract Line Items --></label>
+        <name>Service_Contracts_with_Contract_Line_Items</name>
+        <sections>
+            <label><!-- Contract Line Items --></label>
+            <name>Contract Line Items</name>
+        </sections>
+        <sections>
+            <label><!-- Service Contracts --></label>
+            <name>Service Contracts</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Service Contracts with Entitlements --></description>
+        <label><!-- Service Contracts with Entitlements --></label>
+        <name>Service_Contracts_with_Entitlements</name>
+        <sections>
+            <label><!-- Entitlements --></label>
+            <name>Entitlements</name>
+        </sections>
+        <sections>
+            <label><!-- Service Contracts --></label>
+            <name>Service Contracts</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Créneaux --></description>
+        <label><!-- Créneaux --></label>
+        <name>SlotReportType</name>
+        <sections>
+            <label><!-- Slots --></label>
+            <name>Slots</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Store Sale Participation --></description>
+        <label><!-- Store Sale Participation --></label>
+        <name>Store_Sale_Participation</name>
+        <sections>
+            <label><!-- Product Store Assignments --></label>
+            <name>Product Store Assignments</name>
+        </sections>
+        <sections>
+            <label><!-- VE Sales --></label>
+            <name>VE Sales</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Magasins et créneaux --></description>
+        <label><!-- Magasins et créneaux --></label>
+        <name>StoresAndSlotsInfos</name>
+        <sections>
+            <label><!-- Accounts --></label>
+            <name>Accounts</name>
+        </sections>
+        <sections>
+            <label><!-- Customer slots --></label>
+            <name>Customer slots</name>
+        </sections>
+        <sections>
+            <label><!-- Recurring slots --></label>
+            <name>Recurring slots</name>
+        </sections>
+        <sections>
+            <label><!-- Slots --></label>
+            <name>Slots</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Enquêtes de satisfaction --></description>
+        <label><!-- Enquêtes de satisfaction --></label>
+        <name>Surveys</name>
+        <sections>
+            <label><!-- Survey Invitations --></label>
+            <name>Survey Invitations</name>
+        </sections>
+        <sections>
+            <label><!-- Survey Question Responses --></label>
+            <name>Survey Question Responses</name>
+        </sections>
+        <sections>
+            <label><!-- Survey Responses --></label>
+            <name>Survey Responses</name>
+        </sections>
+        <sections>
+            <label><!-- Surveys --></label>
+            <name>Surveys</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Tagactivity --></description>
+        <label><!-- Tagactivity --></label>
+        <name>Tagactivity</name>
+        <sections>
+            <label><!-- Case TAGs --></label>
+            <name>Case TAGs</name>
+        </sections>
+        <sections>
+            <label><!-- Cases --></label>
+            <name>Cases</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Tma_test --></description>
+        <label><!-- Tma_test --></label>
+        <name>Tma_test</name>
+        <sections>
+            <label><!-- E-mails --></label>
+            <name>E-mails</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Tma_test1 --></description>
+        <label><!-- Tma_test1 --></label>
+        <name>Tma_test1</name>
+        <sections>
+            <label><!-- Rapports --></label>
+            <name>Rapports</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Users with Presences --></description>
+        <label><!-- Users with Presences --></label>
+        <name>Users_with_Presences</name>
+        <sections>
+            <label><!-- User Presences (User) --></label>
+            <name>User Presences (User)</name>
+        </sections>
+        <sections>
+            <label><!-- Users --></label>
+            <name>Users</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Journaux d’exécution d’orchestrations Spring &apos;24 --></description>
+        <label><!-- Journaux d’exécution d’orchestrations Spring &apos;24 --></label>
+        <name>flow_orchestration_log_ootb_crt_two_four_eight</name>
+        <sections>
+            <label><!-- Journaux d&apos;exécution d&apos;orchestration --></label>
+            <name>Journaux d&apos;exécution d&apos;orchestration</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Exécutions d’orchestration Spring &apos;24 --></description>
+        <label><!-- Exécutions d’orchestration Spring &apos;24 --></label>
+        <name>flow_orchestration_run_ootb_crt_two_four_eight</name>
+        <sections>
+            <label><!-- Exécutions d&apos;orchestration --></label>
+            <name>Exécutions d&apos;orchestration</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Exécutions de phases d’orchestration Spring &apos;24 --></description>
+        <label><!-- Exécutions de phases d’orchestration Spring &apos;24 --></label>
+        <name>flow_orchestration_stage_run_ootb_crt_two_four_eight</name>
+        <sections>
+            <label><!-- Exécutions de phase d&apos;orchestration --></label>
+            <name>Exécutions de phase d&apos;orchestration</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Exécutions d’étape d’orchestration Spring &apos;24 --></description>
+        <label><!-- Exécutions d’étape d’orchestration Spring &apos;24 --></label>
+        <name>flow_orchestration_step_run_ootb_crt_two_four_eight</name>
+        <sections>
+            <label><!-- Exécutions d&apos;étape d&apos;orchestration --></label>
+            <name>Exécutions d&apos;étape d&apos;orchestration</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Éléments de travail d’orchestration Spring &apos;24 --></description>
+        <label><!-- Éléments de travail d’orchestration Spring &apos;24 --></label>
+        <name>flow_orchestration_work_item_ootb_crt_two_four_eight</name>
+        <sections>
+            <columns>
+                <label><!-- Exécution d’étape d’orchestration :Label --></label>
+                <name>Exécution d’étape d’orchestration :Label</name>
+            </columns>
+            <columns>
+                <label><!-- Exécution d’étape d’orchestration :Name --></label>
+                <name>Exécution d’étape d’orchestration :Name</name>
+            </columns>
+            <columns>
+                <label><!-- Exécution d’étape d’orchestration :Status --></label>
+                <name>Exécution d’étape d’orchestration :Status</name>
+            </columns>
+            <label><!-- Exécutions d&apos;étape d&apos;orchestration --></label>
+            <name>Exécutions d&apos;étape d&apos;orchestration</name>
+        </sections>
+        <sections>
+            <columns>
+                <label><!-- AttribuéeGroupe ou file d’attente --></label>
+                <name>AttribuéeGroupe ou file d’attente</name>
+            </columns>
+            <columns>
+                <label><!-- AttribuéeUser --></label>
+                <name>AttribuéeUser</name>
+            </columns>
+            <label><!-- Éléments de travail de l&apos;orchestration --></label>
+            <name>Éléments de travail de l&apos;orchestration</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Flux d&apos;écran --></description>
+        <label><!-- Flux d&apos;écran --></label>
+        <name>screen_flows_prebuilt_crt</name>
+        <sections>
+            <label><!-- Entrées au journal d&apos;interview de flux --></label>
+            <name>Entrées au journal d&apos;interview de flux</name>
+        </sections>
+        <sections>
+            <label><!-- Journaux d&apos;interview de flux --></label>
+            <name>Journaux d&apos;interview de flux</name>
+        </sections>
+    </reportTypes>
+    <scontrols>
+        <label><!-- Pardot Contact Activities --></label>
+        <name>pi__Prospect_Insight_Contact_Activities</name>
+    </scontrols>
+    <scontrols>
+        <label><!-- Pardot Lead Activities --></label>
+        <name>pi__Prospect_Insight_Lead_Activities</name>
+    </scontrols>
+</Translations>

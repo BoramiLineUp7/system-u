@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PostedFrom__c</fullName>
+    <deprecated>false</deprecated>
+    <description>When the case is submitted from the web form, this gives the origin of that form (Website or Mobile App)</description>
+    <inlineHelpText>Le ticket a-t-il été créé depuis le Site web ou depuis l&apos;Application Mobile ?</inlineHelpText>
+    <label>Provenance</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Site Web</fullName>
+                <default>false</default>
+                <label>Site Web</label>
+            </value>
+            <value>
+                <fullName>Application Mobile</fullName>
+                <default>false</default>
+                <label>Application Mobile</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

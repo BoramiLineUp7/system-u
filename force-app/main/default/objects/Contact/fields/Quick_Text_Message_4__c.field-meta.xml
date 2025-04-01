@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Quick_Text_Message_4__c</fullName>
+    <description>Only to be used in quick texts (2024)</description>
+    <externalId>false</externalId>
+    <formula>IF( MONTH(TODAY()) = 12,
+      &quot; et de très belles fêtes de fin d’année&quot;,
+   IF( AND (MONTH(Birthdate) = MONTH(TODAY()), DAY(Birthdate) = DAY(TODAY())), 
+         &quot; et un joyeux anniversaire&quot;,
+      IF( AND( TODAY() &gt;= DATE(YEAR(TODAY()), 1, 1), TODAY() &lt;= DATE(YEAR(TODAY()), 1, 15)),
+            &quot; et nos meilleurs vœux pour l’année&quot; &amp; TEXT(YEAR(TODAY())),
+         IF( WEEKDAY(TODAY()) = 6,
+            &quot; et un très bon week-end&quot;,
+            &quot;&quot;
+         )
+      )
+   )
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Quick Text Message 4</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

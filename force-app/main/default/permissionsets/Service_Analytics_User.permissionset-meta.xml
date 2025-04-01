@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>View Service Analytics apps.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Service Analytics User (System U)</label>
+    <license>InsightsServiceAnalyticsPsl</license>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ServiceAnalyticsUser</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>UseTemplatedApp</name>
+    </userPermissions>
+</PermissionSet>

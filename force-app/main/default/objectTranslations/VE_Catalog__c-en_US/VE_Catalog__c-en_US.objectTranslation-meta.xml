@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>VE Sale</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>VE Sales</value>
+    </caseValues>
+    <layouts>
+        <layout>Catalog Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Employee Catalog</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Catalog Name --></nameFieldLabel>
+    <quickActions>
+        <label><!-- Publish Local Catalog --></label>
+        <name>Publish_Local_Catalog</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Publish National Catalog --></label>
+        <name>Publish_National_Catalog</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Suivi d&apos;une vente --></label>
+        <name>Suivi_d_une_vente</name>
+    </quickActions>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- L&apos;ID de la vente ne peut pas être modifié! --></errorMessage>
+        <name>Cannot_modify_sales_ID</name>
+    </validationRules>
+</CustomObjectTranslation>

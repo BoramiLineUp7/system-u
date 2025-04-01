@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- The list of Object Types separated by commas to update their LastPublishedDate__c field after XML upload (Ex: VE_Catalog__c,VE_Product__c) --></help>
+    <label><!-- Update_Publish_Date_Objects_Types --></label>
+    <name>Update_Publish_Date_Object_Types__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Ajouter des TAG séparés par des virgules. --></help>
+    <label><!-- TAG --></label>
+    <name>TAG__c</name>
+</CustomFieldTranslation>

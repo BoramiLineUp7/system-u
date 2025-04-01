@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Magasin Préféré --></label>
+    <lookupFilter>
+        <errorMessage><!-- Le record type du compte doit être &quot;Magasin&quot; --></errorMessage>
+        <informationalMessage><!-- Le record type du compte doit être &quot;Magasin&quot; --></informationalMessage>
+    </lookupFilter>
+    <name>PreferedStore__c</name>
+    <relationshipLabel><!-- Clients - Magasin Préféré --></relationshipLabel>
+</CustomFieldTranslation>

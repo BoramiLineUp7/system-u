@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Demande</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Demandes</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Case Layout</layout>
+        <sections>
+            <label><!-- Données de Navigation --></label>
+            <section>Données de Navigation</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Tickets</layout>
+        <sections>
+            <label><!-- Données de Navigation --></label>
+            <section>Données de Navigation</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Change Priority --></label>
+        <name>Change_Priority</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Changer de Propriétaire --></label>
+        <name>Changer_de_Proprietaire</name>
+    </quickActions>
+    <quickActions>
+        <aspect>InfoMessage</aspect>
+        <label>Demande fermée.</label>
+        <name>Close_Case</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>Fermer la demande</label>
+        <name>Close_Case</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Close the Case --></label>
+        <name>Close_the_Case</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Envoyer l&apos;enquête --></label>
+        <name>Envoyer_le_Enquete</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewChildCase --></label>
+        <name>NewChildCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Email --></label>
+        <name>SendEmail</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- SocialPublisher --></label>
+        <name>SocialPublisher</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Update Case --></label>
+        <name>UpdateCaseDescription</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- Demande client --></label>
+        <name>CustomerCase</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Demande client - Lyon --></label>
+        <name>Demande_client_Lyon</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Paper Mail Case --></label>
+        <name>Paper_Mail_Case</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Quand la Catégorie de la demande est &apos;Autres&apos; le champs Sous-Catégorie ne peut avoir que la valeur &apos;Autre&apos; --></errorMessage>
+        <name>CategorieSousCategorieSelectionAutre</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Les champs &quot;Cause&quot; et &quot;Sous-cause&quot; sont obligatoires --></errorMessage>
+        <name>CausesEtSousCauseObligatLyon</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Vous devez renseigner un contact . A défaut, il faut une adresse email et un nom du contact. --></errorMessage>
+        <name>Contact_must_exists</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Email d&apos;expéditeur non valide --></errorMessage>
+        <name>Filtrage_email_indesirables</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Merci de vérifier l&apos;adresse email du magasin qui semble inexistante. Si la demande n&apos;est pas liée à un Magasin, merci de le renseigner et enregistrer la demande avant de sélectionner ce mode de clôture. --></errorMessage>
+        <name>SelectionModeCloture5EtEmailMagasin</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Vous ne pouvez pas modifier manuellement le statut de la demande à &quot;Hors délais&quot;, il passera automatiquement à &quot; Hors délais&quot; lorsque le temps du SLA sera terminé. --></errorMessage>
+        <name>StatusHorsDelaisManualChangePrevent</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- La sous-catégorie est obligatoire lors de la clôture --></errorMessage>
+        <name>SubCategoryMustBePopulated</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Le nombre maximum de TAG est de 3! --></errorMessage>
+        <name>TAG_max_3_words_rule</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Courrier_Papier --></label>
+        <name>Courrier_Papier</name>
+    </webLinks>
+</CustomObjectTranslation>

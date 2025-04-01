@@ -1,0 +1,10 @@
+<aura:component implements="lightning:availableForFlowScreens" access="global">
+    <aura:attribute name="title" type="String" default="Success!" />
+    <aura:attribute name="message" type="String" default="Email has been generated." />
+    <aura:attribute name="type" type="String" default="success" />
+
+    <lightning:notificationsLibrary aura:id="notifLib"/>
+
+    <aura:handler name="init" value="{!this}" action="{!c.showToast}"/>
+
+</aura:component>

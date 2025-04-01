@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Envoi_Mod_le_d_Email_du_Mode_de_Cl_ture_6</fullName>
+        <description>Envoi Modèle d&apos;Email du Mode de Clôture 6</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactId</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>contact@magasins-u.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Service_Client_Centrale/Envoi_Mod_le_d_Email_du_Mode_de_Cl_ture_6</template>
+    </alerts>
+    <alerts>
+        <fullName>Envoi_Mod_le_d_Email_du_Mode_de_Cl_tutre1</fullName>
+        <description>Envoi Modèle d&apos;Email du Mode de Clôtutre1</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactId</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>contact@magasins-u.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Service_Client_Centrale/SUModeleUndeClotureGroupe</template>
+    </alerts>
+    <alerts>
+        <fullName>Envoi_Mod_le_d_Email_du_Mode_de_Cl_tutre2</fullName>
+        <description>Envoi Modèle d&apos;Email du Mode de Clôtutre2</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactId</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>contact@magasins-u.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Service_Client_Centrale/SUModeleDeuxdeClotureGroupe</template>
+    </alerts>
+    <alerts>
+        <fullName>Envoi_Mod_le_d_Email_du_Mode_de_Cl_tutre3</fullName>
+        <description>Envoi Modèle d&apos;Email du Mode de Clôtutre3</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactId</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>contact@magasins-u.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Service_Client_Centrale/SUModeleTroisdeClotureGroupe</template>
+    </alerts>
+    <alerts>
+        <fullName>Envoi_Mod_le_d_Email_du_Mode_de_Cl_tutre4</fullName>
+        <description>Envoi Modèle d&apos;Email du Mode de Clôtutre4</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactId</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>contact@magasins-u.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Service_Client_Centrale/SUModeleQuatredeClotureGroupe</template>
+    </alerts>
+    <alerts>
+        <fullName>Envoi_Mod_le_d_Email_du_Mode_de_Cl_tutre5_Magasin</fullName>
+        <description>Envoi Modèle d&apos;Email du Mode de Clôtutre5 (Magasin)</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email_Magasin__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>contact@magasins-u.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Service_Client_Centrale/SUModeleCinqdeClotureGroupeMagasin</template>
+    </alerts>
+    <alerts>
+        <fullName>Envoie_enqu_te_de_satisfaction</fullName>
+        <description>Envoie enquête de satisfaction</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactId</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>contact@magasins-u.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Service_Client_Centrale/SUECommerceTemplateGenericCSAT</template>
+    </alerts>
+    <alerts>
+        <fullName>SLA_Reminder_Alert</fullName>
+        <description>SLA Reminder Alert</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>contact@magasins-u.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/SLA_reminder</template>
+    </alerts>
+    <alerts>
+        <fullName>Service_Clients_Email_Notification_WEB</fullName>
+        <description>Service Clients Email Notification WEB</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactEmail</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>contact.relationclients@systeme-u.fr</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Service_Client_Centrale/Accus_de_reception_automatique</template>
+    </alerts>
+    <alerts>
+        <fullName>Service_Now_Case_Resolved_Alert</fullName>
+        <description>Service Now - Case Resolved Alert</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>contact@magasins-u.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Service_Client_Centrale/Service_Now_New_Comment_Email</template>
+    </alerts>
+    <alerts>
+        <fullName>Service_Now_New_Comment_Alert</fullName>
+        <description>Service Now - New Comment Alert</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>contact@magasins-u.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Service_Client_Centrale/Service_Now_New_Comment_Email</template>
+    </alerts>
+    <alerts>
+        <fullName>Warning</fullName>
+        <description>Warning</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/SUPPORTNewassignmentnotificationSAMPLE</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>Alimenter_lemail_Magasin</fullName>
+        <field>Email_Magasin__c</field>
+        <formula>Store__r.StoreEmail__c</formula>
+        <name>Alimenter lemail Magasin</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Cloturer_Le_Case</fullName>
+        <field>Status</field>
+        <literalValue>Closed</literalValue>
+        <name>Cloturer Le Case</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>Cloturer Les Demandes Via Mode de Cloture1</fullName>
+        <actions>
+            <name>Envoi_Mod_le_d_Email_du_Mode_de_Cl_tutre1</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>Cloturer_Le_Case</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>User.ByPass_WorkFlow__c</field>
+            <operation>equals</operation>
+            <value>False</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Mode_de_cl_ture__c</field>
+            <operation>equals</operation>
+            <value>Modèle 1</value>
+        </criteriaItems>
+        <description>Selon la valeur Picklist sélectionnée du champ ‘Mode de Clôture’, ce Workflow s’exécute pour Clôturer le Case et envoyer l’email spécifié pour ce mode de clôture.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Cloturer Les Demandes Via Mode de Cloture2</fullName>
+        <actions>
+            <name>Envoi_Mod_le_d_Email_du_Mode_de_Cl_tutre2</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>Cloturer_Le_Case</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>User.ByPass_WorkFlow__c</field>
+            <operation>equals</operation>
+            <value>False</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Mode_de_cl_ture__c</field>
+            <operation>equals</operation>
+            <value>Modèle 2</value>
+        </criteriaItems>
+        <description>Selon la valeur Picklist sélectionnée du champ ‘Mode de Clôture’, ce Workflow s’exécute pour Clôturer le Case et envoyer l’email spécifié pour ce mode de clôture.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Cloturer Les Demandes Via Mode de Cloture3</fullName>
+        <actions>
+            <name>Envoi_Mod_le_d_Email_du_Mode_de_Cl_tutre3</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>Cloturer_Le_Case</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>User.ByPass_WorkFlow__c</field>
+            <operation>equals</operation>
+            <value>False</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Mode_de_cl_ture__c</field>
+            <operation>equals</operation>
+            <value>Modèle 3</value>
+        </criteriaItems>
+        <description>Selon la valeur Picklist sélectionnée du champ ‘Mode de Clôture’, ce Workflow s’exécute pour Clôturer le Case et envoyer l’email spécifié pour ce mode de clôture.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Cloturer Les Demandes Via Mode de Cloture4</fullName>
+        <actions>
+            <name>Envoi_Mod_le_d_Email_du_Mode_de_Cl_tutre4</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>Cloturer_Le_Case</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>User.ByPass_WorkFlow__c</field>
+            <operation>equals</operation>
+            <value>False</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Mode_de_cl_ture__c</field>
+            <operation>equals</operation>
+            <value>Modèle 4</value>
+        </criteriaItems>
+        <description>Selon la valeur Picklist sélectionnée du champ ‘Mode de Clôture’, ce Workflow s’exécute pour Clôturer le Case et envoyer l’email spécifié pour ce mode de clôture.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Cloturer Les Demandes Via Mode de Cloture5 %28Magasin%29</fullName>
+        <actions>
+            <name>Envoi_Mod_le_d_Email_du_Mode_de_Cl_tutre5_Magasin</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>Cloturer_Le_Case</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>User.ByPass_WorkFlow__c</field>
+            <operation>equals</operation>
+            <value>False</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Mode_de_cl_ture__c</field>
+            <operation>equals</operation>
+            <value>Modèle 5</value>
+        </criteriaItems>
+        <description>Selon la valeur Picklist sélectionnée du champ ‘Mode de Clôture’, ce Workflow s’exécute pour Clôturer le Case et envoyer l’email spécifié pour ce mode de clôture.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Clôturer en masse générique les demandes via Mode de clôture 6</fullName>
+        <actions>
+            <name>Envoi_Mod_le_d_Email_du_Mode_de_Cl_ture_6</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>Cloturer_Le_Case</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>User.ByPass_WorkFlow__c</field>
+            <operation>equals</operation>
+            <value>False</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Mode_de_cl_ture__c</field>
+            <operation>equals</operation>
+            <value>Modèle 6</value>
+        </criteriaItems>
+        <description>Selon la valeur Picklist sélectionnée du champ ‘Mode de Clôture’, ce Workflow s’exécute pour Clôturer le Case et envoyer l’email spécifié pour ce mode de clôture.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Récupérer lemail Magasin</fullName>
+        <actions>
+            <name>Alimenter_lemail_Magasin</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>A chaque création ou MàJ du Case, ce Workflow s&apos;exécute pour alimenter le champ du Case &apos;Email Magasin&apos;. Ce dernier est utilisé lors du choix d&apos;un des modes de clôture.</description>
+        <formula>AND (  $User.ByPass_WorkFlow__c = False,   OR(    ISCHANGED(AccountId ),    (Email_Magasin__c  &lt;&gt;  Store__r.StoreEmail__c ),    Email_Magasin__c = &apos;&apos;    ) )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+</Workflow>

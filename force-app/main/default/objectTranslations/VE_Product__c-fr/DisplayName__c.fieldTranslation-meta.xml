@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- La valeur ici sera le nom du produit visible sur SFCC. Le champ &apos;Nom du produit&quot; est uniquement pour l&apos;usage interne. --></help>
+    <label><!-- Display Name --></label>
+    <name>DisplayName__c</name>
+</CustomFieldTranslation>

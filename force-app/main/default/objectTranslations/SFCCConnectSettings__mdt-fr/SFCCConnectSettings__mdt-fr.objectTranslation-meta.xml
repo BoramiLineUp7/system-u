@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>SFCCConnectSettings</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>SFCCConnectSettings</value>
+    </caseValues>
+    <gender>Neuter</gender>
+    <layouts>
+        <layout>Présentation SFCCConnectSettings</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- SFCC --></label>
+            <section>SFCC</section>
+        </sections>
+        <sections>
+            <label><!-- URL Endpoints --></label>
+            <section>URL Endpoints</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

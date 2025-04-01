@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ManagedTopics xmlns="http://soap.sforce.com/2006/04/metadata">
+    <managedTopic>
+        <fullName>Service Client Systeme U.Content:AUTRE</fullName>
+        <managedTopicType>Content</managedTopicType>
+        <name>AUTRE</name>
+        <parentName></parentName>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Service Client Systeme U.Content:COURSES U</fullName>
+        <managedTopicType>Content</managedTopicType>
+        <name>COURSES U</name>
+        <parentName></parentName>
+        <position>1</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Service Client Systeme U.Content:MAGASINS U</fullName>
+        <managedTopicType>Content</managedTopicType>
+        <name>MAGASINS U</name>
+        <parentName></parentName>
+        <position>2</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Service Client Systeme U.Featured:AUTRE</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>AUTRE</name>
+        <parentName></parentName>
+        <position>2</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Service Client Systeme U.Featured:COURSES U</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>COURSES U</name>
+        <parentName></parentName>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Service Client Systeme U.Featured:MAGASINS U</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>MAGASINS U</name>
+        <parentName></parentName>
+        <position>1</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Service Client Systeme U.Navigational:AUTRE</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>AUTRE</name>
+        <parentName></parentName>
+        <position>2</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Service Client Systeme U.Navigational:COURSES U</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>COURSES U</name>
+        <parentName></parentName>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Service Client Systeme U.Navigational:MAGASINS U</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>MAGASINS U</name>
+        <parentName></parentName>
+        <position>1</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+</ManagedTopics>

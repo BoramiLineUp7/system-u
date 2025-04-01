@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>58.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <assignments>
+        <name>Assign_Carte_U</name>
+        <label>Assign Carte U</label>
+        <locationX>578</locationX>
+        <locationY>551</locationY>
+        <assignmentItems>
+            <assignToReference>vType</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>Carte U</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Update_Ticket_Type_U_Central</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Assign_Compte_U</name>
+        <label>Assign Compte U</label>
+        <locationX>314</locationX>
+        <locationY>551</locationY>
+        <assignmentItems>
+            <assignToReference>vType</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>Compte Magasin U</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Update_Ticket_Type_U_Central</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Assign_Courses_U</name>
+        <label>Assign Courses U</label>
+        <locationX>1370</locationX>
+        <locationY>551</locationY>
+        <assignmentItems>
+            <assignToReference>vType</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>Compte Courses U</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Update_Ticket_Type_U_Central</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Assign_E_tickets</name>
+        <label>Assign E-tickets</label>
+        <locationX>842</locationX>
+        <locationY>551</locationY>
+        <assignmentItems>
+            <assignToReference>vType</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>E-ticket</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Update_Ticket_Type_U_Central</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Assign_Informations_g_n_rales</name>
+        <label>Assign Informations générales</label>
+        <locationX>1634</locationX>
+        <locationY>551</locationY>
+        <assignmentItems>
+            <assignToReference>vType</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>Informations générales</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Update_Ticket_Type_U_Central</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Assign_RGPD</name>
+        <label>Assign RGPD</label>
+        <locationX>1106</locationX>
+        <locationY>551</locationY>
+        <assignmentItems>
+            <assignToReference>vType</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>RGPD</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Update_Ticket_Type_U_Central</targetReference>
+        </connector>
+    </assignments>
+    <decisions>
+        <name>Case_Type</name>
+        <label>Case Type</label>
+        <locationX>1062</locationX>
+        <locationY>335</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Is_Lyon</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>$User.Profile_Id__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>00e2p000001Z3Pa</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$User.ProfileId__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>00e2p000001Z3Pf</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Ticket_Type_Lyon</targetReference>
+            </connector>
+            <label>Is Lyon</label>
+        </rules>
+        <rules>
+            <name>Is_Centrale</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>$User.Profile_Id__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>00e0Q000000MaFE</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$User.ProfileId__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>00e2p000001Z3KB</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$User.ProfileId__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>00e2p000001Z3KG</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sub_Category</targetReference>
+            </connector>
+            <label>Is Centrale</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Sub_Category</name>
+        <label>Sub-Category</label>
+        <locationX>1106</locationX>
+        <locationY>443</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Compte_U</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Subject</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Demande liée à votre compte client</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Subject</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Demande lié au site</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Assign_Compte_U</targetReference>
+            </connector>
+            <label>Compte U</label>
+        </rules>
+        <rules>
+            <name>Carte_U</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Subject</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Demande liée à la carte U</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Assign_Carte_U</targetReference>
+            </connector>
+            <label>Carte U</label>
+        </rules>
+        <rules>
+            <name>E_tickets</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Subject</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Demande liée aux e-tickets</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Assign_E_tickets</targetReference>
+            </connector>
+            <label>E-tickets</label>
+        </rules>
+        <rules>
+            <name>RGPD</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Subject</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Demande liée aux données personnelles</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Subject</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Suppression de compte</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Assign_RGPD</targetReference>
+            </connector>
+            <label>RGPD</label>
+        </rules>
+        <rules>
+            <name>Courses_U</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Subject</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Code Promo</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Assign_Courses_U</targetReference>
+            </connector>
+            <label>Courses U</label>
+        </rules>
+        <rules>
+            <name>Informations_g_n_rales</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Subject</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Demande liée aux jeux</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Subject</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Demande d’informations générales</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Assign_Informations_g_n_rales</targetReference>
+            </connector>
+            <label>Informations générales</label>
+        </rules>
+    </decisions>
+    <environments>Default</environments>
+    <interviewLabel>Service Clients Update Manual Cases {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Service Clients Update Manual Cases</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>FREE_FORM_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>Update_Ticket_Type_Lyon</name>
+        <label>Update Ticket Type Lyon</label>
+        <locationX>50</locationX>
+        <locationY>443</locationY>
+        <inputAssignments>
+            <field>Ticket_Type__c</field>
+            <value>
+                <stringValue>Lyon</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_Ticket_Type_U_Central</name>
+        <label>Update Ticket Type U Central</label>
+        <locationX>1106</locationX>
+        <locationY>743</locationY>
+        <inputAssignments>
+            <field>Ticket_Type__c</field>
+            <value>
+                <stringValue>U Central</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Type</field>
+            <value>
+                <elementReference>vType</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>936</locationX>
+        <locationY>48</locationY>
+        <connector>
+            <targetReference>Case_Type</targetReference>
+        </connector>
+        <object>Case</object>
+        <recordTriggerType>Create</recordTriggerType>
+        <triggerType>RecordBeforeSave</triggerType>
+    </start>
+    <status>Active</status>
+    <variables>
+        <name>vType</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+</Flow>

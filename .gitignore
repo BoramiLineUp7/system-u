@@ -1,0 +1,13 @@
+# .gitignore
+.sfdx/
+.sf/
+.localdevserver/
+.idea/
+.vscode/
+*.iml
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+node_modules/
+coverage/
+.chrome/

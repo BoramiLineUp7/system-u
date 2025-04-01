@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mode_de_cl_ture__c</fullName>
+    <deprecated>false</deprecated>
+    <label>Mode de clôture</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Unitaire</fullName>
+                <default>false</default>
+                <label>Unitaire</label>
+            </value>
+            <value>
+                <fullName>Modèle 6</fullName>
+                <default>false</default>
+                <label>Clôture en masse anciennes demandes (Clôture groupée)</label>
+            </value>
+            <value>
+                <fullName>Modèle 1</fullName>
+                <default>false</default>
+                <label>Problème Connexion (Clôture groupée)</label>
+            </value>
+            <value>
+                <fullName>Modèle 2</fullName>
+                <default>false</default>
+                <label>Modifier / Annuler commande (Clôture groupée)</label>
+            </value>
+            <value>
+                <fullName>Modèle 3</fullName>
+                <default>false</default>
+                <label>Créneaux indisponibles (Clôture groupée)</label>
+            </value>
+            <value>
+                <fullName>Modèle 4</fullName>
+                <default>false</default>
+                <label>Supprimer compte (Clôture groupée)</label>
+            </value>
+            <value>
+                <fullName>Modèle 5</fullName>
+                <default>false</default>
+                <label>Transfert Magasin (Clôture groupée)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

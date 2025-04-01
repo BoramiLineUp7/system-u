@@ -1,0 +1,62 @@
+<template>
+    <div>
+        <lightning-input
+            name="enter-search"
+            label={labels.searchLabel}
+            type="search"
+            onchange={searchField}
+            is-loading={issearching}
+        ></lightning-input>
+    </div>
+    
+    <!--template if:true={records}>
+        <div class="slds-m-top_medium">
+            <lightning-datatable data={records} columns={columns} key-field="Id" onclick={handleSelectRow}></lightning-datatable>
+        </div>
+    </template-->
+
+    <div class={resultClass} if:true={records}>
+        <lightning-card >
+            <div class="slds-card__body_inner">
+                <!-- Start list -->
+                <lightning-layout multiple-rows="true" pull-to-boundary="small">
+                    <template for:each={records} for:item="record">
+                        <lightning-layout-item key={record.Id} size="12" medium-device-size="6" large-device-size="3" class="slds-p-around_x-small">
+                            <!-- Start tile -->
+                            <lightning-card class="cs-tile" data-id={record.Id} onclick={handleSelect}>
+                                <h2 slot="title">
+                                    <img src={record.image} class="slds-m-right_small" data-record={record}></img>
+                                    {record.ProvidedName__c}
+                                </h2>
+                                <div class="slds-p-horizontal_small">
+                                    <div class="slds-media">
+                                        <div class="slds-media__body">
+                                            <p class="slds-m-bottom_xx-small">{record.Account__r.Name}</p>
+                                            <p class="slds-m-bottom_xx-small">{record.ProvidedEmail__c}</p>
+                                            <p class="slds-m-bottom_xx-small">{record.ProvidedNumberOfPersons__c}</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </lightning-card>
+                            <!-- End tile -->
+                        </lightning-layout-item>
+                    </template>
+                </lightning-layout>
+                <!-- End list -->
+                <!-- Data failed to load -->
+                <template if:true={error}>
+                    <div class="slds-text-color_error">
+                        An error occurred while loading the list
+                    </div>
+                </template>
+            </div>
+        </lightning-card>
+    </div>
+
+    <template if:true={singleRecordId}>
+        <div class="slds-m-top_medium">
+            <c-customer-slot-check record-id={singleRecordId}></c-customer-slot-check>
+        </div>
+    </template>
+
+</template>

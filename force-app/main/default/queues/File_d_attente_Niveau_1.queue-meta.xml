@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>File d&apos;attente Niveau 1</name>
+    <queueMembers>
+        <users>
+            <user>frederic.dalem@externe.cooperative-u.fr</user>
+            <user>ines.jeaied@externe.cooperative-u.fr</user>
+            <user>slimane.alileriche@externe.systeme-u.fr</user>
+        </users>
+    </queueMembers>
+    <queueRoutingConfig>File_d_attente_Niveau_1</queueRoutingConfig>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

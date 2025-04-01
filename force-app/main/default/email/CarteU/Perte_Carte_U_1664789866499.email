@@ -1,0 +1,85 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<table cellpadding="0" cellspacing="0" class="contentpageDefaultEmailTemplatePageTemplate" id="contentpage_emailTemplateBodyContent" style="background-color: #E9EAEC;" width="100%">
+	
+		<tr>
+			<td align="center" width="100%">
+			<table cellpadding="0" cellspacing="0" class="contentRoot" style="background-color: #FFFFFF;" width="600">
+				
+					<tr>
+						<td style="padding-top: 10px; padding-bottom: 10px; padding-left: 10px; padding-right: 10px;">
+						<table cellpadding="0" cellspacing="0" class="contentbuilderBaseColumnRow" style="background-color:;" width="100%">
+							
+								<tr valign="top">
+									<td class="columnCell" style="vertical-align: top;display: inline-block" width="100%">
+									<table style="width: 100%; border-collapse: collapse; word-break:break-word;">
+										
+											<tr>
+												<td>
+												<table cellpadding="0" cellspacing="0" id="contentRegion" style="width: 100%; border-collapse: collapse; word-break: break-word; font-size: 14px">
+													
+														<tr>
+															<td style="font-family: Arial, Helvetica, sans-serif;"><span style="font-family:Georgia,Times New Roman,Times,serif;"><span style="font-size:14px;"><img alt="NOUVEAU HEADER MAIL" src="" style="max-width: 1140.17px; width: 717px; height: 310px;" title="NOUVEAU HEADER MAIL" /> </span><br />
+															<br />
+															<span style="font-size:14px;">Bonjour&nbsp;{{{Recipient.Name}}},<br />
+															<br />
+															Merci d'avoir pris le temps de nous écrire.<br />
+															&nbsp;<br />
+															Vous avez perdu votre Carte U ? Pas de panique !&nbsp;<br />
+															<br />
+															Rendez-vous simplement à l'accueil de votre magasin, où notre équipe se fera un plaisir de vous aider. Ils bloqueront votre ancienne carte et vous en créeront une nouvelle, avec votre solde actuel.<br />
+															&nbsp;<br />
+															&nbsp;Une fois votre nouvelle carte délivrée, vous n'aurez plus qu'à la lier à votre compte U en :&nbsp;<br />
+															&nbsp;&nbsp; &nbsp;- Vous connectant à votre compte U,<br />
+															&nbsp;&nbsp; &nbsp;- Puis en sélectionnant l'onglet "Carte U" en haut de la page puis "Changer de carte U",<br />
+															&nbsp;&nbsp; &nbsp;- En renseignant votre nouveau numéro de carte ainsi que votre date de naissance.<br />
+															<br />
+															Nous vous remercions de votre fidélité {{{Recipient.FirstName}}} et restons à votre disposition pour toute question !&nbsp;<br />
+															<br />
+															Toute l'équipe Coopérative U vous souhaite une excellente journée{{{Recipient.Quick_Text_Message_4__c}}}, à très vite dans nos Magasins U ou sur Courses U !</span></span><br />
+															<br />
+															<span style="font-family:Open Sans;"><span style="font-family:Georgia,Times New Roman,Times,serif;">Bien cordialement,<br />
+															Votre Service Relation Clients U.</span></span><br />
+															<br />
+															<br />
+															<img alt="LogoPRC_N1_GrandeDistribution01_1" src="" style="max-width: 670.1062499999999px" title="LogoPRC_N1_GrandeDistribution01_1" /><br />
+															<span style="font-family:Open Sans;">&nbsp;</span></td>
+														</tr>
+													
+												</table>
+												</td>
+											</tr>
+										
+									</table>
+									</td>
+								</tr>
+							
+						</table>
+						<img alt="NOUVEAU FOOTER MAIL" src="" style="max-width: 1140.17px; width: 722px; height: 102px;" title="NOUVEAU FOOTER MAIL" />
+						<div style="display: flex; padding-top: 10px; align-items: center;">
+						<div style="width: 100%; height: 100%; padding-right: 10px;">
+						<hr style="height: 0; border: 0; border-top: 1px solid grey;" /></div>
+
+						<div style="text-align: center; display: flex;"><br />
+						&nbsp;<a href="https://t.email.systeme-u.fr/r/?id=h83f118c3,31f32a30,2f504380"> <img alt="Logo_facebook" src="" style="max-width: 400px; width: 41px; height: 40px;" title="Logo_facebook" /> </a> &nbsp; &nbsp;&nbsp;<a href="https://t.email.systeme-u.fr/r/?id=h83f118c3,31f32a30,2f504381"> <img alt="Logo_twitter" src="" style="max-width: 1140.17px; width: 41px; height: 40px;" title="Logo_twitter" /> </a> &nbsp; &nbsp;&nbsp;<a href="https://t.email.systeme-u.fr/r/?id=h83f118c3,31f32a30,2f504382"> <img alt="Logo_instagram" src="" style="max-width: 1140.17px; width: 41px; height: 40px;" title="Logo_instagram" /> </a> &nbsp; &nbsp;&nbsp;<a href="https://t.email.systeme-u.fr/r/?id=h83f118c3,31f32a30,2f504383"> <img alt="Logo_youtube" src="" style="max-width: 1140.17px; width: 41px; height: 40px;" title="Logo_youtube" /> </a></div>
+
+						<div style="width: 100%; height: 100%; padding-left: 15px;">
+						<hr style="height: 0; border: 0; border-top: 1px solid grey;" /></div>
+						</div>
+						</td>
+					</tr>
+				
+			</table>
+			</td>
+		</tr>
+	
+</table>
+
+<div id="" style="left: 239.6px; top: 19px;">&nbsp;</div>
+
+<div id="" style="left: 239.6px; top: 19px;">&nbsp;</div>
+</body>
+</html>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Compacte_Compte_Magasin</fullName>
+    <fields>Name</fields>
+    <fields>StoreEmail__c</fields>
+    <fields>Phone</fields>
+    <fields>BillingAddress</fields>
+    <label>Compacte Compte Magasin</label>
+</CompactLayout>

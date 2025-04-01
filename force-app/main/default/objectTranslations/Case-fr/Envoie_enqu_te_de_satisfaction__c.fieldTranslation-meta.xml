@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Enquête sat. --></label>
+    <name>Envoie_enqu_te_de_satisfaction__c</name>
+    <picklistValues>
+        <masterLabel>Envoyé</masterLabel>
+        <translation><!-- Envoyé --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

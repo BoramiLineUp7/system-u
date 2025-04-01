@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CausesEtSousCauseObligatLyon</fullName>
+    <active>true</active>
+    <description>Les champs Causes et Sous-cause pour le Service client Lyon sont obligatoires</description>
+    <errorConditionFormula>AND(
+RecordType.DeveloperName = &apos;CustomerCase&apos;,
+NOT(ISPICKVAL(PRIORVALUE(Status), &apos;Closed&apos;)),
+ISPICKVAL(Status, &apos;Closed&apos;),
+ISBLANK( TEXT(Cause__c) ),
+ISBLANK( TEXT(Sous_cause__c) ),
+OR(
+$Profile.Name = &quot;Système U Lyon : Service Client Responsable&quot;,
+$Profile.Name = &quot;Système U Lyon : Service Client Team Member&quot;),
+NOT( $Permission.CaseBypassValidationRules )
+)</errorConditionFormula>
+    <errorMessage>Les champs &quot;Cause&quot; et &quot;Sous-cause&quot; sont obligatoires</errorMessage>
+</ValidationRule>

@@ -1,0 +1,30 @@
+.loading-spinner{
+    position: relative;
+    display: inline-block;
+}
+.validity-icon{
+    /* position: absolute; */
+    /* z-index: 1; */
+    /* margin-top: 1.8rem; */
+    right: 5px;
+    position: relative;
+    top: -1.5rem;
+    /* right: -10px; */
+    float: right;
+}
+.expected-datetime{
+    color:red;
+}
+
+/*@media (max-width: 1199px){
+    .validity-icon {
+        margin-left: 94%;
+    }
+}
+
+@media (max-width: 767px){
+    .validity-icon {
+        margin-left: 90%;
+        margin-top: 2.1rem;
+    }
+}*/

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Email_ID__c</fullName>
+    <caseSensitive>true</caseSensitive>
+    <deprecated>false</deprecated>
+    <description>Contains the email adresse of Personal Account.
+It&apos;s used as External ID to match with Commerce Cloud Clients.</description>
+    <externalId>true</externalId>
+    <label>Email ID</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Email</type>
+    <unique>true</unique>
+</CustomField>

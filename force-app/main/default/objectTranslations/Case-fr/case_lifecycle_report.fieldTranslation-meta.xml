@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Rapport sur le cycle de vie des demandes</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <name>case_lifecycle_report</name>
+    <startsWith>Consonant</startsWith>
+</CustomFieldTranslation>

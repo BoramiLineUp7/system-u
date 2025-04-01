@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Mode de clôture --></label>
+    <name>Mode_de_cl_ture__c</name>
+    <picklistValues>
+        <masterLabel>Clôture en masse anciennes demandes (Clôture groupée)</masterLabel>
+        <translation><!-- Clôture en masse anciennes demandes (Clôture groupée) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Créneaux indisponibles (Clôture groupée)</masterLabel>
+        <translation><!-- Créneaux indisponibles (Clôture groupée) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Modifier / Annuler commande (Clôture groupée)</masterLabel>
+        <translation><!-- Modifier / Annuler commande (Clôture groupée) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Problème Connexion (Clôture groupée)</masterLabel>
+        <translation><!-- Problème Connexion (Clôture groupée) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Supprimer compte (Clôture groupée)</masterLabel>
+        <translation><!-- Supprimer compte (Clôture groupée) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Transfert Magasin (Clôture groupée)</masterLabel>
+        <translation><!-- Transfert Magasin (Clôture groupée) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Unitaire</masterLabel>
+        <translation><!-- Unitaire --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

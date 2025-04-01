@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Niveau d&apos;accès</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Niveaux d&apos;accès</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <name>account_access_level</name>
+    <startsWith>Consonant</startsWith>
+</CustomFieldTranslation>

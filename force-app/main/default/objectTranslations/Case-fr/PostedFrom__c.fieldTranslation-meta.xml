@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Le ticket a-t-il été créé depuis le Site web ou depuis l&apos;Application Mobile ? --></help>
+    <label><!-- Provenance --></label>
+    <name>PostedFrom__c</name>
+    <picklistValues>
+        <masterLabel>Application Mobile</masterLabel>
+        <translation><!-- Application Mobile --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Site Web</masterLabel>
+        <translation><!-- Site Web --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

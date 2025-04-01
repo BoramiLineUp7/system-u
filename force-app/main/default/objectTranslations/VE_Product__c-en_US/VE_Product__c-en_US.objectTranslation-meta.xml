@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>VE Product</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>VE Products</value>
+    </caseValues>
+    <layouts>
+        <layout>VE Product Layout - Editable</layout>
+        <sections>
+            <label><!-- Autres --></label>
+            <section>Autres</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Details --></label>
+            <section>Details</section>
+        </sections>
+        <sections>
+            <label><!-- Details alimentaires --></label>
+            <section>Details alimentaires</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>VE Product Layout - Read Only</layout>
+        <sections>
+            <label><!-- Autres --></label>
+            <section>Autres</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Details --></label>
+            <section>Details</section>
+        </sections>
+        <sections>
+            <label><!-- Details alimentaires --></label>
+            <section>Details alimentaires</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>VE Product Layout - Store</layout>
+        <sections>
+            <label><!-- Autres --></label>
+            <section>Autres</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Details --></label>
+            <section>Details</section>
+        </sections>
+        <sections>
+            <label><!-- Details alimentaires --></label>
+            <section>Details alimentaires</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Name --></nameFieldLabel>
+    <quickActions>
+        <label><!-- Publish Product --></label>
+        <name>Publish_Product</name>
+    </quickActions>
+    <recordTypes>
+        <description><!-- National product available to all stores --></description>
+        <label><!-- National --></label>
+        <name>National</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Local product unique per store --></description>
+        <label><!-- Magasin --></label>
+        <name>Store</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage>
+            <!-- The field does not follow the pattern specific to its record type.
+For &quot;Store&quot; is  &quot;11111_3368954000901&quot;
+For &quot;National&quot; is  &quot;3368954000901&quot; -->
+        </errorMessage>
+        <name>ProductId_Pattern_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- La vente ne peut pas être modifiée --></errorMessage>
+        <name>Validate_Product_Catalog_Change</name>
+    </validationRules>
+</CustomObjectTranslation>

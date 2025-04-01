@@ -1,0 +1,7 @@
+Bonjour {!HeadlessAuth.FirstName} {!HeadlessAuth.LastName},
+
+            Pour confirmer votre inscription en tant que {!HeadlessAuth.Username} dans {!Community.Name},
+
+            nous devons vérifier votre identité. Saisissez ce mot de passe à usage unique à l'invite.
+
+            Mot de passe : {!Verification.Code}

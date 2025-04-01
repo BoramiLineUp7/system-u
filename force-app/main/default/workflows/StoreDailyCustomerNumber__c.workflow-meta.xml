@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>UpdateMaxNumberFromCurrent</fullName>
+        <description>Update max number of customer by copying the current number of customer</description>
+        <field>MaxCustomerNumber__c</field>
+        <formula>CurrentCustomerNumber__c</formula>
+        <name>Copy current number to max number</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>CurrentNumberUpdated</fullName>
+        <actions>
+            <name>UpdateMaxNumberFromCurrent</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Workflow rule that triggers when :
+- The current number of customer is updated (not blank)
+- The max number of customer is blank or lower than the new current number</description>
+        <formula>ISCHANGED(CurrentCustomerNumber__c) &amp;&amp; NOT(ISBLANK(CurrentCustomerNumber__c)) &amp;&amp; (ISBLANK(MaxCustomerNumber__c) || (CurrentCustomerNumber__c &gt; MaxCustomerNumber__c))</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+</Workflow>

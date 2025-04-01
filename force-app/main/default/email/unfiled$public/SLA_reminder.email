@@ -1,0 +1,11 @@
+Bonjour {!User.FirstName},
+
+Il vous reste {!Case.Fin_SLA_interne__c} du SLA pour traiter cette demande ci-dessous: 
+
+Numéro de la demande: {!Case.CaseNumber}
+
+Catégorie de la demande: {!Case.Type}
+
+Sous-catégorie de la demande: {!Case.Email_Category__c}
+
+SLA d'origine: {!Case.SLA_d_origine__c}

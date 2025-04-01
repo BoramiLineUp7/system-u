@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>StatusHorsDelaisManualChangePrevent</fullName>
+    <active>true</active>
+    <description>To prevent users to manually set a case&apos;s status to Hors delais. It can only be set by the automation when SLA time is over.</description>
+    <errorConditionFormula>AND(
+				OR($Profile.Name = &apos;Centrale : Service client Responsable&apos;,
+							$Profile.Name = &apos;Centrale : Service Client Team Member&apos; ,
+							$Profile.Name = &apos;Centrale : Service Client Team Member Plus&apos;
+						)	,
+				 Flow_Bypass__c = FALSE,
+				ISCHANGED( Status ),  
+				ISPICKVAL( Status, &quot;Hors délais&quot;) 
+			)</errorConditionFormula>
+    <errorMessage>Vous ne pouvez pas modifier manuellement le statut de la demande à &quot;Hors délais&quot;, il passera automatiquement à &quot; Hors délais&quot; lorsque le temps du SLA sera terminé.</errorMessage>
+</ValidationRule>

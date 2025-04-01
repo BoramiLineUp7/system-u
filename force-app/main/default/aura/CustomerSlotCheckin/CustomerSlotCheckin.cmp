@@ -1,0 +1,14 @@
+<aura:component implements="forceCommunity:availableForAllPageTypes">
+    <aura:attribute name="code" type="String" /> <!--default="a035E00000IwcOgQAJ"-->
+    <aura:handler name="change" value="{! v.code }" action="{! c.codeChange }"/>
+
+    <div class="slds-grid slds-wrap">
+        <div class="slds-col slds-size_1-of-1 slds-medium-size_1-of-2">
+            <c:AQRCodeScanner code="{! v.code }"/> <!--  -->
+        </div>
+        <div class="slds-col slds-size_1-of-1 slds-medium-size_1-of-2">
+            <c:customerSlotCheck recordId="{! v.code }"/>
+        </div>
+    </div>
+    
+</aura:component>

@@ -1,0 +1,881 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>54.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <assignments>
+        <name>CarteU</name>
+        <label>Carte U</label>
+        <locationX>1426</locationX>
+        <locationY>73</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Type</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>Carte U</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>CaseType</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Compte_CoursesU</name>
+        <label>Compte Courses U</label>
+        <locationX>915</locationX>
+        <locationY>242</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Type</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>Compte Courses U</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>CaseType</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Compte_Magasins_U</name>
+        <label>Compte Magasins U</label>
+        <locationX>996</locationX>
+        <locationY>85</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Type</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>Compte Magasin U</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>CaseType</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Eticket</name>
+        <label>E-ticket</label>
+        <locationX>866</locationX>
+        <locationY>417</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Type</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>E-ticket</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>CaseType</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>General_Info</name>
+        <label>General Info</label>
+        <locationX>738</locationX>
+        <locationY>496</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Type</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>Informations générales</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>CaseType</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>General_Info_Participation_jeu</name>
+        <label>General Info &amp; Participation jeu</label>
+        <locationX>701</locationX>
+        <locationY>666</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Type</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>Informations générales</stringValue>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>$Record.Email_Category__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>Participation jeu</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>CaseType</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>RGPD2</name>
+        <label>RGPD</label>
+        <locationX>575</locationX>
+        <locationY>560</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Type</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>RGPD</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>CaseType</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Set24HLSA</name>
+        <label>Set24HLSA</label>
+        <locationX>281</locationX>
+        <locationY>315</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Fin_SLA_interne__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>24 H</stringValue>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>$Record.SLA_d_origine__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>24 H</stringValue>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <assignments>
+        <name>Set48HSLA</name>
+        <label>Set48HSLA</label>
+        <locationX>284</locationX>
+        <locationY>180</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Fin_SLA_interne__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>48 H</stringValue>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>$Record.SLA_d_origine__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>48 H</stringValue>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <assignments>
+        <name>Set72HSLA</name>
+        <label>Set72HSLA</label>
+        <locationX>285</locationX>
+        <locationY>32</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Fin_SLA_interne__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>72 H</stringValue>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>$Record.SLA_d_origine__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>72 H</stringValue>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <decisions>
+        <name>CaseType</name>
+        <label>CaseType</label>
+        <locationX>662</locationX>
+        <locationY>183</locationY>
+        <defaultConnectorLabel>Résultat par défaut</defaultConnectorLabel>
+        <rules>
+            <name>X72_H</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Email_Category__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Autre</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Email_Category__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Droit de suppression</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Email_Category__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Droit de portabilité</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Email_Category__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Droit d&apos;accès</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Email_Category__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Animation jeux</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Email_Category__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Défis &amp; offres</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Email_Category__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Autre (RGPD)</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>SLA_72H_Already_Set</targetReference>
+            </connector>
+            <label>72H</label>
+        </rules>
+        <rules>
+            <name>X48_H</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Email_Category__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Modalités paiement commande</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Email_Category__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Code Promo</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Email_Category__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Informations générales Carte U / carte virtuelle</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Email_Category__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Enregistrement / changement carte U</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Email_Category__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Fraude</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Email_Category__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Erreur de configuration / réception ticket</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Email_Category__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Droit de rectification / modification données clients</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Email_Category__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Droit d&apos;opposition</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Email_Category__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Demandes hors périmètre</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Email_Category__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Droit d&apos;opposition</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Email_Category__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Suggestions / remarques client</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>SLA_48H_Already_Set</targetReference>
+            </connector>
+            <label>48H</label>
+        </rules>
+        <rules>
+            <name>X24_H</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Email_Category__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Création compte &amp; informations</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Email_Category__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Besoin assistance pour connexion</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Email_Category__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Regroupement des comptes</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Email_Category__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Modification / annulation d&apos;une commande</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Email_Category__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Réclamation client sur commande</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Email_Category__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Création Carte U</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Email_Category__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Informations programme fidélité</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Email_Category__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Code PIN</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Email_Category__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Réclamation</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Email_Category__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Information générales</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Email_Category__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Réclamation / incident client en magasin</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Email_Category__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Perte</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Email_Category__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Livraison</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>SLA_24H_Already_Set</targetReference>
+            </connector>
+            <label>24H</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>SLA_24H_Already_Set</name>
+        <label>SLA 24H Already Set</label>
+        <locationX>451</locationX>
+        <locationY>331</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Is_SLA_24H</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.SLA_d_origine__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue>24 H</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Set24HLSA</targetReference>
+            </connector>
+            <label>Is SLA 24H</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>SLA_48H_Already_Set</name>
+        <label>SLA 48H Already Set</label>
+        <locationX>443</locationX>
+        <locationY>180</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Is_SLA_48H</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.SLA_d_origine__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue>48 H</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Set48HSLA</targetReference>
+            </connector>
+            <label>Is SLA 48H</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>SLA_72H_Already_Set</name>
+        <label>SLA 72H Already Set</label>
+        <locationX>447</locationX>
+        <locationY>33</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Is_SLA_72H</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.SLA_d_origine__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue>72 H</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Set72HSLA</targetReference>
+            </connector>
+            <label>Is SLA 72H</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Type_Criteria</name>
+        <label>Type Criteria</label>
+        <locationX>1345</locationX>
+        <locationY>356</locationY>
+        <defaultConnector>
+            <targetReference>CaseType</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Carte_U</name>
+            <conditionLogic>1 AND 2 AND (3 OR 4)</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Subject</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Demande liée à la carte U</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.RecordTypeId</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <elementReference>get_Lyon_Record_Type_to_Exclude.Id</elementReference>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>ISNEW</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record__Prior.Subject</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue>Demande liée à la carte U</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>CarteU</targetReference>
+            </connector>
+            <label>Carte U</label>
+        </rules>
+        <rules>
+            <name>Informations_g_n_rales</name>
+            <conditionLogic>3 AND ((4 AND (1 OR 2)) OR (1 AND 5) OR (2 AND 6))</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Subject</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Demande liée aux jeux</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Subject</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Demande d’informations générales</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.RecordTypeId</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <elementReference>get_Lyon_Record_Type_to_Exclude.Id</elementReference>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>ISNEW</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record__Prior.Subject</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue>Demande liée aux jeux</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record__Prior.Subject</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue>Demande d’informations générales</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>General_Info</targetReference>
+            </connector>
+            <label>Informations générales</label>
+        </rules>
+        <rules>
+            <name>RGPD</name>
+            <conditionLogic>2 AND ((3 AND (1 OR 5)) OR (1 AND 4) OR (5 AND 6))</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Subject</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Demande liée aux données personnelles</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.RecordTypeId</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <elementReference>get_Lyon_Record_Type_to_Exclude.Id</elementReference>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>ISNEW</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record__Prior.Subject</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue>Demande liée aux données personnelles</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Subject</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Suppression de compte</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record__Prior.Subject</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue>Suppression de compte</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>RGPD2</targetReference>
+            </connector>
+            <label>RGPD</label>
+        </rules>
+        <rules>
+            <name>E_ticket</name>
+            <conditionLogic>1 AND 2 AND (3 OR 4)</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Subject</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Demande liée aux e-tickets</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.RecordTypeId</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <elementReference>get_Lyon_Record_Type_to_Exclude.Id</elementReference>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>ISNEW</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record__Prior.Subject</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue>Demande liée aux e-tickets</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Eticket</targetReference>
+            </connector>
+            <label>E-ticket</label>
+        </rules>
+        <rules>
+            <name>Compte_U</name>
+            <conditionLogic>2 AND ((3 AND (1 OR 5)) OR (1 AND 4) OR (5 AND 6))</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Subject</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Demande liée à votre compte client</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.RecordTypeId</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <elementReference>get_Lyon_Record_Type_to_Exclude.Id</elementReference>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>ISNEW</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record__Prior.Subject</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue>Demande liée à votre compte client</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Subject</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Demande lié au site</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record__Prior.Subject</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue>Demande lié au site</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Compte_Magasins_U</targetReference>
+            </connector>
+            <label>Compte U</label>
+        </rules>
+        <rules>
+            <name>Courses_U</name>
+            <conditionLogic>1 AND 2 AND (3 OR 4)</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Subject</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Code Promo</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.RecordTypeId</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <elementReference>get_Lyon_Record_Type_to_Exclude.Id</elementReference>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>ISNEW</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record__Prior.Subject</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue>Code Promo</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Compte_CoursesU</targetReference>
+            </connector>
+            <label>Courses U</label>
+        </rules>
+        <rules>
+            <name>Ventes_Priv_es_U_et_U_R_servation</name>
+            <conditionLogic>(1 AND 2) OR (1 AND 3)</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Subject</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Ventes Privées U et U Réservation</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>ISNEW</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record__Prior.Subject</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue>Ventes Privées U et U Réservation</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>General_Info_Participation_jeu</targetReference>
+            </connector>
+            <label>Ventes Privées U et U Réservation</label>
+        </rules>
+    </decisions>
+    <environments>Default</environments>
+    <formulas>
+        <name>CaseAgeHours</name>
+        <dataType>Number</dataType>
+        <expression>(NOW() - {!$Record.CreatedDate}) *24</expression>
+        <scale>2</scale>
+    </formulas>
+    <formulas>
+        <name>ISNEW</name>
+        <dataType>Boolean</dataType>
+        <expression>ISNEW()</expression>
+    </formulas>
+    <formulas>
+        <name>SubjectChanged</name>
+        <dataType>Boolean</dataType>
+        <expression>ISCHANGED({!$Record.Subject})</expression>
+    </formulas>
+    <interviewLabel>Case - Original SLA Assignment {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Case - Original SLA Assignment</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>FREE_FORM_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <name>get_Lyon_Record_Type_to_Exclude</name>
+        <label>get Lyon Record Type to Exclude</label>
+        <locationX>1524</locationX>
+        <locationY>444</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Type_Criteria</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>DeveloperName</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Demande_client_Lyon</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>SobjectType</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Case</stringValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>RecordType</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <start>
+        <locationX>1232</locationX>
+        <locationY>587</locationY>
+        <connector>
+            <targetReference>get_Lyon_Record_Type_to_Exclude</targetReference>
+        </connector>
+        <filterFormula>NOT(ISPICKVAL({!$Record.Status},&quot;Closed&quot;))&amp;&amp; {!$Record.RecordType.DeveloperName}&lt;&gt;&quot;Demande_client_Lyon&quot;</filterFormula>
+        <object>Case</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordBeforeSave</triggerType>
+    </start>
+    <status>Active</status>
+    <triggerOrder>1600</triggerOrder>
+    <variables>
+        <name>HoursSLA</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+</Flow>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SelectionModeCloture5EtEmailMagasin</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( 
+$User.ByPass_ValidationRule__c = false,  ISPICKVAL(Mode_de_cl_ture__c, &quot;Modèle 5&quot;),
+ Store__r.Id = &quot;&quot;
+)</errorConditionFormula>
+    <errorMessage>Merci de vérifier l&apos;adresse email du magasin qui semble inexistante. Si la demande n&apos;est pas liée à un Magasin, merci de le renseigner et enregistrer la demande avant de sélectionner ce mode de clôture.</errorMessage>
+</ValidationRule>

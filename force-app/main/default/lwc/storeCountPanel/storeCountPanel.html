@@ -1,0 +1,21 @@
+<template>
+    <div class="container">
+        <h1 class="count-header slds-text-heading_medium slds-text-align_center slds-p-around_medium">
+            Nombre personnes en magasin
+        </h1>
+        <template if:true={store}>
+            <!-- max {store.StoreMaxCustomer__c} -->
+            <ul class="slds-list_horizontal slds-m-top_large slds-m-bottom_large">
+                <li class="slds-align_absolute-center">
+                    <lightning-button onclick={handleAction} data-op="minus" label="-1"></lightning-button>
+                </li>
+                <li class={countClass}>
+                    {store.StoreCustomerCount__c}
+                </li>
+                <li class="slds-align_absolute-center">
+                    <lightning-button onclick={handleAction} data-op="plus" label="+1"></lightning-button>
+                </li>
+            </ul>
+        </template>
+    </div>
+</template>

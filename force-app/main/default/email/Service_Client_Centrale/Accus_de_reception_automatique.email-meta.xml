@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Systeme_U</letterhead>
+    <name>Accusé de réception automatique</name>
+    <style>freeForm</style>
+    <subject>Accusé de réception automatique</subject>
+    <textOnly>Ceci est un message automatique
+
+Bonjour,
+
+Merci de nous avoir contacté 🙂 Nous accusons réception de votre message.
+
+Une première réponse vous sera apportée sous 3 jours ouvrés*.
+
+Nous vous invitons également à consulter nos FAQ Magasins U (https://www.magasins-u.com/moteur-de-recherche?motCle=FAQ) et Courses U (https://www.coursesu.com/faq). Vous y trouverez les réponses aux questions les plus fréquentes.
+
+Nous sommes à votre disposition du lundi au vendredi de 8h30 à 18h30.
+
+A très vite dans nos Magasins U ou sur Courses U!
+
+Votre Service Relation Clients U
+
+
+* Sachez que selon votre demande vous pourrez être recontacté plus rapidement. En revanche, si votre demande concerne vos données personnelles, le délai peut être allongé.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

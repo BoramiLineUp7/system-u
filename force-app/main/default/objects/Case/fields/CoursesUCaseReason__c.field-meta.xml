@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CoursesUCaseReason__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Reason selected by the customer on Courses U website</description>
+    <label>Raison Courses U</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ProductIssue</fullName>
+                <default>false</default>
+                <label>J&apos;ai un souci avec un produit</label>
+            </value>
+            <value>
+                <fullName>OrderIssue</fullName>
+                <default>false</default>
+                <label>Problème avec une commande</label>
+            </value>
+            <value>
+                <fullName>DeliveryIssue</fullName>
+                <default>false</default>
+                <label>Problème avec une livraison</label>
+            </value>
+            <value>
+                <fullName>WebsiteIssue</fullName>
+                <default>false</default>
+                <label>Problème sur le site</label>
+            </value>
+            <value>
+                <fullName>SuggestProduct</fullName>
+                <default>false</default>
+                <label>Suggérer un produit</label>
+            </value>
+            <value>
+                <fullName>LoyaltyCardIssue</fullName>
+                <default>false</default>
+                <label>J&apos;ai un soucis avec ma carte U</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Autre</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

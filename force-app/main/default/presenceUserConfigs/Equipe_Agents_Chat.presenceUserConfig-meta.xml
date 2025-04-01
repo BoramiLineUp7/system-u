@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PresenceUserConfig xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assignments>
+        <profiles>
+            <profile>SU Standard User</profile>
+        </profiles>
+    </assignments>
+    <capacity>5</capacity>
+    <enableAutoAccept>false</enableAutoAccept>
+    <enableDecline>false</enableDecline>
+    <enableDeclineReason>false</enableDeclineReason>
+    <enableDisconnectSound>false</enableDisconnectSound>
+    <enableRequestSound>false</enableRequestSound>
+    <label>Equipe Agents Chat</label>
+</PresenceUserConfig>

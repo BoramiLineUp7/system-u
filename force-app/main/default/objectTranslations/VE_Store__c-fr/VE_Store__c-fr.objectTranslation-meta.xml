@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Store</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Stores</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Store Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Store settings --></label>
+            <section>Store settings</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Nom du magasin</nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

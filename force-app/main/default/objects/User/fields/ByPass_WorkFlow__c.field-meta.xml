@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ByPass_WorkFlow__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Permet de ByPasser l&apos;exécution des automatisations de type Workflow et Process Builder. Lorsque la case est cochée les automatisations ne se lancent pas.</description>
+    <inlineHelpText>Permet de ByPasser l&apos;exécution des automatisations de type Workflow et Process Builder. Lorsque la case est cochée les automatisations ne se lancent pas.</inlineHelpText>
+    <label>ByPass WorkFlow</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>

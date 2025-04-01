@@ -1,0 +1,54 @@
+<aura:component description="QRCode Scanner Lightning Component">
+    <ltng:require scripts="{! $Resource.jsqr }" afterScriptsLoaded="{! c.afterLoad }"/>
+    <aura:attribute name="image" type="String"/>
+    <aura:attribute name="canPlay" type="Boolean" default="false"/>
+    <aura:attribute name="code" type="String"/>
+    <aura:attribute name="errorMsg" type="String"/>
+    <aura:attribute name="count" type="Integer" default="0"/>
+    <aura:attribute name="debug" type="Boolean" default="false"/>
+    <aura:attribute name="uagent" type="String" />
+    <aura:attribute name="iosWarningMsg" type="String"/>
+
+    <div class="myContainer">
+        <div id="loadingmessage">{! $Label.c.QRCodeWebcamLoading }</div>
+        <aura:if isTrue="{! !empty(v.iosWarningMsg) }">
+            <div >{! v.iosWarningMsg }</div>
+        </aura:if>
+        <video id="camera-stream" class="{! join(' ','preview-video',v.code ? 'active-code' : '' ) }"></video>
+        <img id="snap" class="slds-hide" style="width:100%;" />
+
+        <!--<p id="error-message"></p>-->
+
+        <div class="controls slds-m-top_small">
+            <lightning:buttonIcon iconName="utility:play" size="medium" variant="brand" onclick="{! c.handleClickStart }" alternativeText="Start" title="Start" />
+            <lightning:buttonIcon iconName="utility:pause" size="medium" variant="border-filled" onclick="{! c.handleClickPause }" alternativeText="Pause" title="Pause" />
+            <lightning:buttonIcon iconName="utility:sync" size="medium" variant="brand" onclick="{! c.handleClickFlip }" alternativeText="Flip" title="Flip" />
+            <lightning:buttonIcon iconName="utility:stop" size="medium" variant="border-filled" onclick="{! c.handleClickStop }" alternativeText="Stop" title="Stop" />
+            <lightning:buttonIcon iconName="utility:loop" size="medium" variant="border-filled" onclick="{! c.handleClickReset }" alternativeText="Reset" title="Reset" />
+        </div>
+
+        <div class="slds-m-top_small">
+            <span>
+                <aura:if isTrue="{! empty(v.code) }">
+                    {! $Label.c.QRCodeNoCodeDetected }
+                    <!--aura:set attribute="else">
+                        {! v.code }
+                    </aura:set-->
+                </aura:if>
+            </span>
+        </div>
+
+        <aura:if isTrue="{! not(empty(v.errorMsg)) }">
+            <div>
+                {! v.errorMsg }
+            </div>
+        </aura:if>
+        <aura:if isTrue="{! v.debug }">
+            <div>{! v.errorMsg }</div>
+            <div>{! v.uagent }</div>
+        </aura:if>
+        <!-- Hidden canvas element. Used for taking snapshot of video. -->
+        <canvas class="slds-hide" width="640" height="480"></canvas>
+
+    </div>
+</aura:component>

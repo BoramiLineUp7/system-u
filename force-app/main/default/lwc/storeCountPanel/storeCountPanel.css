@@ -1,0 +1,21 @@
+.green{
+    color: #26ABA4;
+}
+.warning{
+ color: #F59623;
+}
+.alert{
+    color: #C11C2F;
+}
+.counter{
+    font-size: 3rem;
+}
+.count-header{
+    background-color: #007D8F;
+    background-color: var(--lwc-colorTextBrand);
+    color: white;
+}
+.container{
+    max-width: 21rem;
+    border: 1px solid rgb(212, 212, 212);
+}

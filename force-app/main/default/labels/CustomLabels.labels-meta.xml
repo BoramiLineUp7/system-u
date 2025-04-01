@@ -1,0 +1,908 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>CSCheckEmailsError</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CSCheckEmailsError</shortDescription>
+        <value>Les adresses email saisies ne sont pas identiques</value>
+    </labels>
+    <labels>
+        <fullName>CSCheckInEnterNumber</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CSCheckInEnterNumber</shortDescription>
+        <value>Entrer un nombre</value>
+    </labels>
+    <labels>
+        <fullName>CSCheckInErrorPerson</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CSCheckInErrorPerson</shortDescription>
+        <value>Le nombre de personne doit être renseigné</value>
+    </labels>
+    <labels>
+        <fullName>CSCheckInStatus</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CS CheckIn Status</shortDescription>
+        <value>Statut</value>
+    </labels>
+    <labels>
+        <fullName>CSCheckInTitle</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CS CheckIn Title</shortDescription>
+        <value>Cliquer sur le bouton correspondant au nombre de personnes ou renseigner le nombre de personne avec le bouton Check-in</value>
+    </labels>
+    <labels>
+        <fullName>CSCheckInUpdateSuccess</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CSCheckInUpdateSuccess</shortDescription>
+        <value>La mise à jour a été effectuée</value>
+    </labels>
+    <labels>
+        <fullName>CSCheckQuotaError</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CSCheckQuotaError</shortDescription>
+        <value>Vous avez atteint votre quota de réservation pour cette période.</value>
+    </labels>
+    <labels>
+        <fullName>CSCheckRequiredFieldsError</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CSCheckRequiredFieldsError</shortDescription>
+        <value>Informations saisies incomplètes</value>
+    </labels>
+    <labels>
+        <fullName>CSCreateUnknownSlotError</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CSCreateUnknownSlotError</shortDescription>
+        <value>Créneau de réservation inconnu</value>
+    </labels>
+    <labels>
+        <fullName>CSInsertSuccessMsg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CSInsertSuccessMsg</shortDescription>
+        <value>Votre réservation a été prise en compte</value>
+    </labels>
+    <labels>
+        <fullName>EMAIL_TO_CASE_EMAIL_ADDRESSES</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Email Addresses to enable Case Description parser</shortDescription>
+        <value>no-reply@coursesu.com;no-reply+recette@coursesu.com;</value>
+    </labels>
+    <labels>
+        <fullName>FORWARDING_SENDER_EMAIL</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FORWARDING_SENDER_EMAIL</shortDescription>
+        <value>magasins-u@ms.contactevery.one</value>
+    </labels>
+    <labels>
+        <fullName>Inventory_Alert_ToolTip</fullName>
+        <categories>Ventes Ephémères</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Inventory Alert ToolTip</shortDescription>
+        <value>More than X products in stock!</value>
+    </labels>
+    <labels>
+        <fullName>LWC_LBL_ProdAssignment</fullName>
+        <categories>Ventes Ephémères</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Product assignment</shortDescription>
+        <value>Product Assignment</value>
+    </labels>
+    <labels>
+        <fullName>LWC_LBL_RefPrice</fullName>
+        <categories>Ventes Ephémères</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reference price</shortDescription>
+        <value>Reference price</value>
+    </labels>
+    <labels>
+        <fullName>LWC_LBL_SalePrice</fullName>
+        <categories>Ventes Ephémères</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Sale price</shortDescription>
+        <value>Sale price</value>
+    </labels>
+    <labels>
+        <fullName>MSG_Store_Product_Store_Missing</fullName>
+        <categories>Ventes Ephémères</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Store product store missing</shortDescription>
+        <value>Store is required for local store products</value>
+    </labels>
+    <labels>
+        <fullName>QRCodeBrowserCompatibility</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>QRCode Browser Compatibility</shortDescription>
+        <value>Votre navigateur ne prend pas en charge l&apos;interface navigator.getUserMedia</value>
+    </labels>
+    <labels>
+        <fullName>QRCodeNoCodeDetected</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>QRCode No Code Detected</shortDescription>
+        <value>Aucun QRCode détecté</value>
+    </labels>
+    <labels>
+        <fullName>QRCodeWebcamLoading</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>QRCode Webcam Loading</shortDescription>
+        <value>⌛ Chargement de la webcam...</value>
+    </labels>
+    <labels>
+        <fullName>QRCodeiOSWarning</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>QRCode iOS Warning</shortDescription>
+        <value>Il semble que vous utilisiez un autre navigateur que Safari sur un périphérique Apple. Si la webcam ne se charge pas, merci d&apos;essayer avec Safari.</value>
+    </labels>
+    <labels>
+        <fullName>SC_Account_Name</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SC_Account_Name</shortDescription>
+        <value>Account Name</value>
+    </labels>
+    <labels>
+        <fullName>SC_Additional_Information</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SC_Additional_Information</shortDescription>
+        <value>Additional Information</value>
+    </labels>
+    <labels>
+        <fullName>SC_Browser_Information</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SC_Browser_Information</shortDescription>
+        <value>Browser Information</value>
+    </labels>
+    <labels>
+        <fullName>SC_Cancel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SC_Cancel</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>SC_Case_Information</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SC_Case_Information</shortDescription>
+        <value>Case Information</value>
+    </labels>
+    <labels>
+        <fullName>SC_Client_Information</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Information Client</shortDescription>
+        <value>Information Client</value>
+    </labels>
+    <labels>
+        <fullName>SC_Contact_Name</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SC_Contact_Name</shortDescription>
+        <value>Contact Name</value>
+    </labels>
+    <labels>
+        <fullName>SC_Description_Information</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SC_Description_Information</shortDescription>
+        <value>Description Information</value>
+    </labels>
+    <labels>
+        <fullName>SC_Edit</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Edit</shortDescription>
+        <value>Edit</value>
+    </labels>
+    <labels>
+        <fullName>SC_LinkARelatedRecord</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Link a related record.</shortDescription>
+        <value>Link a related record.</value>
+    </labels>
+    <labels>
+        <fullName>SC_New_Account</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>New Account</shortDescription>
+        <value>New Account</value>
+    </labels>
+    <labels>
+        <fullName>SC_Save</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SC_Save</shortDescription>
+        <value>Save</value>
+    </labels>
+    <labels>
+        <fullName>SC_Save_n_New</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SC_Save_n_New</shortDescription>
+        <value>Save &amp; New</value>
+    </labels>
+    <labels>
+        <fullName>SC_Search_Account</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SC_Search_Account</shortDescription>
+        <value>Search Account</value>
+    </labels>
+    <labels>
+        <fullName>SC_Search_Contact</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SC_Search_Contact</shortDescription>
+        <value>Search Contact</value>
+    </labels>
+    <labels>
+        <fullName>SC_ServiceNow_Status</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SC ServiceNow Status</shortDescription>
+        <value>ServiceNow Status</value>
+    </labels>
+    <labels>
+        <fullName>SC_ServiceNow_Sync_Error_Message</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SC_ServiceNow_Sync_Error_Message</shortDescription>
+        <value>An error occurred while trying to sync Case with Oasis. Please contact system administrator.</value>
+    </labels>
+    <labels>
+        <fullName>ServiceNow_Name</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ServiceNow Name</shortDescription>
+        <value>ServiceNow</value>
+    </labels>
+    <labels>
+        <fullName>TodayCustomerSlotSearch</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Today Customer Slot Search</shortDescription>
+        <value>Rechercher un slot du jour (saisir une information client)</value>
+    </labels>
+    <labels>
+        <fullName>VE_Actual_Stock</fullName>
+        <categories>Ventes Ephémères</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>VE_Actual_Stock</shortDescription>
+        <value>Actual Stock</value>
+    </labels>
+    <labels>
+        <fullName>VE_AddStock</fullName>
+        <categories>Ventes Ephémères</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>VE_AddStock</shortDescription>
+        <value>Add Stock Amount</value>
+    </labels>
+    <labels>
+        <fullName>VE_Add_Remove_Stock</fullName>
+        <categories>Ventes Ephémères</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>VE_Add_Remove_Stock</shortDescription>
+        <value>Add / Remove Stock</value>
+    </labels>
+    <labels>
+        <fullName>VE_AssignmentsNotFound</fullName>
+        <categories>Ventes Ephémères</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>VE_AssignmentsNotFound</shortDescription>
+        <value>There are no assignments with correct price for this product</value>
+    </labels>
+    <labels>
+        <fullName>VE_AvailableStores</fullName>
+        <categories>Ventes Ephémères</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>VE_AvailableStores</shortDescription>
+        <value>Available Stores</value>
+    </labels>
+    <labels>
+        <fullName>VE_CancelButton</fullName>
+        <categories>Ventes Ephémères</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>VE_CancelButton</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>VE_CategoriesToPublish</fullName>
+        <categories>Ventes Ephémères</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>VE_CategoriesToPublish</shortDescription>
+        <value>Categories to be updated:</value>
+    </labels>
+    <labels>
+        <fullName>VE_CommerceStockValue</fullName>
+        <categories>Ventes Ephémères</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>VE_CommerceStockValue</shortDescription>
+        <value>SFCC Stock Amount</value>
+    </labels>
+    <labels>
+        <fullName>VE_CreateButton</fullName>
+        <categories>Ventes Ephémères</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>VE_CreateButton</shortDescription>
+        <value>Create</value>
+    </labels>
+    <labels>
+        <fullName>VE_Customer</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>VE_Customer</shortDescription>
+        <value>Customer</value>
+    </labels>
+    <labels>
+        <fullName>VE_Decrement_Counter</fullName>
+        <categories>Ventes Ephémères</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>VE_Decrement_Counter</shortDescription>
+        <value>Decrement Counter</value>
+    </labels>
+    <labels>
+        <fullName>VE_EmptyParameters</fullName>
+        <categories>Ventes Ephémères</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Empty Parameters</shortDescription>
+        <value>One or more parameters are empty! Class: {0} - Method: {1}</value>
+    </labels>
+    <labels>
+        <fullName>VE_End_Stock_Alert</fullName>
+        <categories>Ventes Ephémères</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>VE_End_Stock_Alert</shortDescription>
+        <value>End Of Stock Alert Threshold</value>
+    </labels>
+    <labels>
+        <fullName>VE_ErrProductNotPublished</fullName>
+        <categories>Ventes Ephémères</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>VE Error - Product not published (pricing)</shortDescription>
+        <value>This product is not yet published. It must be published before sending price details.</value>
+    </labels>
+    <labels>
+        <fullName>VE_ErrPublishFileUpload</fullName>
+        <categories>Ventes Ephémères</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>VE Error - Error during file upload to SFCC</shortDescription>
+        <value>An error occurred while uploading files to SFCC: {0}</value>
+    </labels>
+    <labels>
+        <fullName>VE_ErrPublishJob</fullName>
+        <categories>Ventes Ephémères</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>VE Error - Error starting publish job on SFCC</shortDescription>
+        <value>Error starting publish job: {0}</value>
+    </labels>
+    <labels>
+        <fullName>VE_Increment_Counter</fullName>
+        <categories>Ventes Ephémères</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>VE_Increment_Counter</shortDescription>
+        <value>Increment Counter</value>
+    </labels>
+    <labels>
+        <fullName>VE_Initial_Stock</fullName>
+        <categories>Ventes Ephémères</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>VE_Initial_Stock</shortDescription>
+        <value>Initial Stock</value>
+    </labels>
+    <labels>
+        <fullName>VE_IssueExternalMedia</fullName>
+        <categories>Ventes Ephémères</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>VE_IssueExternalMedia</shortDescription>
+        <value>There has been an issue with retrieving external media!</value>
+    </labels>
+    <labels>
+        <fullName>VE_JobStarted</fullName>
+        <categories>Ventes Ephémères</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Job Started</shortDescription>
+        <value>The Job with the Id: {0} has started at the following endpoint: {1}
+Response: {2}</value>
+    </labels>
+    <labels>
+        <fullName>VE_Loading</fullName>
+        <categories>Ventes Ephémères</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>VE_Loading</shortDescription>
+        <value>Loading</value>
+    </labels>
+    <labels>
+        <fullName>VE_LoggingTemplate</fullName>
+        <categories>Ventes Ephémères</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>VE_LoggingTemplate</shortDescription>
+        <value>The following error has occurred: LineNumber: {0} - Message: {1} - Stacktrace: {2}</value>
+    </labels>
+    <labels>
+        <fullName>VE_MSG_Body_OrderStatusReady</fullName>
+        <categories>Ventes Ephémères</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Order status ready body</shortDescription>
+        <value>Order status is ready, if any of the order lines are not available be sure to update the individual order lines.</value>
+    </labels>
+    <labels>
+        <fullName>VE_MSG_InvalidFileExtension</fullName>
+        <categories>Ventes Ephémères</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>VE_MSG_InvalidFileExtension</shortDescription>
+        <value>The uploaded file or the selected media URL should have a valid extension: {0}.</value>
+    </labels>
+    <labels>
+        <fullName>VE_MSG_MediaPublishingDone</fullName>
+        <categories>Ventes Ephémères</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Media publish notification message</shortDescription>
+        <value>Media publishing for the catalog job is complete</value>
+    </labels>
+    <labels>
+        <fullName>VE_MSG_Title_OrderStatusReady</fullName>
+        <categories>Ventes Ephémères</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Status ready message title</shortDescription>
+        <value>Order status ready</value>
+    </labels>
+    <labels>
+        <fullName>VE_MSG_XMLUploadDone</fullName>
+        <categories>Ventes Ephémères</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>VE_MSG_XMLUploadDone</shortDescription>
+        <value>The file {0} was successfully uploaded to SFCC.</value>
+    </labels>
+    <labels>
+        <fullName>VE_MasterCatalog</fullName>
+        <categories>Ventes Ephémères</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Master Catalog</shortDescription>
+        <value>Master Catalog Ventes Ephémères</value>
+    </labels>
+    <labels>
+        <fullName>VE_MediaComponentTitle</fullName>
+        <categories>Ventes Ephémères</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>VE_MediaComponentTitle</shortDescription>
+        <value>Media Records</value>
+    </labels>
+    <labels>
+        <fullName>VE_MediaImageUploader</fullName>
+        <categories>Ventes Ephémères</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>VE_MediaImageUploader</shortDescription>
+        <value>Upload une image (.png, .jpg, .jpeg)</value>
+    </labels>
+    <labels>
+        <fullName>VE_Minimum_Amount_Alert</fullName>
+        <categories>Ventes Ephémères</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>VE_Minimum_Amount_Alert</shortDescription>
+        <value>Inventory Threshold Alert cannot be Less than 0</value>
+    </labels>
+    <labels>
+        <fullName>VE_MissingContentType</fullName>
+        <categories>Ventes Ephémères</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>VE_MissingContentType</shortDescription>
+        <value>The Content-Type is missing for {0}</value>
+    </labels>
+    <labels>
+        <fullName>VE_ModalMediaTitle</fullName>
+        <categories>Ventes Ephémères</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>VE_ModalMediaTitle</shortDescription>
+        <value>Create Media</value>
+    </labels>
+    <labels>
+        <fullName>VE_NewCustomer</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>VE New Customer</shortDescription>
+        <value>New Customer</value>
+    </labels>
+    <labels>
+        <fullName>VE_NoDataToDisplay</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>VE_NoDataToDisplay</shortDescription>
+        <value>No data to display</value>
+    </labels>
+    <labels>
+        <fullName>VE_PDF_OrderHeader</fullName>
+        <categories>Ventes Ephémères</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>VE_PDF_OrderHeader</shortDescription>
+        <value>Order #{0}</value>
+    </labels>
+    <labels>
+        <fullName>VE_PricePublishSuccess</fullName>
+        <categories>Ventes Ephémères</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>VE Publish Price Success</shortDescription>
+        <value>Product assignment details successfully published</value>
+    </labels>
+    <labels>
+        <fullName>VE_PrintableView</fullName>
+        <categories>Ventes Ephémères</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>VE_PrintableView</shortDescription>
+        <value>Printable View</value>
+    </labels>
+    <labels>
+        <fullName>VE_ProductAlreadyPublished</fullName>
+        <categories>Ventes Ephémères</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Product already published</shortDescription>
+        <value>This product has already been published. In order to republish, use the &quot;force&quot; option.</value>
+    </labels>
+    <labels>
+        <fullName>VE_ProductsSection</fullName>
+        <categories>Ventes Ephémères</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>VE_ProductsSection</shortDescription>
+        <value>Products</value>
+    </labels>
+    <labels>
+        <fullName>VE_ProductsToPublish</fullName>
+        <categories>Ventes Ephémères</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>VE_ProductsToPublish</shortDescription>
+        <value>Products to be updated:</value>
+    </labels>
+    <labels>
+        <fullName>VE_PublishButton</fullName>
+        <categories>Ventes Ephémères</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>VE_PublishButton</shortDescription>
+        <value>Publish</value>
+    </labels>
+    <labels>
+        <fullName>VE_PublishNationalCatalog</fullName>
+        <categories>Ventes Ephémères</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>VE_PublishNationalCatalog</shortDescription>
+        <value>Publish National Catalog</value>
+    </labels>
+    <labels>
+        <fullName>VE_PublishPriceButton</fullName>
+        <categories>Ventes Ephémères</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>VE Publish Price Button</shortDescription>
+        <value>Publish Pricing</value>
+    </labels>
+    <labels>
+        <fullName>VE_PublishProduct</fullName>
+        <categories>Ventes Ephémères</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>VE_PublishProduct</shortDescription>
+        <value>Publish Product</value>
+    </labels>
+    <labels>
+        <fullName>VE_PublishProducts</fullName>
+        <categories>Ventes Ephémères</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Title for publishing the products</shortDescription>
+        <value>Publish Products</value>
+    </labels>
+    <labels>
+        <fullName>VE_Publish_Notification_Body</fullName>
+        <categories>Ventes Ephémères</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>VE Publish Notification Body</shortDescription>
+        <value>Publishing job for &quot;{0}&quot; is complete. {1} objects have been published to Commerce Cloud.</value>
+    </labels>
+    <labels>
+        <fullName>VE_Publish_Notification_Title</fullName>
+        <categories>Ventes Ephémères</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>VE Publish Notification Title</shortDescription>
+        <value>Catalog publishing job is done</value>
+    </labels>
+    <labels>
+        <fullName>VE_Remaining_Stock_Alert</fullName>
+        <categories>Ventes Ephémères</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>VE_Remaining_Stock_Alert</shortDescription>
+        <value>Enter the Remaining Stock to Trigger the Alert</value>
+    </labels>
+    <labels>
+        <fullName>VE_RequestSuccessful</fullName>
+        <categories>Ventes Ephémères</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>VE_RequestSuccessful</shortDescription>
+        <value>Request successful!</value>
+    </labels>
+    <labels>
+        <fullName>VE_Sale_Is_Finished</fullName>
+        <categories>Ventes Ephémères</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>La vente est terminée</shortDescription>
+        <value>La vente est terminée</value>
+    </labels>
+    <labels>
+        <fullName>VE_SaveButton</fullName>
+        <categories>Ventes Ephémères</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Save button</shortDescription>
+        <value>Save</value>
+    </labels>
+    <labels>
+        <fullName>VE_SearchButton</fullName>
+        <categories>Ventes Ephémères</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>VE_SearchButton</shortDescription>
+        <value>Search</value>
+    </labels>
+    <labels>
+        <fullName>VE_SelectStores</fullName>
+        <categories>Ventes Ephémères</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>VE_SelectStores</shortDescription>
+        <value>Select Stores</value>
+    </labels>
+    <labels>
+        <fullName>VE_SelectedStores</fullName>
+        <categories>Ventes Ephémères</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>VE_SelectedStores</shortDescription>
+        <value>Selected Stores</value>
+    </labels>
+    <labels>
+        <fullName>VE_StockPublishSuccess</fullName>
+        <categories>Ventes Ephémères</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>VE Publish Stock Success</shortDescription>
+        <value>Stock successfully synchronized</value>
+    </labels>
+    <labels>
+        <fullName>VE_StockSection</fullName>
+        <categories>Ventes Ephémères</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>VE_StockSection</shortDescription>
+        <value>Stock Info</value>
+    </labels>
+    <labels>
+        <fullName>VE_Stock_Alert_Management</fullName>
+        <categories>Ventes Ephémères</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>VE_Stock_Alert_Management</shortDescription>
+        <value>Stock Alert Management!</value>
+    </labels>
+    <labels>
+        <fullName>VE_Stock_Minimum_Alert</fullName>
+        <categories>Ventes Ephémères</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>VE_Stock_Minimum_Alert</shortDescription>
+        <value>Product Stock cannot be less than 0</value>
+    </labels>
+    <labels>
+        <fullName>VE_Stock_Sold</fullName>
+        <categories>Ventes Ephémères</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>VE_Stock_Sold</shortDescription>
+        <value>Stock Sold</value>
+    </labels>
+    <labels>
+        <fullName>VE_Store_Publish_Error</fullName>
+        <categories>Ventes Ephémères</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>VE_Store_Publish_Error</shortDescription>
+        <value>No configuration found</value>
+    </labels>
+    <labels>
+        <fullName>VE_SyncButton</fullName>
+        <categories>Ventes Ephémères</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>VE_SyncButton</shortDescription>
+        <value>Sync</value>
+    </labels>
+    <labels>
+        <fullName>VE_TITLE_MediaPublishingDone</fullName>
+        <categories>Ventes Ephémères</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Media publish notification title</shortDescription>
+        <value>Media publishing complete</value>
+    </labels>
+    <labels>
+        <fullName>VE_TITLE_XMLUploadDone</fullName>
+        <categories>Ventes Ephémères</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>VE_TITLE_XMLUploadDone</shortDescription>
+        <value>The XML Upload Finished</value>
+    </labels>
+    <labels>
+        <fullName>VE_TextEcoPart</fullName>
+        <categories>Ventes Ephémères</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Text EcoPart</shortDescription>
+        <value>Dont d&apos;éco-part : {0} €</value>
+    </labels>
+    <labels>
+        <fullName>VE_UnknownError</fullName>
+        <categories>Ventes Ephémères</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>VE_UnknownError</shortDescription>
+        <value>There was an issue with the request</value>
+    </labels>
+    <labels>
+        <fullName>VE_ValidFileFormat</fullName>
+        <categories>Ventes Ephémères</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>VE_ValidFileFormat</shortDescription>
+        <value>Please select a valid type!</value>
+    </labels>
+    <labels>
+        <fullName>VE_Validate_Stock</fullName>
+        <categories>Ventes Ephémères</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>VE_Validate_Stock</shortDescription>
+        <value>Validate</value>
+    </labels>
+    <labels>
+        <fullName>Ve_AddAssignements</fullName>
+        <categories>Ventes Ephémères</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ve_AddAssignements</shortDescription>
+        <value>Publish related PriceBooks and Inventory</value>
+    </labels>
+    <labels>
+        <fullName>Ve_FileSizeError</fullName>
+        <categories>Ventes Ephémères</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ve_FileSizeError</shortDescription>
+        <value>File size should be less then 2MB</value>
+    </labels>
+    <labels>
+        <fullName>Ve_FileUploaded</fullName>
+        <categories>Ventes Ephémères</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>File uploaded</shortDescription>
+        <value>The file {0} has been uploaded!</value>
+    </labels>
+    <labels>
+        <fullName>Ve_NextButton</fullName>
+        <categories>Ventes Ephémères</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ve_NextButton</shortDescription>
+        <value>Next</value>
+    </labels>
+    <labels>
+        <fullName>Ve_PageSize</fullName>
+        <categories>Ventes Ephémères</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ve_PageSize</shortDescription>
+        <value>Page Size</value>
+    </labels>
+    <labels>
+        <fullName>Ve_PreviousButton</fullName>
+        <categories>Ventes Ephémères</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ve_PreviousButton</shortDescription>
+        <value>Previous</value>
+    </labels>
+    <labels>
+        <fullName>Ve_PublishFullCatalog</fullName>
+        <categories>Ventes Ephémères</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ve_PublishFullCatalog</shortDescription>
+        <value>Full Catalog</value>
+    </labels>
+    <labels>
+        <fullName>Ve_PublishLocalCatalog</fullName>
+        <categories>Ventes Ephémères</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ve_PublishLocalCatalog</shortDescription>
+        <value>Publish Local Catalog</value>
+    </labels>
+    <labels>
+        <fullName>reCaptchaGenericError</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>reCaptchaGenericError</shortDescription>
+        <value>Une erreur inconnue est survenue lors du contrôle du captcha</value>
+    </labels>
+    <labels>
+        <fullName>reCaptchaVerifFailed</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>reCaptchaVerifFailed</shortDescription>
+        <value>Erreur lors de la vérification du captcha</value>
+    </labels>
+</CustomLabels>

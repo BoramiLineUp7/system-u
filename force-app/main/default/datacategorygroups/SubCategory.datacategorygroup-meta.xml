@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCategoryGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Soutien</label>
+                <name>Soutien</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Suggestions</label>
+                <name>Suggestions</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Gêne occasionnée</label>
+                <name>G_ne_occasionnee</name>
+            </dataCategory>
+            <label>Remerciements / Problèmes</label>
+            <name>Remerciements_Probl_mes</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Technique</label>
+            <name>Technique</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Vente masques</label>
+                <name>Vente_masques</name>
+            </dataCategory>
+            <label>COVID</label>
+            <name>COVID</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Créneaux Horaires</label>
+                <name>Cr_neaux_Horaires</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Mode de livraison</label>
+                <name>Mode_de_livraison</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Mode de retrait</label>
+                <name>Mode_de_retrait</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Paiement en ligne</label>
+                <name>Paiement_en_ligne</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Commande</label>
+                <name>Commande</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Qualité produit</label>
+                <name>Qualit_produit</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Modification Carte U</label>
+                <name>Modification_Carte_U</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Modification en ligne</label>
+                <name>Modif_en_ligne</name>
+            </dataCategory>
+            <label>Courses U</label>
+            <name>Courses_U</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Magasins U</label>
+            <name>Magasins_U</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Autres</label>
+            <name>Autres</name>
+        </dataCategory>
+        <label>Catégorie</label>
+        <name>Tout</name>
+    </dataCategory>
+    <label>Sous-categorie</label>
+    <objectUsage>
+        <object>KnowledgeArticleVersion</object>
+    </objectUsage>
+</DataCategoryGroup>

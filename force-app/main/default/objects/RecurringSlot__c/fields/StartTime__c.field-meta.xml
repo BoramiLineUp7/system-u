@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>StartTime__c</fullName>
+    <description>Define the starting time of the slot</description>
+    <inlineHelpText>Define the starting time of the slot</inlineHelpText>
+    <label>Start Time</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Time</type>
+</CustomField>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Magasins_Ambassadeurs</fullName>
+    <columns>Compte_Ambassadeur__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CommercialSignLabel__c</columns>
+    <columns>ACCOUNT.PHONE1</columns>
+    <columns>ACCOUNT.ADDRESS1_ZIP</columns>
+    <columns>ACCOUNT.ADDRESS1_CITY</columns>
+    <columns>StoreId__c</columns>
+    <columns>StoreEmail__c</columns>
+    <columns>ACCOUNT.LAST_UPDATE</columns>
+    <columns>ACCOUNT.CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Ambassadeur_formula__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>Magasins Ambassadeurs</label>
+    <sharedTo>
+        <group>Centrale_Service_Client</group>
+    </sharedTo>
+</ListView>

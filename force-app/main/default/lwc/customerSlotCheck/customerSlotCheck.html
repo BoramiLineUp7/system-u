@@ -1,0 +1,64 @@
+<!-- customer slot record checker in store -->
+<template>
+
+    <div if:true={isLoading}>
+        <lightning-card class="">
+            <div class="slds-align_absolute-center slds-m-top_large slds-m-bottom_large loading-spinner ">
+                <lightning-spinner alternative-text="Chargement" size="medium"></lightning-spinner>
+            </div>
+        </lightning-card>
+    </div>
+    <div if:true={noRecord}>
+        <lightning-card class="">
+            <span class="slds-align_absolute-center slds-m-top_large slds-m-bottom_large ">
+                Aucune réservation trouvée
+            </span>
+        </lightning-card>
+    </div>
+    <div if:true={slotRecord}>
+        <div>  
+            <span style="font-weight:600">{labels.status}:</span>
+            <img if:true={slotRecord} class="slds-m-left_small" src={imgSrc}></img>
+        </div>
+
+        <div class="slds-m-top_small slds-m-bottom_small">
+            <p>{labels.title}</p>
+            <lightning-button-group class="slds-m-top_small">
+                <lightning-button label="Check-in 1" title="Check-in" onclick={handleCheckIn} data-number="1"></lightning-button>
+                <lightning-button label="Check-in 2" title="Check-in" onclick={handleCheckIn} data-number="2"></lightning-button>
+                <lightning-button label="Check-in 3" title="Check-in" onclick={handleCheckIn} data-number="3"></lightning-button>
+                <lightning-button label="Check-in 4" title="Check-in" onclick={handleCheckIn} data-number="4"></lightning-button>
+                <lightning-button label="Check-in 5" title="Check-in" onclick={handleCheckIn} data-number="5"></lightning-button>
+            </lightning-button-group>
+        </div>
+        <!--div class="slds-m-bottom_small">
+            <div class="slds-grid">
+                <div class="slds-col slds-size_1-of-3">
+                    <lightning-input type="number" name="inputNumber" label={labels.enternum} class="num-of-people"></lightning-input>
+                </div>
+                <div class="slds-col slds-size_2-of-2 slds-m-top_medium slds-m-left_medium">
+                    <lightning-button label="Check-in" title="Check-in" onclick={handleCheckIn} ></lightning-button>
+                </div>
+            </div>
+        </div-->
+        <lightning-card class="slds-m-top_small">
+            <lightning-record-view-form
+                record-id={slotRecord.Id}
+                object-api-name="CustomerSlot__c"
+                onload={handleLoadEnd}>
+                <div class="slds-grid slds-theme_default">
+                    <div class="slds-col slds-size_1-of-1">
+                        <lightning-output-field field-name="Name"></lightning-output-field>
+                        <lightning-output-field field-name="Account__r.Name"></lightning-output-field>
+                        <lightning-output-field field-name="ProvidedName__c"></lightning-output-field>
+                        <lightning-output-field field-name="ProvidedEmail__c"></lightning-output-field>
+                        <lightning-output-field field-name="StartDatetime__c"></lightning-output-field>
+                        <lightning-output-field field-name="Status__c"></lightning-output-field>
+                        <lightning-output-field field-name="ProvidedNumberOfPersons__c"></lightning-output-field>
+                        <!--lightning-output-field field-name="StatusIcon__c"></lightning-output-field-->
+                    </div>
+                </div>
+            </lightning-record-view-form>
+        </lightning-card>
+    </div>
+</template>

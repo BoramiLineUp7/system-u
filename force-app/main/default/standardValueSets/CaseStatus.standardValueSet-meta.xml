@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>New</fullName>
+        <default>true</default>
+        <label>Nouveau</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>On Hold</fullName>
+        <default>false</default>
+        <label>En attente</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Hors délais</fullName>
+        <default>false</default>
+        <label>Hors délais</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Closed</fullName>
+        <default>false</default>
+        <label>Clôturé</label>
+        <closed>true</closed>
+    </standardValue>
+</StandardValueSet>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contact_must_exists</fullName>
+    <active>true</active>
+    <description>There must be one of the 3 following fields filled:
+- Contact Name
+- Account Name
+- Web Email &amp; Nom</description>
+    <errorConditionFormula>isblank( AccountId ) &amp;&amp; isblank( ContactId ) &amp;&amp; (isblank( SuppliedEmail ) || isblank( LastName__c )) &amp;&amp;  TEXT($User.UserType) != &quot;AutomatedProcess&quot;</errorConditionFormula>
+    <errorMessage>Vous devez renseigner un contact . A défaut, il faut une adresse email et un nom du contact.</errorMessage>
+</ValidationRule>

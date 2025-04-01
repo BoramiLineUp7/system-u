@@ -1,0 +1,11 @@
+Bonjour,
+
+Un nouveau commentaire a été ajouté à la demande XXX09.
+
+Sujet: {!Case.Subject}
+Description: {!Case.Description}
+Client: {!Case.Contact}
+
+{!Case.Link}
+
+Merci

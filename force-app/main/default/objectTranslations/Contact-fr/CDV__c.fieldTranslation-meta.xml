@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Segmentation CDV (Cycle de vie) du porteur de la Carte U renseignée dans la fiche de l&apos;internaute connecté. --></help>
+    <label><!-- Cycle de vie (CDV) --></label>
+    <name>CDV__c</name>
+</CustomFieldTranslation>

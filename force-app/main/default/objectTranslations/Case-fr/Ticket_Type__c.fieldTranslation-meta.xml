@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Type de ticket</label>
+    <name>Ticket_Type__c</name>
+    <picklistValues>
+        <masterLabel>Lyon</masterLabel>
+        <translation>Lyon</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>U Central</masterLabel>
+        <translation>U Central</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,82 @@
+<aura:component controller="EmailSenderDatabaseController" implements="flexipage:availableForAllPageTypes">
+    <aura:handler name="init" action="{!c.doInit}" value="{!this}"/>
+    <aura:attribute name="listOfCategories" type="List"/>
+    <aura:attribute name="listOfTemplates" type="List"/>
+    
+    <div class="slds-p-bottom_large">
+        <div aria-labelledby="selectionForm" class="slds-m-bottom_large">
+            <fieldset class="slds-box slds-theme__default slds-container--medium slds-m-horizontal_small">
+                <legend id="selectEmailConditions" class="slds-text-heading__small 
+                                                slds-p-vertical__medium">
+                    Sélection des conditions d'envoi
+                </legend>
+                
+                <form class="slds-form__stacked">
+                    <lightning:select aura:id="selectCategory"
+                                      name="selectCategory"
+                                      label="Catégorie d'emails à envoyer"
+                                      required="true"
+                                      value=""
+                                      onchange="{!c.doChangeSelected}"
+                                      messageWhenValueMissing="Vous devez définir la catégorie afin d'envoyer les emails.">
+                        <option value="">Sélectionnez une catégorie...</option>
+                        <aura:iteration items="{!v.listOfCategories}" var="item">
+                            <option text="{!item.label}" value="{!item.value}"/>
+                        </aura:iteration>
+                    </lightning:select>
+                    <lightning:select aura:id="selectTemplate"
+                                      name="selectTemplate"
+                                      label="Modèle d'emails à utiliser"
+                                      required="true"
+                                      value=""
+                                      onchange="{!c.doChangeSelected}"
+                                      messageWhenValueMissing="Vous devez définir le modèle d'email pour envoyer les emails.">
+                        <option value="">Sélectionnez un modèle...</option>
+                        <aura:iteration items="{!v.listOfTemplates}" var="item">
+                            <option text="{!item.label}" value="{!item.value}"/>
+                        </aura:iteration>
+                    </lightning:select>
+                    
+                    <br></br>
+                    <lightning:card aura:id="myWarning"
+                                    class="slds-hide"
+                                    title="Attention"
+                                    iconName="utility:warning">
+                        <br></br>
+                        <p class="slds-p-horizontal_large">
+                            <p>Vous avez sélectionné la catégorie d'email <span id="catgSpan" class="customSpan-1"></span> et le modèle d'email <span id="tmpSpan" class="customSpan-1"></span>.</p>
+                            <p>Actuellement <span id="nbSpan" class="customSpan-3"></span> Ticket(s) dont l'état de traitement en masse est <span class="customSpan-1">A envoyer</span> sont concernés par cette catégorie.</p>
+                            <br></br>
+                            <p><span class="customSpan-2">En appuyant sur le bouton <span class="customSpan-3">Envoyer les emails</span>, vous allez envoyer automatiquement des emails aux clients concernés par ces Ticket(s), sur la base du modèle d'email sélectionné.</span></p>
+                        </p>
+                        <br></br>
+                        <lightning:button variant="base" label="Annuler" onclick="{! c.annulation }" class="slds-m-horizontal_xx-large"/>
+                        <lightning:button aura:id="sendEmailButtonId" variant="destructive" label="Envoyer les emails" onclick="{! c.doSendEmails }" class="slds-float_right slds-m-horizontal_xx-large"/>
+                    </lightning:card>
+                    <br></br>
+                    <lightning:card aura:id="inProcess"
+                                    class="slds-hide"
+                                    title="Patientez..."
+                                    iconName="action:edit">
+                        <br></br>
+                        <p class="slds-p-horizontal_large">
+                            <p>Les envois sont en cours. Merci de bien vouloir patienter.</p>
+                        </p>
+                        <br></br>
+                    </lightning:card>
+                    <br></br>
+                    <lightning:card aura:id="mySuccess"
+                                    class="slds-hide"
+                                    title="Succès"
+                                    iconName="standard:task2">
+                        <br></br>
+                        <p class="slds-p-horizontal_large">
+                            <p><span id="okSpan" class="customSpan-3"></span><span class="customSpan-1"> email(s) ont été envoyés avec succès.</span></p>
+                        </p>
+                        <br></br>
+                    </lightning:card>
+                </form>
+            </fieldset>
+        </div>
+    </div>
+</aura:component>

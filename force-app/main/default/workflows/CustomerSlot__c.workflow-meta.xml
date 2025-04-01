@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>UpdateTechnicalStartDatetime</fullName>
+        <description>Update customer slot TechnicalStartDatetime__c by copying the StartDatetime__c field</description>
+        <field>TechnicalStartDatetime__c</field>
+        <formula>StartDatetime__c</formula>
+        <name>Update CustomerSlot StartDatetime</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>CreateCustomerSlot</fullName>
+        <actions>
+            <name>UpdateTechnicalStartDatetime</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Workflow rule that triggers when the customer slot is created</description>
+        <formula>true</formula>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+</Workflow>

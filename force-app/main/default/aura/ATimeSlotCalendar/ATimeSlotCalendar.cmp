@@ -1,0 +1,13 @@
+<aura:component implements="forceCommunity:availableForAllPageTypes">
+
+    <aura:attribute name="siteKey" type="String" default="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"/> <!-- default key = testing -->
+    <aura:attribute name="isRecaptchaEnabled" type="Boolean" default="true"/>
+    <aura:attribute name="token" type="String"/>
+
+    <c:timeSlotCalendar token="{! v.token }" captchaRequired="{! v.isRecaptchaEnabled }" onvalidatecaptcha="{! c.handleValidateCaptcha }" onresetcaptcha="{! c.handleReset }"/>
+
+    <aura:if isTrue="{! v.isRecaptchaEnabled }">
+        <c:reCaptcha aura:id="GoogleRecaptcha" siteKey="{! v.siteKey }" callback="{! c.captchaValidated }" token="{! v.token }"/>
+    </aura:if>
+
+</aura:component>

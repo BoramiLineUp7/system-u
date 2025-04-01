@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NumberOfPersonValues</fullName>
+    <active>true</active>
+    <description>Verify if the number of persons coming for this booking is between 1 and max value (custom setting)</description>
+    <errorConditionFormula>NOT(ISBLANK(ProvidedNumberOfPersons__c)) &amp;&amp; (ProvidedNumberOfPersons__c&lt;1 || ProvidedNumberOfPersons__c&gt;$Setup.QueueBustingConfig__c.MaxNumberOfPersons__c)</errorConditionFormula>
+    <errorMessage>Vous pouvez réserver  de 1 à 5 places maximum par créneau</errorMessage>
+</ValidationRule>

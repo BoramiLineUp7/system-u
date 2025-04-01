@@ -1,0 +1,5 @@
+<design:component>
+    <!-- recaptacha attributes are exposed here just to avoid unecessary server roundtrip -->
+    <design:attribute name="isRecaptchaEnabled" label="Enable reCaptcha validation" description="click this checkbox to enable the reCaptcha component"/> 
+    <design:attribute name="siteKey" label="Google reCaptcha Site Key" description="public site key provided by google"/>
+</design:component>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Product Store Assignment</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Product Store Assignments</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Product Store Assignment Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Prix et Stock --></label>
+            <section>Prix et Stock</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Affectation produit</nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- La vente ne peut pas être modifiée --></errorMessage>
+        <name>Catalog_Change_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Le produit ne peut pas être modifié --></errorMessage>
+        <name>Product_Change_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Pour les produits vendu à l&apos;unité KG ou L le prix à l&apos;unité est obligatoire --></errorMessage>
+        <name>ValidateSaleUnitPriceIfUnitSpecified</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Pour les produits vendu à l&apos;unité KG ou L le prix à l&apos;unité est obligatoire --></errorMessage>
+        <name>ValidateUnitPriceIfUnitSpecified</name>
+    </validationRules>
+</CustomObjectTranslation>

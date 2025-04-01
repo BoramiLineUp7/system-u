@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Réponse type 1 pour clôturer des demandes en groupé</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Systeme_U</letterhead>
+    <name>SU - Modèle 1 de clôture groupée</name>
+    <style>freeForm</style>
+    <subject>Les Magasins U vous répondent</subject>
+    <textOnly>Bonjour {!Contact.Salutation} {!Contact.Name},
+
+Nous vous remercions pour votre message.
+
+En raison d&apos;une très forte affluence, le service CoursesU peut rencontrer ponctuellement quelques ralentissements ou dysfonctionnements techniques sur le site internet et l&apos;application mobile. Les équipes techniques sont entièrement mobilisées pour garantir la stabilité du service et vous permettre de passer vos commandes dans les meilleures conditions. 
+
+Nous vous prions de nous excuser pour la gêne occasionnée.
+
+Bien cordialement,
+Votre service clients U.
+
+
+Date/heure du message : {!Case.CreatedDate + 0}
+Message d&apos;origine :
+{!Case.Description}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

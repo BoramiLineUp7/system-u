@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Réponse type 5 pour clôturer des demandes en groupé (Magasin)</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Systeme_U</letterhead>
+    <name>SU - Modèle 5 de clôture groupée (Magasin)</name>
+    <style>freeForm</style>
+    <subject>Les Magasins U vous répondent</subject>
+    <textOnly>Bonjour,
+
+Nous vous transférons la demande d&apos;un client pour lui apporter une réponse personnalisée qui relève de l&apos;activité du magasin.
+Si vous avez besoin d&apos;éléments complémentaires, n&apos;hésitez pas à nous solliciter.
+
+Bien cordialement,
+Votre service clients U.
+
+
+Date/heure du message : {!Case.CreatedDate + 0}
+Email Client : {!Contact.Email}
+Message d&apos;origine :
+{!Case.Description}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

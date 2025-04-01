@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ByPass_ValidationRule__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Permet de ByPasser l&apos;exécution des règles de validation quand cette case est cochée.</description>
+    <inlineHelpText>Permet de ByPasser l&apos;exécution des règles de validation quand cette case est cochée.</inlineHelpText>
+    <label>ByPass ValidationRule</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>

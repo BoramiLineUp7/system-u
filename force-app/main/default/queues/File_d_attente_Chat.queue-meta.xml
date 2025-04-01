@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>File d&apos;attente - Chat</name>
+    <queueMembers>
+        <users>
+            <user>sjamon.salesforce@system-u.fr</user>
+        </users>
+    </queueMembers>
+    <queueRoutingConfig>File_d_attente_Chat</queueRoutingConfig>
+    <queueSobject>
+        <sobjectType>LiveChatTranscript</sobjectType>
+    </queueSobject>
+</Queue>

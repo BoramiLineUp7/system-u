@@ -1,0 +1,12 @@
+.app {
+    overflow: scroll;
+    background-color:#FFFFFF;
+}
+.calendar-col-header{
+    font-weight: 500;
+}
+.loading-spinner{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}

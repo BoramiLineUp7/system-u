@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <actionCalls>
+        <name>Create_Note</name>
+        <label>Create Note</label>
+        <locationX>923</locationX>
+        <locationY>550</locationY>
+        <actionName>SC_ServiceNowNoteInvocable</actionName>
+        <actionType>apex</actionType>
+        <connector>
+            <targetReference>Note_Created</targetReference>
+        </connector>
+        <flowTransactionModel>Automatic</flowTransactionModel>
+        <inputParameters>
+            <name>caseId</name>
+            <value>
+                <elementReference>recordId</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>comment</name>
+            <value>
+                <elementReference>Commentaire</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>commentType</name>
+            <value>
+                <elementReference>Note_Type</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>SC_ServiceNowNoteInvocable</nameSegment>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </actionCalls>
+    <apiVersion>59.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <choices>
+        <name>Courses_U</name>
+        <choiceText>Courses U</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Courses U</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>Magasin_U</name>
+        <choiceText>Magasin U</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Magasin U</stringValue>
+        </value>
+    </choices>
+    <decisions>
+        <name>Note_Created</name>
+        <label>Note Created</label>
+        <locationX>917</locationX>
+        <locationY>747</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Success</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Create_Note.success</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>SuccessfullyCreated</targetReference>
+            </connector>
+            <label>Success</label>
+        </rules>
+        <rules>
+            <name>Error</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Create_Note.success</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>User_Profile</targetReference>
+            </connector>
+            <label>Error</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>User_Profile</name>
+        <label>User Profile</label>
+        <locationX>928</locationX>
+        <locationY>912</locationY>
+        <defaultConnector>
+            <targetReference>Error_Users</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Is_Admin</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>$Profile.Name</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Administrateur système</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Profile.Name</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>System Administrator</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Error_Admin</targetReference>
+            </connector>
+            <label>Is Admin</label>
+        </rules>
+    </decisions>
+    <dynamicChoiceSets>
+        <name>NoteType</name>
+        <dataType>Picklist</dataType>
+        <displayField xsi:nil="true"/>
+        <object xsi:nil="true"/>
+        <picklistField>NoteType__c</picklistField>
+        <picklistObject>Note__c</picklistObject>
+    </dynamicChoiceSets>
+    <environments>Default</environments>
+    <formulas>
+        <name>currentDateTime</name>
+        <dataType>DateTime</dataType>
+        <expression>{!$Flow.CurrentDateTime}</expression>
+    </formulas>
+    <interviewLabel>Service Clients sync Note to ServiceNow {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Service Clients sync Note to ServiceNow</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>FREE_FORM_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>Flow</processType>
+    <screens>
+        <name>Create_Service_Now_Incident</name>
+        <label>ServiceNow</label>
+        <locationX>922</locationX>
+        <locationY>380</locationY>
+        <allowBack>false</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <connector>
+            <targetReference>Create_Note</targetReference>
+        </connector>
+        <fields>
+            <name>Label</name>
+            <fieldText>&lt;p style=&quot;text-align: center;&quot;&gt;&lt;strong style=&quot;font-size: 16px; background-color: rgb(255, 255, 255);&quot;&gt;Créer : Commentaire&lt;/strong&gt;&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <fields>
+            <name>Note_Type</name>
+            <choiceReferences>NoteType</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>Type de commentaire</fieldText>
+            <fieldType>DropdownBox</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <name>Commentaire</name>
+            <fieldText>Commentaire</fieldText>
+            <fieldType>LargeTextArea</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <nextOrFinishButtonLabel>Enregistrer</nextOrFinishButtonLabel>
+        <showFooter>true</showFooter>
+        <showHeader>false</showHeader>
+    </screens>
+    <screens>
+        <name>Error_Admin</name>
+        <label>Error</label>
+        <locationX>936</locationX>
+        <locationY>1101</locationY>
+        <allowBack>false</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <fields>
+            <name>Copy_1_of_Error_Message_Output</name>
+            <fieldText>&lt;p&gt;&lt;strong style=&quot;color: rgb(255, 0, 0); font-size: 14px;&quot;&gt;﻿&lt;/strong&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;Erreur:&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;﻿&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt;{!Create_Note.errorMessage}&lt;/span&gt;&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <nextOrFinishButtonLabel>Send Case to ServiceNow</nextOrFinishButtonLabel>
+        <showFooter>true</showFooter>
+        <showHeader>false</showHeader>
+    </screens>
+    <screens>
+        <name>Error_Users</name>
+        <label>Error</label>
+        <locationX>1167</locationX>
+        <locationY>974</locationY>
+        <allowBack>false</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <fields>
+            <name>Copy_2_of_Error_Message_Output</name>
+            <fieldText>&lt;p&gt;&lt;strong style=&quot;color: rgb(255, 0, 0); font-size: 14px;&quot;&gt;﻿&lt;/strong&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;Erreur:&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;﻿&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt;{!$Label.SC_ServiceNow_Sync_Error_Message}&lt;/span&gt;&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <nextOrFinishButtonLabel>Send Case to ServiceNow</nextOrFinishButtonLabel>
+        <showFooter>true</showFooter>
+        <showHeader>false</showHeader>
+    </screens>
+    <screens>
+        <name>SuccessfullyCreated</name>
+        <label>Success</label>
+        <locationX>706</locationX>
+        <locationY>743</locationY>
+        <allowBack>false</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <fields>
+            <name>SuccessMessage</name>
+            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;OASIS Commentarie créée avec succès&lt;/strong&gt;&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>false</showHeader>
+    </screens>
+    <start>
+        <locationX>458</locationX>
+        <locationY>48</locationY>
+        <connector>
+            <targetReference>Create_Service_Now_Incident</targetReference>
+        </connector>
+    </start>
+    <status>Active</status>
+    <variables>
+        <name>recordId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+</Flow>

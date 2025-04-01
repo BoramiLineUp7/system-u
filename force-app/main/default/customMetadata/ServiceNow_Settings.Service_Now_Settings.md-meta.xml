@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Service Now Settings</label>
+    <protected>false</protected>
+    <values>
+        <field>CoursesUCaseTypes__c</field>
+        <value xsi:type="xsd:string">Compte Courses U</value>
+    </values>
+    <values>
+        <field>CoursesUCategory__c</field>
+        <value xsi:type="xsd:string">Courses U</value>
+    </values>
+    <values>
+        <field>CoursesUId__c</field>
+        <value xsi:type="xsd:string">59ace102c3f2b550357e2145df013164</value>
+    </values>
+    <values>
+        <field>CoursesUUCategory__c</field>
+        <value xsi:type="xsd:string">fafd5734dbed14509ebc07f2ca961951</value>
+    </values>
+    <values>
+        <field>MagasinsUCaseTypes__c</field>
+        <value xsi:type="xsd:string">Compte Magasin U</value>
+    </values>
+    <values>
+        <field>MagasinsUCategory__c</field>
+        <value xsi:type="xsd:string">Magasin U</value>
+    </values>
+    <values>
+        <field>MagasinsUId__c</field>
+        <value xsi:type="xsd:string">550fa2a647717910c7600161e36d43ec</value>
+    </values>
+    <values>
+        <field>MagasinsUUCategory__c</field>
+        <value xsi:type="xsd:string">940e1f34dbed14509ebc07f2ca96191b</value>
+    </values>
+    <values>
+        <field>Password__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Priority__c</field>
+        <value xsi:type="xsd:string">2880</value>
+    </values>
+    <values>
+        <field>RequestTimeout__c</field>
+        <value xsi:type="xsd:double">2000.0</value>
+    </values>
+    <values>
+        <field>TimezoneShift__c</field>
+        <value xsi:type="xsd:double">1.0</value>
+    </values>
+    <values>
+        <field>Token__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Username__c</field>
+        <value xsi:nil="true"/>
+    </values>
+</CustomMetadata>

@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sous_cause__c</fullName>
+    <deprecated>false</deprecated>
+    <label>Sous-cause</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Cause__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Assortiment</fullName>
+                <default>false</default>
+                <label>Assortiment</label>
+            </value>
+            <value>
+                <fullName>Carte U</fullName>
+                <default>false</default>
+                <label>Carte U</label>
+            </value>
+            <value>
+                <fullName>Commande non livrée (en partie/en totalité)</fullName>
+                <default>false</default>
+                <label>Commande non livrée (en partie/en totalité)</label>
+            </value>
+            <value>
+                <fullName>Commande non livrée (en partie/en totalité) IDS</fullName>
+                <default>false</default>
+                <label>Commande non livrée (en partie/en totalité) IDS</label>
+            </value>
+            <value>
+                <fullName>DLC</fullName>
+                <default>false</default>
+                <label>DLC</label>
+            </value>
+            <value>
+                <fullName>Erreur quantité</fullName>
+                <default>false</default>
+                <label>Erreur quantité</label>
+            </value>
+            <value>
+                <fullName>Facturation</fullName>
+                <default>false</default>
+                <label>Facturation</label>
+            </value>
+            <value>
+                <fullName>FLEG</fullName>
+                <default>false</default>
+                <label>FLEG</label>
+            </value>
+            <value>
+                <fullName>Frais de livraison</fullName>
+                <default>false</default>
+                <label>Frais de livraison</label>
+            </value>
+            <value>
+                <fullName>Inversion commandes/produits</fullName>
+                <default>false</default>
+                <label>Inversion commandes/produits</label>
+            </value>
+            <value>
+                <fullName>Inversion sac/commande IDS</fullName>
+                <default>false</default>
+                <label>Inversion sac/commande IDS</label>
+            </value>
+            <value>
+                <fullName>Livraison</fullName>
+                <default>false</default>
+                <label>Livraison</label>
+            </value>
+            <value>
+                <fullName>Magasin</fullName>
+                <default>false</default>
+                <label>Magasin</label>
+            </value>
+            <value>
+                <fullName>Mise en sac</fullName>
+                <default>false</default>
+                <label>Mise en sac</label>
+            </value>
+            <value>
+                <fullName>Montant débité</fullName>
+                <default>false</default>
+                <label>Montant débité</label>
+            </value>
+            <value>
+                <fullName>Pains oubliés</fullName>
+                <default>false</default>
+                <label>Pains oubliés</label>
+            </value>
+            <value>
+                <fullName>Prix</fullName>
+                <default>false</default>
+                <label>Prix</label>
+            </value>
+            <value>
+                <fullName>Produits cassés/ abimés</fullName>
+                <default>false</default>
+                <label>Produits cassés/ abimés</label>
+            </value>
+            <value>
+                <fullName>Produits cassés/ abimés IDS</fullName>
+                <default>false</default>
+                <label>Produits cassés/ abimés IDS</label>
+            </value>
+            <value>
+                <fullName>Produits décongelés</fullName>
+                <default>false</default>
+                <label>Produits décongelés</label>
+            </value>
+            <value>
+                <fullName>Produits manquants facturés</fullName>
+                <default>false</default>
+                <label>Produits manquants facturés</label>
+            </value>
+            <value>
+                <fullName>Promo / réduction</fullName>
+                <default>false</default>
+                <label>Promo / réduction</label>
+            </value>
+            <value>
+                <fullName>Remboursement</fullName>
+                <default>false</default>
+                <label>Remboursement</label>
+            </value>
+            <value>
+                <fullName>Retard</fullName>
+                <default>false</default>
+                <label>Retard</label>
+            </value>
+            <value>
+                <fullName>Retard IDS</fullName>
+                <default>false</default>
+                <label>Retard IDS</label>
+            </value>
+            <value>
+                <fullName>Rupture</fullName>
+                <default>false</default>
+                <label>Rupture</label>
+            </value>
+            <value>
+                <fullName>Service Consommateur</fullName>
+                <default>false</default>
+                <label>Service Consommateur</label>
+            </value>
+            <value>
+                <fullName>Site</fullName>
+                <default>false</default>
+                <label>Site</label>
+            </value>
+            <value>
+                <fullName>Substitution</fullName>
+                <default>false</default>
+                <label>Substitution</label>
+            </value>
+            <value>
+                <fullName>Ticket de caisse</fullName>
+                <default>false</default>
+                <label>Ticket de caisse</label>
+            </value>
+            <value>
+                <fullName>Réclamations autre</fullName>
+                <default>false</default>
+                <label>Réclamations autre</label>
+            </value>
+            <value>
+                <fullName>Demande d&apos;assortiment</fullName>
+                <default>false</default>
+                <label>Demande d&apos;assortiment</label>
+            </value>
+            <value>
+                <fullName>Demande d&apos;ajouts de produits à la commande</fullName>
+                <default>false</default>
+                <label>Demande d&apos;ajouts de produits à la commande</label>
+            </value>
+            <value>
+                <fullName>Demande d&apos;annulation de commandes</fullName>
+                <default>false</default>
+                <label>Demande d&apos;annulation de commandes</label>
+            </value>
+            <value>
+                <fullName>Demande d&apos;accompagnement sur le site/application</fullName>
+                <default>false</default>
+                <label>Demande d&apos;accompagnement sur le site/application</label>
+            </value>
+            <value>
+                <fullName>Demande de décalage de livraison</fullName>
+                <default>false</default>
+                <label>Demande de décalage de livraison</label>
+            </value>
+            <value>
+                <fullName>Demande d&apos;attention particulière sur une commande</fullName>
+                <default>false</default>
+                <label>Demande d&apos;attention particulière sur une commande</label>
+            </value>
+            <value>
+                <fullName>Demande d&apos;informations</fullName>
+                <default>false</default>
+                <label>Demande d&apos;informations</label>
+            </value>
+            <value>
+                <fullName>Demande de facture</fullName>
+                <default>false</default>
+                <label>Demande de facture</label>
+            </value>
+            <value>
+                <fullName>Demande liée à la carte U</fullName>
+                <default>false</default>
+                <label>Demande liée à la carte U</label>
+            </value>
+            <value>
+                <fullName>Demande Autres</fullName>
+                <default>false</default>
+                <label>Demande Autres</label>
+            </value>
+            <value>
+                <fullName>Approvisionnement</fullName>
+                <default>false</default>
+                <label>Approvisionnement</label>
+            </value>
+            <value>
+                <fullName>Caisse</fullName>
+                <default>false</default>
+                <label>Caisse</label>
+            </value>
+            <value>
+                <fullName>Ordonnancement</fullName>
+                <default>false</default>
+                <label>Ordonnancement</label>
+            </value>
+            <value>
+                <fullName>Préparation</fullName>
+                <default>false</default>
+                <label>Préparation</label>
+            </value>
+            <value>
+                <fullName>Suite conversation client</fullName>
+                <default>false</default>
+                <label>Suite conversation client</label>
+            </value>
+            <value>
+                <fullName>Autre</fullName>
+                <default>false</default>
+                <label>Autre</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Réclamation</controllingFieldValue>
+            <valueName>Assortiment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Réclamation</controllingFieldValue>
+            <valueName>Carte U</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Réclamation</controllingFieldValue>
+            <valueName>Commande non livrée (en partie/en totalité)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Réclamation</controllingFieldValue>
+            <valueName>Commande non livrée (en partie/en totalité) IDS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Réclamation</controllingFieldValue>
+            <valueName>DLC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Réclamation</controllingFieldValue>
+            <valueName>Erreur quantité</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Réclamation</controllingFieldValue>
+            <valueName>Facturation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Réclamation</controllingFieldValue>
+            <valueName>FLEG</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Réclamation</controllingFieldValue>
+            <valueName>Frais de livraison</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Réclamation</controllingFieldValue>
+            <valueName>Inversion commandes/produits</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Réclamation</controllingFieldValue>
+            <valueName>Inversion sac/commande IDS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Réclamation</controllingFieldValue>
+            <valueName>Livraison</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Réclamation</controllingFieldValue>
+            <valueName>Magasin</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Réclamation</controllingFieldValue>
+            <valueName>Mise en sac</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Réclamation</controllingFieldValue>
+            <valueName>Montant débité</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Réclamation</controllingFieldValue>
+            <valueName>Pains oubliés</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Réclamation</controllingFieldValue>
+            <valueName>Prix</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Réclamation</controllingFieldValue>
+            <valueName>Produits cassés/ abimés</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Réclamation</controllingFieldValue>
+            <valueName>Produits cassés/ abimés IDS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Réclamation</controllingFieldValue>
+            <valueName>Produits décongelés</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Réclamation</controllingFieldValue>
+            <valueName>Produits manquants facturés</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Réclamation</controllingFieldValue>
+            <valueName>Promo / réduction</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Réclamation</controllingFieldValue>
+            <valueName>Remboursement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Réclamation</controllingFieldValue>
+            <valueName>Retard</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Réclamation</controllingFieldValue>
+            <valueName>Retard IDS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Réclamation</controllingFieldValue>
+            <valueName>Rupture</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Réclamation</controllingFieldValue>
+            <valueName>Service Consommateur</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Réclamation</controllingFieldValue>
+            <valueName>Site</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Réclamation</controllingFieldValue>
+            <valueName>Substitution</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Réclamation</controllingFieldValue>
+            <valueName>Ticket de caisse</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Réclamation</controllingFieldValue>
+            <valueName>Réclamations autre</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Demandes clients</controllingFieldValue>
+            <valueName>Demande d&apos;assortiment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Demandes clients</controllingFieldValue>
+            <valueName>Demande d&apos;ajouts de produits à la commande</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Demandes clients</controllingFieldValue>
+            <valueName>Demande d&apos;annulation de commandes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Demandes clients</controllingFieldValue>
+            <valueName>Demande d&apos;accompagnement sur le site/application</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Demandes clients</controllingFieldValue>
+            <valueName>Demande de décalage de livraison</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Demandes clients</controllingFieldValue>
+            <valueName>Demande d&apos;attention particulière sur une commande</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Demandes clients</controllingFieldValue>
+            <valueName>Demande d&apos;informations</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Demandes clients</controllingFieldValue>
+            <valueName>Demande de facture</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Demandes clients</controllingFieldValue>
+            <valueName>Demande liée à la carte U</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Demandes clients</controllingFieldValue>
+            <valueName>Demande Autres</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Opérationnelle</controllingFieldValue>
+            <valueName>Approvisionnement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Opérationnelle</controllingFieldValue>
+            <valueName>Caisse</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Opérationnelle</controllingFieldValue>
+            <valueName>Ordonnancement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Opérationnelle</controllingFieldValue>
+            <valueName>Préparation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Opérationnelle</controllingFieldValue>
+            <valueName>Suite conversation client</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Opérationnelle</controllingFieldValue>
+            <valueName>Autre</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

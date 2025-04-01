@@ -1,0 +1,26 @@
+<!-- handle form to create Customer slot -->
+<template>
+    <div class="slds-m-around_medium">
+        <div class="slds-grid slds-gutters_small">
+            <lightning-input type="text" label="Prénom" data-field="firstName" onchange={updateField} variant="label-inline"></lightning-input>                                
+        </div>
+        <div class="slds-grid slds-gutters_small">
+            <lightning-input type="text" label="Nom" data-field="lastName" onchange={updateField} variant="label-inline"></lightning-input>                                
+        </div>
+        <div class="slds-grid slds-gutters_small">
+            <lightning-input type="text" label="Email" data-field="email" required onchange={updateField} variant="label-inline" message-when-bad-input="Format de l'adresse email non valide" max-length="80" message-when-too-long="L'adresse email est trop longue"></lightning-input>
+        </div>
+        <div class="slds-grid slds-gutters_small">
+            <div if:true={sameEmailInput} class="validity-icon">
+                <lightning-icon icon-name="utility:check" alternative-text="Success!" variant="success" size="x-small"></lightning-icon>
+            </div>
+            <div if:false={sameEmailInput} class="validity-icon">
+                <lightning-icon icon-name="utility:close" alternative-text="Error!" variant="error" size="x-small"></lightning-icon>
+            </div>
+            <lightning-input type="text" label="Confirmer votre email" data-field="confirmEmail" required onchange={updateField} variant="label-inline" max-length="80" message-when-too-long="L'adresse email est trop longue" autocomplete="none"></lightning-input>
+        </div>
+        <div class="slds-grid slds-gutters_small">
+            <lightning-input type="number" label="Nombre de places souhaitée(s)" value="1" data-field="numPlaces" onchange={updateField} variant="label-inline"></lightning-input>                                
+        </div>
+    </div>
+</template>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Filtrage_email_indesirables</fullName>
+    <active>true</active>
+    <description>Filtre sur les domaines spam pour empêcher la création de requêtes non souhaitées</description>
+    <errorConditionFormula>AND(
+ISNEW(),
+OR(
+CONTAINS(SuppliedEmail , &apos;@decideurs.leadersleague.com&apos;),
+CONTAINS(SuppliedEmail , &apos;@delightdepartment.coml&apos;),
+CONTAINS(SuppliedEmail , &apos;@drosed.com.pl&apos;),
+CONTAINS(SuppliedEmail , &apos;@sotracopresse.com&apos;),
+CONTAINS(SuppliedEmail , &apos;@courriel2.gocad.info&apos;),
+CONTAINS(SuppliedEmail , &apos;@klesia.emsecure.net&apos;),
+CONTAINS(SuppliedEmail , &apos;@ix-orp.net&apos;),
+CONTAINS(SuppliedEmail , &apos;@indyannapub.com&apos;),
+CONTAINS(SuppliedEmail , &apos;@wine-searcher.com&apos;),
+CONTAINS(SuppliedEmail , &apos;daoudadelaide1993@hotmail.com&apos;)
+))</errorConditionFormula>
+    <errorMessage>Email d&apos;expéditeur non valide</errorMessage>
+</ValidationRule>

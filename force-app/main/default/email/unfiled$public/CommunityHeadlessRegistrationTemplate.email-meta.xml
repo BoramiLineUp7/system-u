@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>E-mail que les utilisateurs reçoivent avec leur mot de passe à usage unique pendant le flux de vérification headless</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Experience Cloud : E-mail de mot de passe à usage unique pour la vérification de l&apos;inscription headless</name>
+    <style>none</style>
+    <subject>Vérifier votre identité dans {!Community.Name}</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

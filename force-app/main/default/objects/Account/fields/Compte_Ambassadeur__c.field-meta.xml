@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Compte_Ambassadeur__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+				Nom_de_l_Associ__r.VIP__c = TRUE,
+				IMAGE(&quot;/resource/SR_Picto_ComptesAmbassadeurs&quot;,&quot;Compte Ambassadeur&quot;,35,35),
+				&quot;&quot;
+				)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Compte Ambassadeur</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

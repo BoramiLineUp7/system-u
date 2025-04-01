@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Il s&apos;agit de la quantité maximale qu&apos;un même produit peut-être mis dans un panier. Si le champs n&apos;est pas renseigné, alors la valeur par défaut sera de 5 --></help>
+    <label>Quantité max produit</label>
+    <name>ProductMaxQuantity__c</name>
+</CustomFieldTranslation>

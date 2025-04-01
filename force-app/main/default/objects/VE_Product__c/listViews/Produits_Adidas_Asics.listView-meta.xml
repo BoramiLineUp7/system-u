@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Produits_Adidas_Asics</fullName>
+    <columns>NAME</columns>
+    <columns>ProductId__c</columns>
+    <columns>enabled__c</columns>
+    <columns>IsPublished__c</columns>
+    <columns>LastPublishedDate__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>catalog__c</field>
+        <operation>equals</operation>
+        <value>Vente exceptionnelle de chaussure de marque</value>
+    </filters>
+    <label>Produits Adidas &amp; Asics</label>
+</ListView>

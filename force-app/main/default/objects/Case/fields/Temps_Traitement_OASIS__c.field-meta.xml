@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Temps_Traitement_OASIS__c</fullName>
+    <externalId>false</externalId>
+    <formula>(5 * FLOOR((DATEVALUE(Service_Now_Status_Update_Date__c) - DATEVALUE( CreatedDate )) / 7)) +
+MIN(5, MOD(DATEVALUE(Service_Now_Status_Update_Date__c) - DATEVALUE(CreatedDate ), 7)) -
+CASE(MOD(DATEVALUE(Service_Now_Status_Update_Date__c) - DATE(1900, 1, 7), 7), 
+  0, 0, 
+  1, 0, 
+  2, 0, 
+  3, 0, 
+  4, 0, 
+  5, 1, 
+  6, 2, 
+  0
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Temps Traitement OASIS</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

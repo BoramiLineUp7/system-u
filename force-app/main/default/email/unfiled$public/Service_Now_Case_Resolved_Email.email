@@ -1,0 +1,11 @@
+Bonjour,
+
+Demand XXX09 has been resolved in ServiceNow.
+
+Sujet: {!Case.Subject}
+Description: {!Case.Description}
+Client: {!Case.Contact}
+
+{!Case.Link}
+
+Merci

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>VE Order</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>VE Orders</value>
+    </caseValues>
+    <layouts>
+        <layout>VE Order Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Info Client --></label>
+            <section>Info Client</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Order Number --></nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

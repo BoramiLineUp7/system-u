@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AllRecurringSlots</fullName>
+    <columns>NAME</columns>
+    <columns>Account__c</columns>
+    <columns>RecurrenceDays__c</columns>
+    <columns>StartDatetime__c</columns>
+    <columns>AvailablePositions__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>Tous les créneaux récurrents</label>
+</ListView>

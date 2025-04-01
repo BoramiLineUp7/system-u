@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IsIncludedOnlineBooking__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>True when the store is included in the online booking system for queue management</description>
+    <label>Online-booking store</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>StatusIcon__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE(  Status__c,
+&quot;Booked&quot;,
+   IF( IsToday__c ,
+        &quot;/fatcow/farmfresh/32/accept.png&quot;,
+        &quot;/fatcow/farmfresh/32/error.png&quot; ),
+&quot;/fatcow/farmfresh/32/delete.png&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Status Icon</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

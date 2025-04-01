@@ -1,0 +1,20 @@
+.THIS {
+  background-color: white;
+}
+
+
+.THIS .customSpan-1{
+    color:blue;
+    font-weight:bold;
+    font-size:15px;
+}
+.THIS .customSpan-2{
+    color:orange;
+    font-weight:bold;
+    font-size:13px;
+}
+.THIS .customSpan-3{
+    color:red;
+    font-weight:bold;
+    font-size:15px;
+}

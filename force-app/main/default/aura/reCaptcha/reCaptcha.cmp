@@ -1,0 +1,21 @@
+<aura:component>
+	<aura:attribute name="scriptLoaded" type="Boolean" default="false"/>
+	<aura:attribute name="siteKey" type="String" required="true"/>
+	<aura:attribute name="lang" type="String"/>
+	<aura:attribute name="token" type="String"/>
+
+	<aura:handler name="init" value="{!this}" action="{!c.init}"/>
+	<aura:method name="validateCaptcha" action="{! c.handleExecute }"/>
+	<aura:method name="reset" action="{! c.handleReset }"/>
+	
+	<aura:registerevent name="callback" type="c:reCaptchaEvt"/>
+
+	<div aura:id="recaptcha" class="g-recaptcha"
+        data-sitekey="{! v.siteKey }"
+        data-callback="handleCallback"
+        data-size="invisible"/>
+        
+        <!--        data-expired-callback="handleExpiredCallback"
+        data-error-callback="handleErrorCallback" -->
+
+</aura:component>

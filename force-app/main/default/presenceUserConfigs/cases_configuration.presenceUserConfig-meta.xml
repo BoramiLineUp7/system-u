@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PresenceUserConfig xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assignments>
+        <users>
+            <user>ana.bardon@cooperative-u.fr</user>
+            <user>anissa.bahij@cooperative-u.fr</user>
+            <user>annabelle.gal@cooperative-u.fr</user>
+            <user>chloe.dossantos@cooperative-u.fr</user>
+            <user>frederic.dalem@externe.cooperative-u.fr</user>
+            <user>ines.jeaied@externe.cooperative-u.fr</user>
+            <user>laura.celeste@cooperative-u.fr</user>
+            <user>marie-anais.lecuelle@cooperative-u.fr</user>
+        </users>
+    </assignments>
+    <capacity>3</capacity>
+    <enableAutoAccept>false</enableAutoAccept>
+    <enableDecline>true</enableDecline>
+    <enableDeclineReason>false</enableDeclineReason>
+    <enableDisconnectSound>false</enableDisconnectSound>
+    <enableRequestSound>false</enableRequestSound>
+    <label>cases_configuration</label>
+    <presenceStatusOnDecline>En_pause</presenceStatusOnDecline>
+</PresenceUserConfig>

@@ -1,0 +1,60 @@
+<template>
+    <div class="app slds-p-around_small">
+        <template if:true={wiredSlots}>
+            <table style="width:100%">
+                <!-- ROWS --><!-- DAY ROW HEADINGS -->
+                <tr>
+                    <th>
+                        <template if:true={showBack}>
+                            <lightning-button-icon icon-name="utility:left" alternative-text="Jours précédents" title="Jours précédents" size="medium" class="noborder" onclick={handlePrev} ></lightning-button-icon>
+                        </template>
+                    </th>
+                    <template for:each={dates} for:item="date">
+                        <th key={date.offset}> 
+                            <div class="slds-m-around_xx-small slds-text-heading_small calendar-col-header">
+                                <div class="slds-align_absolute-center">
+                                    <lightning-formatted-date-time value={date.date} weekday="long"></lightning-formatted-date-time>
+                                </div>
+                                <div class="slds-align_absolute-center">
+                                    <lightning-formatted-date-time value={date.date} month="short" day="2-digit"></lightning-formatted-date-time>
+                                </div>
+                            </div>
+                        </th>
+                    </template>
+                    <th>
+                        <lightning-button-icon icon-name="utility:right" alternative-text="Prochains jours" title="Prochains jours" size="medium" class="noborder" onclick={handleNext}></lightning-button-icon>
+                    </th>
+                </tr>
+                <template for:each={wiredSlots} for:item="time">
+                    <!-- TIME COLUMN -->
+                    <tr key={time.hour}>
+                        <td>
+                            <div class="slds-align_absolute-center calendar-col-header slds-text-heading_small slds-p-around_xx-small">
+                                {time.hour}
+                            </div>
+                        </td>
+                        <!-- SLOT COLUMNS -->
+                        <template for:each={dates} for:item="day" >
+                            <td key={day.offset}>
+                                <c-childtimeslots items={time.slots} day={day.date} checker-date={day.checkerDay} time={time.hour} subslotinfo={slotdetail} onslotclick={handleSlotClick} onslotdetail={handleSubSlotOpen}></c-childtimeslots>
+                            </td>
+                        </template>
+                    </tr>
+                </template>
+            </table>
+        </template>
+        <template if:false={hasSlots}>
+            <div class="slds-align_absolute-center slds-m-top_large slds-m-bottom_large">
+                Aucun créneau disponible pour ce magasin sur cette période
+            </div>
+        </template>
+        <template if:true={isLoading}>
+            <div class="slds-align_absolute-center slds-m-top_large slds-m-bottom_large loading-spinner ">
+                <lightning-spinner alternative-text="Chargement" size="medium"></lightning-spinner>
+            </div>
+        </template>
+    </div>
+
+    <!-- confirmation slot confirm - create record -->
+    <c-slot-confirmation-box token={token} captcha-required={captchaRequired} oncloseconfirm={handleCloseConfirm} onsuccess={handleRefresh} onresetcaptcha={handleResetRecaptcha}></c-slot-confirmation-box>
+</template>

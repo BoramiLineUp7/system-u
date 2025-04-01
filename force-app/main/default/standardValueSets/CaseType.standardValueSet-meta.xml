@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Carte U</fullName>
+        <default>false</default>
+        <label>Carte U</label>
+    </standardValue>
+    <standardValue>
+        <fullName>RGPD</fullName>
+        <default>false</default>
+        <label>RGPD</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Compte Magasin U</fullName>
+        <default>false</default>
+        <label>Compte U</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Compte Courses U</fullName>
+        <default>false</default>
+        <label>Courses U</label>
+    </standardValue>
+    <standardValue>
+        <fullName>E-ticket</fullName>
+        <default>false</default>
+        <label>E-tickets</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Informations générales</fullName>
+        <default>false</default>
+        <label>Informations générales</label>
+    </standardValue>
+</StandardValueSet>

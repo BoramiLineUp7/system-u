@@ -1,0 +1,79 @@
+<apex:page renderAs="pdf" readOnly="true" showHeader="false" sidebar="false" applyHtmlTag="false" controller="CustomerSlot_PDF_Controller" applyBodyTag="false">
+<!-- renderAs="pdf" -->    
+    <head>
+        <style type="text/css">
+            @page {
+                    margin-top: 0.75cm;
+                    margin-left: 1cm;
+                    margin-right: 1cm;
+            }
+            .body{
+                width: 100% !important;
+                margin: 0;
+                padding: 0;
+            }
+            img {
+                outline: none;
+                text-decoration: none;
+            }
+            p {
+                margin: 12px 0;
+            }
+            .header-image{
+                margin-top:6px;
+            }
+            .qrcode{
+                margin-top:14px;
+                margin-bottom:14px;
+            }
+            .main{
+                font-size:14px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <div style="color: #505050;font-family: Arial;font-size: 10px;line-height: 10px;text-align: left;">Confirmation de votre créneau {!pdfdata.storename} le {!dateformatted}</div>
+        </div>
+        <div class="header-image">
+            <apex:image value="{! URLFOR($Resource.cspdf, '/pdfheader.jpg') }" height="254px" width="720px"></apex:image>
+        </div>
+        <div class="main">
+            <h1 class="h1" style="color: rgb(32, 32, 32); display: block; font-family: Arial; font-weight: bold; line-height: 34px; margin: 0px 0px 10px; text-align: left;">
+                <span style="color:#000000;">
+                    <strong>
+                        <span style="font-size: 12px;">CONFIRMATION DE VOTRE RESERVATION DE CRENEAU</span>
+                    </strong>
+                </span>
+            </h1>
+
+            <p dir="ltr"><span style="color:#000000;">Bonjour {!pdfdata.firstname} {!pdfdata.lastname},</span></p>
+
+            <p dir="ltr">
+                <span style="color:#000000;">Nous vous confirmons la réservation de votre créneau pour venir faire vos courses le {!dateformatted} pour {!pdfdata.numofpers} personne(s) dans votre magasin {!pdfdata.storename} situé {!pdfdata.storestreet} {!pdfdata.storepostalcode} {!pdfdata.storecity}.</span>
+                <br/>
+            </p>
+
+            <p dir="ltr">
+                <span style="color:#000000;">Nous vous invitons à venir avec ce pdf soit imprimé, soit sauvegardé sur votre téléphone mobile. Nous procèderons ainsi à la vérification du QR code ci-dessous avant votre entrée dans le magasin.</span>
+            </p>
+            <div class="qrcode">
+                <apex:image value="{!qrCode}"></apex:image>
+                <!--img src="{!qrCodeImg}"></img-->
+            </div>
+            
+            <p dir="ltr">
+                <span style="color:#000000;">Afin de vous garantir l'accès à notre point de vente sur le créneau que vous avez réservé, nous vous demandons d'arriver à l'heure sélectionnée.
+                    <br/>
+                    <br/>
+                    Toute l'équipe de votre magasin Paris vous remercie et est ravie de vous accueillir prochainement.
+                    <br/>
+                    <br/>
+                </span>
+            </p>
+        </div>
+        <div class="footer-image">
+            <apex:image value="{! URLFOR($Resource.cspdf, '/pdffooter.jpg') }" width="720px" height="196px" ></apex:image>
+        </div>
+    </body>
+</apex:page>

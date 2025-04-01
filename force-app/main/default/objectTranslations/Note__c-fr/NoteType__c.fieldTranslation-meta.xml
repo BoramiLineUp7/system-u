@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Type de commentaire</label>
+    <name>NoteType__c</name>
+    <picklistValues>
+        <masterLabel>Additional Comments</masterLabel>
+        <translation>Commentaires supplémentaires</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Working Notes</masterLabel>
+        <translation>Notes de travail</translation>
+    </picklistValues>
+</CustomFieldTranslation>

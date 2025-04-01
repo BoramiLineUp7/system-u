@@ -1,0 +1,44 @@
+.slot{
+    border:1px solid #FFFFFF;
+    text-align: center;
+    font-weight : 500;
+}
+
+.freeSlots{
+  cursor:pointer;
+  background-color: #007D8F;
+  background-color: var(--lwc-colorTextBrand);
+  color: white;
+}
+
+.freeSlots:hover{
+    background-color: #007D8F;
+    background-color: var(--lwc-colorTextBrand);
+    color: white;
+}
+.subfreeslots{
+    text-align: center;
+    cursor: pointer;
+    color: #007D8F;
+    color: var(--lwc-colorTextBrand);
+}
+.subfreeslots:hover{
+    background-color: #007D8F;
+    background-color: var(--lwc-colorTextBrand);
+    color: white;
+}
+
+.unavailSlot{
+  text-align: center;
+  background-color: rgb(250, 250, 249);
+  color: #828282;
+}
+
+.subdetails{
+    position:absolute;
+    z-index: 9000;
+    background-color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    margin-top: -1rem;
+    font-weight : 600;
+}

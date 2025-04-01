@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Duration__c</fullName>
+    <defaultValue>$Setup.QueueBustingConfig__c.DefaultSlotDuration__c</defaultValue>
+    <description>Duration of the slots created by this recurrence in minutes</description>
+    <externalId>false</externalId>
+    <label>Duration (in minutes)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

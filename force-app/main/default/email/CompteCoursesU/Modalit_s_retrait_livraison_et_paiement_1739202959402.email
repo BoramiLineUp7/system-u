@@ -1,0 +1,88 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<table cellpadding="0" cellspacing="0" class="contentpageDefaultEmailTemplatePageTemplate" id="contentpage_emailTemplateBodyContent" style="background-color: #E9EAEC;" width="100%">
+	
+		<tr>
+			<td align="center" width="100%">
+			<table cellpadding="0" cellspacing="0" class="contentRoot" style="background-color: #FFFFFF;" width="600">
+				
+					<tr>
+						<td style="padding-top: 10px; padding-bottom: 10px; padding-left: 10px; padding-right: 10px;">
+						<table cellpadding="0" cellspacing="0" class="contentbuilderBaseColumnRow" style="background-color:;" width="100%">
+							
+								<tr valign="top">
+									<td class="columnCell" style="vertical-align: top;display: inline-block" width="100%">
+									<table style="width: 100%; border-collapse: collapse; word-break:break-word;">
+										
+											<tr>
+												<td>
+												<table cellpadding="0" cellspacing="0" id="contentRegion" style="width: 100%; border-collapse: collapse; word-break: break-word; font-size: 14px">
+													
+														<tr>
+															<td style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size:14px;"><span style="font-family:Arial,Helvetica,sans-serif;"><img alt="NOUVEAU HEADER MAIL" src="" style="max-width: 1140.17px; width: 717px; height: 310px;" title="NOUVEAU HEADER MAIL" /> </span> </span><br />
+															<br />
+															<span style="font-size:14px;"><span style="font-family:Georgia,Times New Roman,Times,serif;">Bonjour&nbsp;{{{Recipient.Name}}}, </span></span><br />
+															<br />
+															<span style="font-family:Open Sans;"><span style="font-size:14px;"><span style="font-family:Georgia,Times New Roman,Times,serif;">Merci d'avoir pris le temps de nous écrire, voyons ensemble comment retrouver toutes les informations concernant le minimum de commande et les frais de livraison sur le site Courses U.<br />
+															<br />
+															Pour cela, assurez-vous d'être connecté et d'avoir bien sélectionné votre magasin. Cliquez sur le&nbsp;nom du magasin à droite de la barre de recherche, et dans la fenêtre qui s'ouvre, retrouvez les modalités et les prix de notre service Drive ou Livraison.</span></span></span><br />
+															<br />
+															<img alt="Capture d" src="" style="max-width: 710.564px; width: 416.562px; height: 300px;" /><br />
+															<br />
+															<span style="font-family:Open Sans;"><span style="font-size:14px;"><span style="font-family:Georgia,Times New Roman,Times,serif;">Concernant la livraison, pour vérifier que vous êtes éligibles, cliquez sur le mode de retrait "Livraison à domicile". Si une adresse a bien été saisie sur votre compte, il vous sera alors indiquer dans un encart orange si vous n'y êtes pas éligible.</span></span></span><br />
+															<br />
+															<img alt="Capture d" src="" style="max-width: 710.564px; width: 426.562px; height: 43px;" /><br />
+															<br />
+															<span style="font-family:Open Sans;"><span style="font-size:14px;"><span style="font-family:Georgia,Times New Roman,Times,serif;">Sachez que votre créneau sélectionné pour votre drive ou votre livraison est pré-réservé pendant 30 minutes le temps de faire vos courses en ligne, et qu'il est possible de commander jusqu'à maximun 7 jours (ouvrables) avant votre date de retrait /livraison. :)<br />
+															<br />
+															Enfin, concernant les moyens de paiement&nbsp;acceptés au retrait de votre commande, nous vous invitons à contacter directement par téléphone le drive de votre magasin afin qu'ils puissent vous renseigner. En effet, en tant que Coopérative, chaque magasin gère son drive indépendamment.<br />
+															<br />
+															Nous espérons que ces informations vous seront utiles {{{Recipient.LastName}}}, et restons à votre écoute pour toute&nbsp;question !</span></span></span><br />
+															<br />
+															<span style="font-size:14px;"><span style="font-family:Georgia,Times New Roman,Times,serif;">Toute l'équipe Coopérative U vous souhaite une excellente journée{{{Recipient.Quick_Text_Message_4__c}}}, à très vite dans nos Magasins U ou sur Courses U !</span></span><br />
+															<br />
+															<span style="font-family:Open Sans;"><span style="font-size:14px;"><span style="font-family:Georgia,Times New Roman,Times,serif;">Bien cordialement,<br />
+															Votre Service Relation Clients U.</span></span></span><br />
+															<br />
+															<br />
+															<img alt="LogoPRC_N1_GrandeDistribution01_1" src="" style="max-width: 670.1062499999999px" title="LogoPRC_N1_GrandeDistribution01_1" /><br />
+															<span style="font-family:Open Sans;">&nbsp;</span></td>
+														</tr>
+													
+												</table>
+												</td>
+											</tr>
+										
+									</table>
+									</td>
+								</tr>
+							
+						</table>
+						<img alt="NOUVEAU FOOTER MAIL" src="" style="max-width: 1140.17px; width: 722px; height: 102px;" title="NOUVEAU FOOTER MAIL" />
+						<div style="display: flex; padding-top: 10px; align-items: center;">
+						<div style="width: 100%; height: 100%; padding-right: 10px;">
+						<hr style="height: 0; border: 0; border-top: 1px solid grey;" /></div>
+
+						<div style="text-align: center; display: flex;"><br />
+						&nbsp;<a href="https://t.email.systeme-u.fr/r/?id=h83f118c3,31f32a30,2f504380"> <img alt="Logo_facebook" src="" style="max-width: 400px; width: 41px; height: 40px;" title="Logo_facebook" /> </a> &nbsp; &nbsp;&nbsp;<a href="https://t.email.systeme-u.fr/r/?id=h83f118c3,31f32a30,2f504381"> <img alt="Logo_twitter" src="" style="max-width: 1140.17px; width: 41px; height: 40px;" title="Logo_twitter" /> </a> &nbsp; &nbsp;&nbsp;<a href="https://t.email.systeme-u.fr/r/?id=h83f118c3,31f32a30,2f504382"> <img alt="Logo_instagram" src="" style="max-width: 1140.17px; width: 41px; height: 40px;" title="Logo_instagram" /> </a> &nbsp; &nbsp;&nbsp;<a href="https://t.email.systeme-u.fr/r/?id=h83f118c3,31f32a30,2f504383"> <img alt="Logo_youtube" src="" style="max-width: 1140.17px; width: 41px; height: 40px;" title="Logo_youtube" /> </a></div>
+
+						<div style="width: 100%; height: 100%; padding-left: 15px;">
+						<hr style="height: 0; border: 0; border-top: 1px solid grey;" /></div>
+						</div>
+						</td>
+					</tr>
+				
+			</table>
+			</td>
+		</tr>
+	
+</table>
+
+<div id="" style="left: 239.6px; top: 19px;">&nbsp;</div>
+
+<div id="" style="left: 239.6px; top: 19px;">&nbsp;</div>
+</body>
+</html>

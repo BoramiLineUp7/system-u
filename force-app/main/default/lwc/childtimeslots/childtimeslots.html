@@ -1,0 +1,26 @@
+<template>
+    <!--div style="visibility: hidden;"> {slotAvailable}</div-->
+    <template if:true={slots}>
+        <div class="slds-p-around_small slot freeSlots" onclick={onClickHandler}>
+            Disponible: {slotMessage}
+        </div>
+        <template if:true={showSubSlots}>
+            <ul class="subdetails" style={menustyle}>
+                <template for:each={filteredItems} for:item="timeSlot">
+                    <li key={timeSlot.id} data-id={timeSlot.id} class="slds-p-top_small slds-p-bottom_small slot subfreeslots" onclick={onClickHandler}>{timeSlot.hour}:{timeSlot.minutes} - Disponible: {timeSlot.remainingPositions}</li>
+                </template>
+            </ul>
+        </template>
+    </template>
+    <template if:true={noslots}>
+        <div class="slds-p-around_small slot unavailSlot">
+            Plus de créneaux
+        </div>
+    </template>
+
+    <template if:true={empty}>
+        <div class="slds-p-around_small slot unavailSlot">
+            Pas de créneau
+        </div>
+    </template>
+</template>

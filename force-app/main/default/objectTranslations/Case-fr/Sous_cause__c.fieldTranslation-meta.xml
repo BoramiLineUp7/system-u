@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Sous-cause --></label>
+    <name>Sous_cause__c</name>
+    <picklistValues>
+        <masterLabel>Approvisionnement</masterLabel>
+        <translation><!-- Approvisionnement --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Assortiment</masterLabel>
+        <translation><!-- Assortiment --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Autre</masterLabel>
+        <translation><!-- Autre --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Caisse</masterLabel>
+        <translation><!-- Caisse --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Carte U</masterLabel>
+        <translation><!-- Carte U --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Commande non livrée (en partie/en totalité)</masterLabel>
+        <translation><!-- Commande non livrée (en partie/en totalité) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Commande non livrée (en partie/en totalité) IDS</masterLabel>
+        <translation><!-- Commande non livrée (en partie/en totalité) IDS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DLC</masterLabel>
+        <translation><!-- DLC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Demande Autres</masterLabel>
+        <translation><!-- Demande Autres --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Demande d&apos;accompagnement sur le site/application</masterLabel>
+        <translation><!-- Demande d&apos;accompagnement sur le site/application --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Demande d&apos;ajouts de produits à la commande</masterLabel>
+        <translation><!-- Demande d&apos;ajouts de produits à la commande --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Demande d&apos;annulation de commandes</masterLabel>
+        <translation><!-- Demande d&apos;annulation de commandes --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Demande d&apos;assortiment</masterLabel>
+        <translation><!-- Demande d&apos;assortiment --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Demande d&apos;attention particulière sur une commande</masterLabel>
+        <translation><!-- Demande d&apos;attention particulière sur une commande --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Demande d&apos;informations</masterLabel>
+        <translation><!-- Demande d&apos;informations --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Demande de décalage de livraison</masterLabel>
+        <translation><!-- Demande de décalage de livraison --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Demande de facture</masterLabel>
+        <translation><!-- Demande de facture --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Demande liée à la carte U</masterLabel>
+        <translation><!-- Demande liée à la carte U --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Erreur quantité</masterLabel>
+        <translation><!-- Erreur quantité --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FLEG</masterLabel>
+        <translation><!-- FLEG --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Facturation</masterLabel>
+        <translation><!-- Facturation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Frais de livraison</masterLabel>
+        <translation><!-- Frais de livraison --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Inversion commandes/produits</masterLabel>
+        <translation><!-- Inversion commandes/produits --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Inversion sac/commande IDS</masterLabel>
+        <translation><!-- Inversion sac/commande IDS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Livraison</masterLabel>
+        <translation><!-- Livraison --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Magasin</masterLabel>
+        <translation><!-- Magasin --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mise en sac</masterLabel>
+        <translation><!-- Mise en sac --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Montant débité</masterLabel>
+        <translation><!-- Montant débité --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ordonnancement</masterLabel>
+        <translation><!-- Ordonnancement --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pains oubliés</masterLabel>
+        <translation><!-- Pains oubliés --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Prix</masterLabel>
+        <translation><!-- Prix --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Produits cassés/ abimés</masterLabel>
+        <translation><!-- Produits cassés/ abimés --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Produits cassés/ abimés IDS</masterLabel>
+        <translation><!-- Produits cassés/ abimés IDS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Produits décongelés</masterLabel>
+        <translation><!-- Produits décongelés --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Produits manquants facturés</masterLabel>
+        <translation><!-- Produits manquants facturés --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Promo / réduction</masterLabel>
+        <translation><!-- Promo / réduction --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Préparation</masterLabel>
+        <translation><!-- Préparation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Remboursement</masterLabel>
+        <translation><!-- Remboursement --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Retard</masterLabel>
+        <translation><!-- Retard --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Retard IDS</masterLabel>
+        <translation><!-- Retard IDS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rupture</masterLabel>
+        <translation><!-- Rupture --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Réclamations autre</masterLabel>
+        <translation><!-- Réclamations autre --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Service Consommateur</masterLabel>
+        <translation><!-- Service Consommateur --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Site</masterLabel>
+        <translation><!-- Site --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Substitution</masterLabel>
+        <translation><!-- Substitution --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Suite conversation client</masterLabel>
+        <translation><!-- Suite conversation client --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ticket de caisse</masterLabel>
+        <translation><!-- Ticket de caisse --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

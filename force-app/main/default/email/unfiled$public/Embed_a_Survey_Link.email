@@ -1,0 +1,88 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<table cellpadding="0" cellspacing="0" class="contentpageDefaultEmailTemplatePageTemplate" id="contentpage_emailTemplateBodyContent" style="background-color: #E9EAEC;" width="100%">
+	
+		<tr>
+			<td align="center" width="100%">
+			<table cellpadding="0" cellspacing="0" class="contentRoot" style="background-color: #FFFFFF;" width="600">
+				
+					<tr>
+						<td style="padding-top: 10px; padding-bottom: 10px; padding-left: 10px; padding-right: 10px;">
+						<table cellpadding="0" cellspacing="0" class="contentRoot" style="background-color: #FFFFFF;" width="600">
+							
+								<tr>
+									<td style="padding-top: 10px; padding-bottom: 10px; padding-left: 10px; padding-right: 10px;"><img alt="NOUVEAU HEADER MAIL" src="https://systeme-u--uat.sandbox.file.force.com/file-asset-public/NOUVEAU_HEADER_MAIL?oid=00D7a000000525h" style="max-width: 1493.99px; width: 718px; height: 310px;" title="NOUVEAU HEADER MAIL" />
+									<table cellpadding="0" cellspacing="0" class="contentbuilderBaseColumnRow" style="align-items: flex-start; width: 100%; background-color:;" width="100%">
+										
+											<tr valign="top">
+												<td class="columnCell" style="vertical-align: top;display: inline-block; float:left" width="100%">
+												<table cellpadding="0" cellspacing="0" style="width: 100%; border-collapse: collapse; word-break:break-word;">
+													
+														<tr>
+															<td>
+															<p><br />
+															<span style="font-size:16px;"><span style="font-family:Roboto Slab,Open Sans,Georgia,Times New Roman,Times,serif;">Bonjour {{{Recipient.Name}}}, </span> </span></p>
+
+															<p><br />
+															<span style="font-size:14px;"><span style="font-family:Roboto Slab,Open Sans,Georgia,Times New Roman,Times,serif;">Merci encore de nous avoir contacté et nous espérons avoir répondu à vos attentes.<br />
+															<br />
+															Si vous avez une petite minute à nous accorder, nous serions très heureux d’avoir un retour concernant votre expérience avec nous. Votre avis est précieux pour améliorer la qualité de notre service !<br />
+															&nbsp; </span> </span></p>
+
+															<p style="text-align: center;"><span style="font-family:Roboto Slab,Open Sans;"><span style="font-family:Roboto Slab,Open Sans;"><span style="font-size:16px;"><span style="font-family:Roboto Slab,Open Sans;"><a href="[[SURVEY_INVITATION_URL]]" style="[[DISABLE_LINK]] vertical-align: middle; border: 1px solid rgb(221, 219, 218); transition: border .15s linear; background-color: rgb(107, 189, 174); border-color: rgb(0, 112, 210); color: rgb(255, 255, 255); display: inline-block; background-clip: border-box; border: 1px solid transparent; border-radius: .25rem; line-height: 1.875rem; text-decoration: none; -webkit-appearance: none; white-space: normal; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; padding: 0 1rem;" target="_blank">Je donne mon avis ! </a> </span> </span> </span> </span></p>
+
+															<p><br />
+															<span style="font-size:16px;"><span style="font-family:Roboto Slab,Open Sans,Georgia,Times New Roman,Times,serif;">Avec tous nos remerciements,<br />
+															<br />
+															Votre Service Relation Clients U. </span> </span></p>
+
+															<p><br />
+															<span style="font-family:Roboto Slab,Open Sans"><span style="font-family:Roboto Slab,Open Sans;"><span style="font-size:16px;"><img alt="LogoPRC_N1_GrandeDistribution" src="https://systeme-u--uat.sandbox.file.force.com/file-asset-public/LogoPRC_N1_GrandeDistribution?oid=00D7a000000525h" style="max-width: 1140.1662963867186px" title="LogoPRC_N1_GrandeDistribution" /><br />
+															&nbsp; </span> </span> </span></p>
+
+															<table cellpadding="0" cellspacing="0" id="contentRegion" style="width: 100%; border-collapse: collapse; word-break: break-word; font-size: 14px">
+																
+																	<tr>
+																	</tr>
+																
+															</table>
+															</td>
+														</tr>
+													
+												</table>
+												</td>
+											</tr>
+										
+									</table>
+									</td>
+								</tr>
+							
+						</table>
+						<img alt="NOUVEAU FOOTER MAIL" src="https://systeme-u--uat.sandbox.file.force.com/file-asset-public/NOUVEAU_FOOTER_MAIL?oid=00D7a000000525h" style="max-width: 1140.17px; width: 736px; height: 104px;" title="NOUVEAU FOOTER MAIL" />
+						<div style="display: flex; padding-top: 10px; align-items: center;">
+						<div style="width: 100%; height: 100%; padding-right: 10px;">
+						<hr style="height: 0; border: 0; border-top: 1px solid grey;" /></div>
+
+						<div style="text-align: center; display: flex;"><br />
+						&nbsp;<a href="https://t.email.systeme-u.fr/r/?id=h83f118c3,31f32a30,2f504380"> <img alt="Logo_facebook" src="https://systeme-u--uat.sandbox.file.force.com/file-asset-public/Logo_facebook?oid=00D7a000000525h" style="max-width: 400px; width: 41px; height: 40px;" title="Logo_facebook" /> </a> &nbsp; &nbsp;&nbsp;<a href="https://t.email.systeme-u.fr/r/?id=h83f118c3,31f32a30,2f504381"> <img alt="Logo_twitter" src="https://systeme-u--uat.sandbox.file.force.com/file-asset-public/Logo_twitter?oid=00D7a000000525h" style="max-width: 1140.17px; width: 41px; height: 40px;" title="Logo_twitter" /> </a> &nbsp; &nbsp;&nbsp;<a href="https://t.email.systeme-u.fr/r/?id=h83f118c3,31f32a30,2f504382"> <img alt="Logo_instagram" src="https://systeme-u--uat.sandbox.file.force.com/file-asset-public/Logo_instagram?oid=00D7a000000525h" style="max-width: 1140.17px; width: 41px; height: 40px;" title="Logo_instagram" /> </a> &nbsp; &nbsp;&nbsp;<a href="https://t.email.systeme-u.fr/r/?id=h83f118c3,31f32a30,2f504383"> <img alt="Logo_youtube" src="https://systeme-u--uat.sandbox.file.force.com/file-asset-public/Logo_youtube?oid=00D7a000000525h" style="max-width: 1140.17px; width: 41px; height: 40px;" title="Logo_youtube" /> </a></div>
+
+						<div style="width: 100%; height: 100%; padding-left: 15px;">
+						<hr style="height: 0; border: 0; border-top: 1px solid grey;" /></div>
+						</div>
+						</td>
+					</tr>
+				
+			</table>
+			</td>
+		</tr>
+	
+</table>
+
+<div id="" style="left: 239.6px; top: 19px;">&nbsp;</div>
+
+<div id="" style="left: 239.6px; top: 19px;">&nbsp;</div>
+</body>
+</html>

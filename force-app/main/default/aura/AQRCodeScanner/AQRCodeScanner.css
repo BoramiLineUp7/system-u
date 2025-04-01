@@ -1,0 +1,8 @@
+.THIS .preview-video{
+    width:95%;
+    height:auto;
+    max-width:640px;
+}
+.THIS .active-code{
+    border: 2px solid #e43636;
+}

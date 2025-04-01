@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MaxNumberOfPersons__c</fullName>
+    <defaultValue>5</defaultValue>
+    <description>Contains the maximum number of persons allowed to come for a single booking slot</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Contains the maximum number of persons allowed to come for a single booking slot</inlineHelpText>
+    <label>Maximum number of persons</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

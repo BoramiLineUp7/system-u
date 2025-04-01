@@ -1,0 +1,25 @@
+<template>
+
+    <lightning-input 
+        name="enter-search" 
+        label="Saisissez nom ou adresse pour trouver votre magasin" 
+        is-loading={issearching} 
+        onchange={searchField} 
+        onkeyup={handleKeyUp}
+        type="search"></lightning-input>
+
+    <template if:true={searchRecords}>
+        <ul>
+            <template for:each={searchRecords} for:item="serecord">
+                <li class="slds-m-around_xx-small" key={serecord.Id} data-id={serecord.id} data-storeid={serecord.StoreId__c} onclick={handleSelect}>
+                    <h1 class="slds-box" style="background-color:#FFFFFF">
+                        <div class="storename" title={serecord.Name}>{serecord.CommercialSignLabel__c} {serecord.Name}</div>
+                        <div class="slds-p-top_small address">{serecord.BillingStreet} {serecord.BillingPostalCode} {serecord.BillingCity}</div>
+                    </h1>
+                    <!--lightning-map map-markers={mapMarkers}></lightning-map-->
+                </li>
+            </template>
+        </ul>
+    </template>
+
+</template>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <aggregates>
+        <calculatedFormula>(LAST_LOGIN:UNIQUE-LOGIN_STATUS:UNIQUE)/8</calculatedFormula>
+        <datatype>percent</datatype>
+        <description>Taux d&apos;absentéisme</description>
+        <developerName>FORMULA1</developerName>
+        <downGroupingContext>GRAND_SUMMARY</downGroupingContext>
+        <isActive>true</isActive>
+        <isCrossBlock>false</isCrossBlock>
+        <masterLabel>Taux d&apos;absentéisme</masterLabel>
+        <reportType>User</reportType>
+        <scale>2</scale>
+    </aggregates>
+    <block>
+        <blockInfo>
+            <aggregateReferences>
+                <aggregate>FORMULA1</aggregate>
+            </aggregateReferences>
+            <blockId>B0</blockId>
+            <joinTable>u</joinTable>
+        </blockInfo>
+        <columns>
+            <field>FIRST_NAME</field>
+        </columns>
+        <columns>
+            <field>LAST_NAME</field>
+        </columns>
+        <columns>
+            <field>PROFILE</field>
+        </columns>
+        <columns>
+            <field>ALIAS</field>
+        </columns>
+        <columns>
+            <field>ACTIVE</field>
+        </columns>
+        <columns>
+            <aggregateTypes>Unique</aggregateTypes>
+            <field>LAST_LOGIN</field>
+        </columns>
+        <format>Summary</format>
+        <name>User Login Information</name>
+        <params>
+            <name>active</name>
+            <value>all</value>
+        </params>
+        <params>
+            <name>co</name>
+            <value>0</value>
+        </params>
+        <reportType>User</reportType>
+        <showGrandTotal>true</showGrandTotal>
+        <showSubTotals>true</showSubTotals>
+        <sortColumn>LAST_LOGIN</sortColumn>
+        <sortOrder>Desc</sortOrder>
+        <timeFrameFilter>
+            <dateColumn>LOGIN_DATE</dateColumn>
+            <interval>INTERVAL_TODAY</interval>
+        </timeFrameFilter>
+    </block>
+    <block>
+        <blockInfo>
+            <blockId>B1</blockId>
+            <joinTable>User</joinTable>
+        </blockInfo>
+        <columns>
+            <field>User.UserServicePresence$UserId$Name</field>
+        </columns>
+        <columns>
+            <aggregateTypes>Unique</aggregateTypes>
+            <field>User.UserServicePresence$UserId$Login_Status__c</field>
+        </columns>
+        <filter>
+            <criteriaItems>
+                <column>User.UserServicePresence$UserId$Login_Status__c</column>
+                <columnToColumn>false</columnToColumn>
+                <isUnlocked>true</isUnlocked>
+                <operator>equals</operator>
+                <value>NOT LOGGED IN</value>
+            </criteriaItems>
+        </filter>
+        <format>Summary</format>
+        <name>User Presence Status (today)</name>
+        <params>
+            <name>co</name>
+            <value>0</value>
+        </params>
+        <reportType>Users_with_Presences__c</reportType>
+        <scope>organization</scope>
+        <showGrandTotal>true</showGrandTotal>
+        <showSubTotals>true</showSubTotals>
+        <timeFrameFilter>
+            <dateColumn>User.UserServicePresence$UserId$StatusStartDate</dateColumn>
+            <interval>INTERVAL_TODAY</interval>
+        </timeFrameFilter>
+    </block>
+    <blockInfo>
+        <blockId xsi:nil="true"/>
+        <joinTable>u</joinTable>
+    </blockInfo>
+    <format>MultiBlock</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>FULL_NAME</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Taux d&apos;absentéisme</name>
+    <params>
+        <name>lsk</name>
+        <value>1</value>
+    </params>
+    <reportType>User</reportType>
+    <showDetails>false</showDetails>
+</Report>

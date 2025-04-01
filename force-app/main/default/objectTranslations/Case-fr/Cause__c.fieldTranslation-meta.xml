@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Cause --></label>
+    <name>Cause__c</name>
+    <picklistValues>
+        <masterLabel>Demandes clients</masterLabel>
+        <translation><!-- Demandes clients --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Opérationnelle</masterLabel>
+        <translation><!-- Opérationnelle --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Remerciement</masterLabel>
+        <translation><!-- Remerciement --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Réclamation</masterLabel>
+        <translation><!-- Réclamation --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

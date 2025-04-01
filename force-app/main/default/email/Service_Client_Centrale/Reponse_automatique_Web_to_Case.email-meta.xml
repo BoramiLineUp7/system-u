@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Réponse automatique automatique à réception d&apos;un web to case</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Systeme_U</letterhead>
+    <name>Réponse automatique Web to Case</name>
+    <style>freeForm</style>
+    <subject>Nous avons bien pris en compte votre demande</subject>
+    <textOnly>Cher/chère {!Contact.Name}
+
+Nous avons bien reçu votre demande. Nous mettons tout en oeuvre pour la traiter rapidement.
+
+Cordialement,
+
+Votre service clients U</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

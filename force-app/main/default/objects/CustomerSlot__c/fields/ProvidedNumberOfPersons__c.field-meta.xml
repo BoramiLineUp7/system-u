@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ProvidedNumberOfPersons__c</fullName>
+    <description>Provided number of total physical persons coming to the store (set in customer slot form)</description>
+    <externalId>false</externalId>
+    <label>Provided number of persons</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PreferedStore__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <label>Magasin Préféré</label>
+    <lookupFilter>
+        <active>true</active>
+        <errorMessage>Le record type du compte doit être &quot;Magasin&quot;</errorMessage>
+        <filterItems>
+            <field>Account.RecordType.DeveloperName</field>
+            <operation>equals</operation>
+            <value>Store</value>
+        </filterItems>
+        <infoMessage>Le record type du compte doit être &quot;Magasin&quot;</infoMessage>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Clients - Magasin Préféré</relationshipLabel>
+    <relationshipName>MagasinPrefere</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

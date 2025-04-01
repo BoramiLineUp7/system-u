@@ -1,0 +1,991 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CustomerCase</fullName>
+    <active>true</active>
+    <businessProcess>Problème sur le site</businessProcess>
+    <compactLayoutAssignment>Case</compactLayoutAssignment>
+    <label>Demande client</label>
+    <picklistValues>
+        <picklist>CDV__c</picklist>
+        <values>
+            <fullName>Couple senior</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Couple âge moyen</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Célibataire à âge moyen</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Famille collège et lycée</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Famille enfants majeurs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Famille maternelle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Famille école primaire</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jeune couple</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jeune célibataire</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non affecté</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non calculé</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non connu</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Senior célibataire</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Cause__c</picklist>
+        <values>
+            <fullName>Demandes clients</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Opérationnelle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Remerciement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Réclamation</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>CoursesUCaseReason__c</picklist>
+        <values>
+            <fullName>DeliveryIssue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LoyaltyCardIssue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OrderIssue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ProductIssue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SuggestProduct</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WebsiteIssue</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Email_Category__c</picklist>
+        <values>
+            <fullName>Access</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Animation jeux</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Annoyance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autre</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autre %28RGPD%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Besoin assistance pour connexion</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Code PIN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Code Promo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Connection</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Covid19</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Création Carte U</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Création compte %26 informations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DeliveryMode</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Demandes hors périmètre</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Droit d%27accès</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Droit d%27opposition</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Droit de portabilité</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Droit de rectification %2F modification données clients</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Droit de suppression</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Défis %26 offres</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Enregistrement %2F changement carte U</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Erreur codes promo %2F participation jeu</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Erreur de configuration %2F réception ticket</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fraude</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Information générales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Informations générales Carte U %2F carte virtuelle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Informations programme fidélité</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jeux</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Livraison</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LoyaltyCardEdit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Modalités paiement commande</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Modification %2F annulation d%27une commande</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OnlineEdit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OnlinePayment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Order</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Participation jeu</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Perte</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ProductQuality</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Regroupement des comptes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Renouvellement %2F erreur MDP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Réclamation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Réclamation %2F incident client en magasin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Réclamation client sur commande</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Schedules</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Slowness</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Suggestions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Suggestions %2F remarques client</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TakeOutMode</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TimeSlot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vente masques</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Envoie_enqu_te_de_satisfaction__c</picklist>
+        <values>
+            <fullName>Envoyé</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Fin_SLA_interne__c</picklist>
+        <values>
+            <fullName>24 H</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4 H</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>48 H</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>72 H</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hors SLA</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Mode_de_cl_ture__c</picklist>
+        <values>
+            <fullName>Modèle 1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Modèle 2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Modèle 3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Modèle 4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Modèle 5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unitaire</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Origin</picklist>
+        <values>
+            <fullName>ChatBot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PostedFrom__c</picklist>
+        <values>
+            <fullName>Application Mobile</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Site Web</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Priority</picklist>
+        <values>
+            <fullName>Critical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>High</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medium</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>RFM__c</picklist>
+        <values>
+            <fullName>Assidu</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autre</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fidèle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inactif 4 mois</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Moyen</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non affecté</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non calculé</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non connu</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nouveaux porteurs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Occasionnel</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Reason</picklist>
+        <values>
+            <fullName>Complex functionality</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Existing problem</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Instructions not clear</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New problem</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>User didn%27t attend training</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SDC__c</picklist>
+        <values>
+            <fullName>Les Biocitoyens</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Les Economes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Les Gourmets</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Les Pressés</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Les Préventions Santé</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Les Standards</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Les Terroirs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non affecté</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non calculé</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non connu</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Salutation__c</picklist>
+        <values>
+            <fullName>M%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mme</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Satisfaction_Client__c</picklist>
+        <values>
+            <fullName>Neutre</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non satisfait</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Satisfait</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Sous_cause__c</picklist>
+        <values>
+            <fullName>Approvisionnement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Assortiment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autre</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Caisse</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Carte U</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Commande non livrée %28en partie%2Fen totalité%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Commande non livrée %28en partie%2Fen totalité%29 IDS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DLC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Demande Autres</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Demande d%27accompagnement sur le site%2Fapplication</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Demande d%27ajouts de produits à la commande</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Demande d%27annulation de commandes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Demande d%27assortiment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Demande d%27attention particulière sur une commande</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Demande d%27informations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Demande de décalage de livraison</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Demande de facture</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Demande liée à la carte U</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Erreur quantité</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FLEG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Facturation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Frais de livraison</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inversion commandes%2Fproduits</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inversion sac%2Fcommande IDS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Livraison</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Magasin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mise en sac</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Montant débité</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ordonnancement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pains oubliés</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prix</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Produits cassés%2F abimés</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Produits cassés%2F abimés IDS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Produits décongelés</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Produits manquants facturés</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Promo %2F réduction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Préparation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Remboursement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retard</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retard IDS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rupture</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Réclamations autre</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Service Consommateur</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Site</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Substitution</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Suite conversation client</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ticket de caisse</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status_of_email__c</picklist>
+        <values>
+            <fullName>A envoyer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email envoyé</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Tagcas__c</picklist>
+        <values>
+            <fullName>3dsecure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6jours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Active_apres</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CRM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Crash</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Déjà_paye</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Déjà_utilise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Europe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Expire</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FID</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Favco</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gain</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inactif</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Liste</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Local_Region</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Login</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MAJ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MIXTE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mailvide</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non_reconnu</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Npec</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OP10</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pas_eligible</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prelevement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rattrape</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rupture</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scroll</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solde</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stock</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Substitution</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Timeout</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>codebarre</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>creneau</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>mission</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>pbt</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>version</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Ticket_Type__c</picklist>
+        <values>
+            <fullName>Lyon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>U Central</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Carte U</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Compte Courses U</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Compte Magasin U</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>E-ticket</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Informations générales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RGPD</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>VCA__c</picklist>
+        <values>
+            <fullName>Ambassadeur</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Familier VCA %2B</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Familier VCA -</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non affecté</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non calculé</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non connu</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Occasionnel VCA %2B</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Occasionnel VCA -</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zappeur</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>
